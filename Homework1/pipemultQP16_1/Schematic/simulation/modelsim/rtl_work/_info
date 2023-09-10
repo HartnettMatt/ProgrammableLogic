@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/simulation/modelsim
+Emult
+Z1 w1694282685
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/mult.vhd
+Z5 FX:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/mult.vhd
+l0
+L42
+VNled[bE>n^?I;KXOVEQ901
+!s100 M]eAcn:QK6<9ioM<z5Oz23
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1694288442
+!i10b 1
+Z8 !s108 1694288442.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/mult.vhd|
+Z10 !s107 X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/mult.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Asyn
+R2
+R3
+DEx4 work 4 mult 0 22 Nled[bE>n^?I;KXOVEQ901
+l77
+L53
+V5efd<d3BY@5W6bdJD2Xjl2
+!s100 Sg7542Kc35F:QQMAfn7;30
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Epipemult
+Z13 w1694288396
+R2
+R3
+R0
+Z14 8X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult.vhd
+Z15 FX:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult.vhd
+l0
+L24
+V:9D0Xa1kK5j4G`zF2HaEZ0
+!s100 JWh6<S:3C0EoHiR^n5d_T1
+R6
+31
+Z16 !s110 1694288535
+!i10b 1
+Z17 !s108 1694288535.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult.vhd|
+Z19 !s107 X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult.vhd|
+!i113 1
+R11
+R12
+Abdf_type
+R2
+R3
+Z20 DEx4 work 8 pipemult 0 22 :9D0Xa1kK5j4G`zF2HaEZ0
+l61
+L37
+Z21 V6MfgN_[C^O=m8CLQSVHfW3
+Z22 !s100 K3VkaiAjmShghX?mDc^n>2
+R6
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Eram
+Z23 w1694282044
+R2
+R3
+R0
+Z24 8X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/ram.vhd
+Z25 FX:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/ram.vhd
+l0
+L4
+V<6X:>A2?2H_QZgLXjQX6_2
+!s100 ?m9lcgj`zbkVZU4`Cz1[i1
+R6
+31
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-93|-work|work|X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/ram.vhd|
+Z27 !s107 X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/ram.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 3 ram 0 22 <6X:>A2?2H_QZgLXjQX6_2
+l23
+L16
+VP^fi]P@_T``dee]eGT<NN2
+!s100 S7m[V4iGjC:[@3B?@4inU2
+R6
+31
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12

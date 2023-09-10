@@ -1,0 +1,7 @@
+|statemachine
+Y => X~reg0.DATAIN
+clk => X~reg0.CLK
+rst => X~reg0.ACLR
+X << X~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

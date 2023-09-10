@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult.qarlog
+
+Archive:	X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult.qar
+Date:		Sat Sep 09 13:12:53 2023
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/mult.bsf
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/mult.cmp
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/mult.qip
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/mult.vhd
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult.bdf
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult.qpf
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult.qsf
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult.sdc
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult2.qsf
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/pipemult2.sdc
+X:/Graduate/ECEN5863/Homework1/pipemultQP16_1/Schematic/ram.vhd
+x:/quartus18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
