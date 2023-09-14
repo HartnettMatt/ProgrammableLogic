@@ -1,0 +1,18 @@
+Fitter Status : Successful - Thu Oct 20 17:20:25 2016
+Quartus Prime Version : 16.0.2 Build 222 07/20/2016 SJ Standard Edition
+Revision Name : DE10_LITE_SDRAM_Nios_Test
+Top-level Entity Name : DE10_LITE_SDRAM_Nios_Test
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 4,394 / 49,760 ( 9 % )
+    Total combinational functions : 3,782 / 49,760 ( 8 % )
+    Dedicated logic registers : 2,704 / 49,760 ( 5 % )
+Total registers : 2773
+Total pins : 187 / 360 ( 52 % )
+Total virtual pins : 0
+Total memory bits : 865,280 / 1,677,312 ( 52 % )
+Embedded Multiplier 9-bit elements : 6 / 288 ( 2 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
