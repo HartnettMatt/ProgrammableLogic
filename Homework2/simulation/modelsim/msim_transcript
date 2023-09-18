@@ -1,0 +1,377 @@
+# Reading X:/Quartus18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Homework2_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying X:/Quartus18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:37 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Majority
+# -- Compiling architecture Behavorial of Majority
+# End time: 12:30:37 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:37 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity find_errors
+# -- Compiling architecture not_good of find_errors
+# End time: 12:30:37 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/Homework2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:37 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/Homework2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Homework2
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/Homework2.vhd(41): (vcom-1246) Range 3 to 0 is null.
+# -- Compiling architecture Behavioral of Homework2
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/Homework2.vhd(62): (vcom-1246) Range 3 to 0 is null.
+# End time: 12:30:37 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vcom -93 -work work {X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:37 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# End time: 12:30:37 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.hw2q5
+# vsim work.hw2q5 
+# Start time: 12:30:58 on Sep 17,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.hw2q5(behavorial)
+add wave -position end  sim:/hw2q5/CP
+add wave -position end  sim:/hw2q5/SR
+add wave -position end  sim:/hw2q5/P
+add wave -position end  sim:/hw2q5/PE
+add wave -position end  sim:/hw2q5/CEP
+add wave -position end  sim:/hw2q5/CET
+add wave -position end  sim:/hw2q5/Q
+add wave -position end  sim:/hw2q5/TC
+add wave -position end  sim:/hw2q5/count
+force -freeze sim:/hw2q5/CP 1 0, 0 {50 ps} -r 100
+force -freeze sim:/hw2q5/SR 0 0
+run
+run
+force -freeze sim:/hw2q5/SR 1 0
+run
+run
+run
+run
+run
+run
+run
+vcom -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:55 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# End time: 12:33:55 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run
+run
+run
+vcom -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:05 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# End time: 12:34:05 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run
+run
+run
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:15 on Sep 17,2023
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping entity find_errors
+# -- Skipping entity homework2
+# -- Skipping entity hw2q5
+# -- Skipping entity majority
+# End time: 12:34:15 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:16 on Sep 17,2023
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity find_errors
+# -- Compiling architecture not_good of find_errors
+# -- Compiling entity Homework2
+# -- Compiling architecture Behavioral of Homework2
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# -- Compiling entity Majority
+# -- Compiling architecture Behavorial of Majority
+# End time: 12:34:16 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:34:23 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# End time: 12:34:23 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.hw2q5(behavorial)
+run
+run
+force -freeze sim:/hw2q5/CP 1 0, 0 {50 ps} -r 100
+force -freeze sim:/hw2q5/SR 1 0
+run
+run
+run
+run
+run
+force -freeze sim:/hw2q5/SR 0 0
+run
+run
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:06:34 on Sep 17,2023
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping entity find_errors
+# -- Skipping entity homework2
+# -- Skipping entity hw2q5
+# -- Skipping entity majority
+# End time: 14:06:34 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:06:34 on Sep 17,2023
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity find_errors
+# -- Compiling architecture not_good of find_errors
+# -- Compiling entity Homework2
+# -- Compiling architecture Behavioral of Homework2
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# -- Compiling entity Majority
+# -- Compiling architecture Behavorial of Majority
+# End time: 14:06:34 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P3.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:06:36 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity find_errors
+# -- Compiling architecture not_good of find_errors
+# End time: 14:06:36 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:06:43 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# End time: 14:06:43 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.hw2q5(behavorial)
+force -freeze sim:/hw2q5/CP 1 0, 0 {50 ps} -r 100
+force -freeze sim:/hw2q5/SR U0 0
+# ** Error: (vsim-4026) Value "u0" does not represent a literal of the enumeration type.
+# ** Error: (vsim-4011) Invalid force value: U0 0.
+# 
+force -freeze sim:/hw2q5/P 1010 0
+force -freeze sim:/hw2q5/PE 1 0
+run
+run
+run
+force -freeze sim:/hw2q5/SR 0 0
+run
+run
+force -freeze sim:/hw2q5/SR 1 0
+run
+run
+force -freeze sim:/hw2q5/PE 0 0
+run
+run
+run
+force -freeze sim:/hw2q5/PE 1 0
+run
+run
+run
+vcom -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:30:57 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# End time: 14:30:58 on Sep 17,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:31:01 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# End time: 14:31:01 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.hw2q5(behavorial)
+force -freeze sim:/hw2q5/CP 1 0, 0 {50 ps} -r 100
+force -freeze sim:/hw2q5/SR 1 0
+force -freeze sim:/hw2q5/P 1010 0
+force -freeze sim:/hw2q5/PE 0 0
+force -freeze sim:/hw2q5/CEP 1 0
+force -freeze sim:/hw2q5/CET 1 0
+run
+force -freeze sim:/hw2q5/PE 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:39:32 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# End time: 14:39:33 on Sep 17,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart -f
+# Loading work.hw2q5(behavorial)
+force -freeze sim:/hw2q5/CP 1 0, 0 {50 ps} -r 100
+force -freeze sim:/hw2q5/SR 1 0
+force -freeze sim:/hw2q5/PE 1 0
+force -freeze sim:/hw2q5/P 1100 0
+force -freeze sim:/hw2q5/CEP 0 0
+force -freeze sim:/hw2q5/CET 0 0
+run
+force -freeze sim:/hw2q5/SR 0 0
+run
+force -freeze sim:/hw2q5/SR 1 0
+run
+force -freeze sim:/hw2q5/PE 0 0
+run
+run
+run
+force -freeze sim:/hw2q5/CEP 1 0
+force -freeze sim:/hw2q5/CET 1 0
+run
+run
+# WARNING: No extended dataflow license exists
+restart -f
+force -freeze sim:/hw2q5/CP 1 0, 0 {50 ps} -r 100
+force -freeze sim:/hw2q5/SR 1 0
+force -freeze sim:/hw2q5/P 1100 0
+force -freeze sim:/hw2q5/PE 1 0
+force -freeze sim:/hw2q5/CEP 0 0
+force -freeze sim:/hw2q5/CET 0 0
+force -freeze sim:/hw2q5/CP 0 0, 1 {50 ps} -r 100
+run
+run
+force -freeze sim:/hw2q5/SR 0 0
+run
+run
+force -freeze sim:/hw2q5/SR 1 0
+force -freeze sim:/hw2q5/PE 0 0
+run
+run
+force -freeze sim:/hw2q5/PE 1 0
+force -freeze sim:/hw2q5/CET 1 0
+force -freeze sim:/hw2q5/CEP 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/hw2q5/CEP 0 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/hw2q5/CEP 1 0
+force -freeze sim:/hw2q5/CET 0 0
+run
+vcom -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:44 on Sep 17,2023
+# vcom -reportprogress 300 -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity HW2Q5
+# -- Compiling architecture Behavorial of HW2Q5
+# End time: 14:50:44 on Sep 17,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

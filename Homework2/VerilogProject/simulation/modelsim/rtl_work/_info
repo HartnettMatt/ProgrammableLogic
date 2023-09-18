@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/simulation/modelsim
+vHomework2Verilog
+Z1 !s110 1694997063
+!i10b 1
+!s100 B8X[Gmen`mUK;5`WMI`>b2
+IJ`H^8F_DT45GmQn7<3P7?2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1694996935
+8X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/Homework2Verilog.v
+FX:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/Homework2Verilog.v
+L0 29
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1694997063.000000
+!s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/Homework2Verilog.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject|X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/Homework2Verilog.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject
+Z7 tCvgOpt 0
+n@homework2@verilog
+vHW2P6
+R1
+!i10b 1
+!s100 XB2@RZcoU70zl_dbzzIJI0
+I^QlcKLPH<W7hGJ06GFDcc0
+R2
+R0
+w1694996615
+8X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/HW2P6.v
+FX:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/HW2P6.v
+L0 42
+R3
+r1
+!s85 0
+31
+R4
+!s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/HW2P6.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject|X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/HW2P6.v|
+!i113 1
+R5
+R6
+R7
+n@h@w2@p6
