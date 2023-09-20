@@ -5,29 +5,27 @@
 //--------------------------------------------------------------------------------
 //--
 //-- [Replace [items in brackets] with your content]
-//-- @file HW4P1.v
+//-- @file HW2P6.v
 //-- @brief 2-bit Comparator
 //-- @version: 1.0 
-//-- Date of current revision:  @date [YYYY-MM-DD]  
-//-- Target FPGA: [Intel Altera MAX10] 
+//-- Date of current revision:  @date 2023-09-20  
+//-- Target FPGA: [Intel Altera Cyclone IV] 
 //-- Tools used: [Quartus Prime 16.1] for editing and synthesis 
 //--             [Modeltech ModelSIM 10.4a Student Edition] for simulation 
 //--             [Quartus Prime 16.1]  for place and route if applied
 //--             
-//--  Functional Description:  This file contains the VHDL which describes the 
-//--               FPGA implementation of a Majority Vote Circuit. The inputs are  
-//--               signals A, B, C with one output Y that is true only if at  
-//--               least 2 of the inputs are true.
+//--  Functional Description:  This file contains the verilog which describes the 
+//--               FPGA implementation of a 2 bit comparator circuit.
 // 
 //--  Hierarchy:  There is only one level in this simple design.
 //--  
-//--  Designed for: [Customer] 
-//--                [Address]
-//--                [City, ST ZIP]
-//--                [www.customer, phone number]
-//--  Designed by:  @author [your name] 
-//--                [Organization]
-//--                [email] 
+//--  Designed for: Tim Scherr
+//--                Univeristy of Colorado Boulder
+//--                ECEN 5863
+//--                
+//--  Designed by:  @author Matt Hartnett
+//--                University of Colorado Boulder
+//--                maha7943@colorado.edu
 //-- 
 //--      Copyright (c) 2019 by Tim Scherr
 //--

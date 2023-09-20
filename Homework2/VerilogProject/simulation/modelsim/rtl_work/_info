@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dX:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/simulation/modelsim
 vHomework2Verilog
-Z1 !s110 1694997063
+Z1 !s110 1695226210
 !i10b 1
 !s100 B8X[Gmen`mUK;5`WMI`>b2
 IJ`H^8F_DT45GmQn7<3P7?2
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1694997063.000000
+Z4 !s108 1695226210.000000
 !s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/Homework2Verilog.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject|X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/VerilogProject/Homework2Verilog.v|
 !i113 1
