@@ -1,0 +1,89 @@
+|Homework2
+a0[3] => find_errors:U0.a[3]
+a0[2] => find_errors:U0.a[2]
+a0[1] => find_errors:U0.a[1]
+a0[0] => find_errors:U0.a[0]
+c0[0] => find_errors:U0.c[0]
+c0[1] => find_errors:U0.c[1]
+c0[2] => find_errors:U0.c[2]
+c0[3] => find_errors:U0.c[3]
+c0[4] => find_errors:U0.c[4]
+c0[5] => find_errors:U0.c[5]
+A1 => Majority:U1.A
+B1 => Majority:U1.B
+C1 => Majority:U1.C
+Y1 << Majority:U1.Y
+CP2 => HW2Q5:U2.CP
+SR2 => HW2Q5:U2.SR
+P2[0] => HW2Q5:U2.P[0]
+P2[1] => HW2Q5:U2.P[1]
+P2[2] => HW2Q5:U2.P[2]
+P2[3] => HW2Q5:U2.P[3]
+PE2 => HW2Q5:U2.PE
+CEP2 => HW2Q5:U2.CEP
+CET2 => HW2Q5:U2.CET
+Q2[0] << HW2Q5:U2.Q[0]
+Q2[1] << HW2Q5:U2.Q[1]
+Q2[2] << HW2Q5:U2.Q[2]
+Q2[3] << HW2Q5:U2.Q[3]
+TC2 << HW2Q5:U2.TC
+
+
+|Homework2|find_errors:U0
+a[3] => b.DATAB
+a[2] => b.DATAB
+a[1] => b.DATAB
+a[0] => b.DATAB
+b[0] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= b.DB_MAX_OUTPUT_PORT_TYPE
+c[0] => Equal0.IN5
+c[1] => Equal0.IN4
+c[2] => Equal0.IN3
+c[3] => Equal0.IN2
+c[4] => Equal0.IN1
+c[5] => Equal0.IN0
+
+
+|Homework2|Majority:U1
+A => Y.IN0
+A => Y.IN0
+B => Y.IN1
+B => Y.IN0
+C => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Homework2|HW2Q5:U2
+CP => count[0].CLK
+CP => count[1].CLK
+CP => count[2].CLK
+CP => count[3].CLK
+SR => count.OUTPUTSELECT
+SR => count.OUTPUTSELECT
+SR => count.OUTPUTSELECT
+SR => count.OUTPUTSELECT
+P[0] => Mux3.IN3
+P[0] => Mux3.IN0
+P[1] => Mux2.IN3
+P[1] => Mux2.IN0
+P[2] => Mux1.IN3
+P[2] => Mux1.IN0
+P[3] => Mux0.IN3
+P[3] => Mux0.IN0
+PE => Mux0.IN4
+PE => Mux1.IN4
+PE => Mux2.IN4
+PE => Mux3.IN4
+CEP => control[0].IN0
+CET => control[0].IN1
+CET => TC.IN1
+Q[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= count[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= count[3].DB_MAX_OUTPUT_PORT_TYPE
+TC <= TC.DB_MAX_OUTPUT_PORT_TYPE
+
+

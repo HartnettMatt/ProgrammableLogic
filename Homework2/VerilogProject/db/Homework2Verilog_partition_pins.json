@@ -40,7 +40,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "SR0",
 					"strict" : false
 				},
 				{
@@ -52,7 +52,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "SR0",
+					"name" : "clk",
 					"strict" : false
 				},
 				{

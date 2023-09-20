@@ -1,12 +1,12 @@
-Fitter Status : Successful - Wed Sep 20 11:21:30 2023
+Fitter Status : Successful - Wed Sep 20 16:39:38 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : Homework2Verilog
 Top-level Entity Name : Homework2Verilog
 Family : Cyclone IV GX
 Device : EP4CGX15BF14C6
 Timing Models : Final
-Total logic elements : 10 / 14,400 ( < 1 % )
-    Total combinational functions : 8 / 14,400 ( < 1 % )
+Total logic elements : 9 / 14,400 ( < 1 % )
+    Total combinational functions : 9 / 14,400 ( < 1 % )
     Dedicated logic registers : 4 / 14,400 ( < 1 % )
 Total registers : 8
 Total pins : 19 / 81 ( 23 % )
