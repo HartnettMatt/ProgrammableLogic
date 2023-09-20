@@ -375,3 +375,51 @@ vcom -93 -work work X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/HW2P5.vhd
 # -- Compiling architecture Behavorial of HW2Q5
 # End time: 14:50:44 on Sep 17,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+restart -f
+# Loading work.hw2q5(behavorial)
+force -freeze sim:/hw2q5/CP 0 0, 1 {50 ps} -r 100
+force -freeze sim:/hw2q5/SR 1 0
+force -freeze sim:/hw2q5/P 11 0
+# Value length (2) does not equal array index length (4).
+# 
+# ** Error: (vsim-4011) Invalid force value: 11 0.
+# 
+force -freeze sim:/hw2q5/P 1100 0
+force -freeze sim:/hw2q5/PE 1 0
+force -freeze sim:/hw2q5/CEP 0 0
+force -freeze sim:/hw2q5/CET 0 0
+run
+run
+force -freeze sim:/hw2q5/SR 0 0
+run
+run
+force -freeze sim:/hw2q5/SR 1 0
+force -freeze sim:/hw2q5/PE 0 0
+run
+run
+force -freeze sim:/hw2q5/PE 1 0
+force -freeze sim:/hw2q5/CEP 1 0
+force -freeze sim:/hw2q5/CET 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/hw2q5/CEP 0 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/hw2q5/CEP 1 0
+force -freeze sim:/hw2q5/CET 0 0
+run
+run
+run
+run
+# End time: 23:10:43 on Sep 19,2023, Elapsed time: 58:39:45
+# Errors: 2, Warnings: 1

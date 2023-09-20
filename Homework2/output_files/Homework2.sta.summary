@@ -2,40 +2,52 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'CP2'
-Slack : -0.369
-TNS   : -0.717
+Type  : Slow 1100mV 85C Model Setup 'CP2'
+Slack : -0.093
+TNS   : -0.184
 
-Type  : Slow 1200mV 85C Model Hold 'CP2'
-Slack : 0.331
+Type  : Slow 1100mV 85C Model Hold 'CP2'
+Slack : 0.373
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CP2'
-Slack : -3.000
-TNS   : -7.888
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CP2'
+Slack : -0.394
+TNS   : -2.056
 
-Type  : Slow 1200mV 0C Model Setup 'CP2'
-Slack : -0.246
-TNS   : -0.476
+Type  : Slow 1100mV 0C Model Setup 'CP2'
+Slack : -0.122
+TNS   : -0.226
 
-Type  : Slow 1200mV 0C Model Hold 'CP2'
-Slack : 0.301
+Type  : Slow 1100mV 0C Model Hold 'CP2'
+Slack : 0.391
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CP2'
-Slack : -3.000
-TNS   : -7.888
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CP2'
+Slack : -0.394
+TNS   : -2.184
 
-Type  : Fast 1200mV 0C Model Setup 'CP2'
-Slack : 0.350
+Type  : Fast 1100mV 85C Model Setup 'CP2'
+Slack : 0.376
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'CP2'
-Slack : 0.153
+Type  : Fast 1100mV 85C Model Hold 'CP2'
+Slack : 0.182
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CP2'
-Slack : -3.000
-TNS   : -7.112
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CP2'
+Slack : -0.088
+TNS   : -0.352
+
+Type  : Fast 1100mV 0C Model Setup 'CP2'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CP2'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CP2'
+Slack : -0.092
+TNS   : -0.368
 
 ------------------------------------------------------------

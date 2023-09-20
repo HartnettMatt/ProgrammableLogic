@@ -41,7 +41,8 @@
 
 library ieee;                                	
 use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;           	
+use ieee.numeric_std.all;  
+use ieee.std_logic_misc.all;        	
                                              		
 entity HW2Q5 is port (
 	CP: in std_logic; -- clock
@@ -57,27 +58,41 @@ end HW2Q5;
 
 architecture Behavorial of HW2Q5 is
 	signal count: unsigned(3 downto 0) := "0000";
+	signal control:std_logic_vector(1 downto 0);
 
 begin
 
 	Q <= std_logic_vector(count);
+	control(0) <= SR and CEP and CET;
+	control(1) <= SR and not PE;
 
 	process (CP)
 	begin
 		if rising_edge(CP) then
-			if (SR = '0') then -- Synchronous reset
-				count <= "0000";
-			else
-				if PE = '0' then -- Parallel  input enable
-					count <= unsigned(P);
-				elsif CEP = '1' and CET = '1' then -- Count enables
-					count <= count + "0001"; -- Increment
-				end if;
-			end if;
+			case control is
+				when "00" => count <= "0000";
+				when "01" => count <= count + 1;
+				when "10" => count <= unsigned(P);
+				when "11" => count <= unsigned(P);
+				when others => count <= count;
+			end case;
+--			if (SR = '0') then -- Synchronous reset
+--				count <= '0';
+--			else
+--				if PE = '0' then -- Parallel  input enable
+--					count <= unsigned(P);
+--				elsif CEP = '1' and CET = '1' then -- Count enables
+--					count <= count + "0001"; -- Increment
+--				else
+--					count <= count;
+--				end if;
+--			end if;
 		end if;
 	end process;
-	
-	TC <= count(0) and count(1) and count(2) and count(3) and CET; -- Roll over signal
+
+	TC <= and_reduce(std_logic_vector(count)) and CET;	 -- Roll over signal
+
+
 	
 end Behavorial;
     

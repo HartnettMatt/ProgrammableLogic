@@ -44,11 +44,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "SR2",
+					"name" : "P2[0]",
 					"strict" : false
 				},
 				{
-					"name" : "P2[0]",
+					"name" : "SR2",
 					"strict" : false
 				},
 				{
@@ -56,11 +56,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "CP2",
+					"name" : "CEP2",
 					"strict" : false
 				},
 				{
-					"name" : "CEP2",
+					"name" : "CP2",
 					"strict" : false
 				},
 				{
