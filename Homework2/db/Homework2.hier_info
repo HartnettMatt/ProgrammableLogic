@@ -12,7 +12,7 @@ c0[5] => find_errors:U0.c[5]
 A1 => Majority:U1.A
 B1 => Majority:U1.B
 C1 => Majority:U1.C
-Y1 << Majority:U1.Y
+Y1 <= Majority:U1.Y
 CP2 => HW2Q5:U2.CP
 SR2 => HW2Q5:U2.SR
 P2[0] => HW2Q5:U2.P[0]
@@ -22,11 +22,11 @@ P2[3] => HW2Q5:U2.P[3]
 PE2 => HW2Q5:U2.PE
 CEP2 => HW2Q5:U2.CEP
 CET2 => HW2Q5:U2.CET
-Q2[0] << HW2Q5:U2.Q[0]
-Q2[1] << HW2Q5:U2.Q[1]
-Q2[2] << HW2Q5:U2.Q[2]
-Q2[3] << HW2Q5:U2.Q[3]
-TC2 << HW2Q5:U2.TC
+Q2[0] <= HW2Q5:U2.Q[0]
+Q2[1] <= HW2Q5:U2.Q[1]
+Q2[2] <= HW2Q5:U2.Q[2]
+Q2[3] <= HW2Q5:U2.Q[3]
+TC2 <= HW2Q5:U2.TC
 
 
 |Homework2|find_errors:U0

@@ -36,8 +36,8 @@
 # -------------------------------------------------------------------------- #
 
 
-set_global_assignment -name FAMILY "Cyclone V"
-set_global_assignment -name DEVICE 5CEFA2F23C6
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C6GES
 set_global_assignment -name TOP_LEVEL_ENTITY Homework2
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:45:13 JUNE 17,2016"
@@ -62,4 +62,5 @@ set_global_assignment -name VHDL_FILE HW2P1.vhd
 set_global_assignment -name VHDL_FILE Homework2.vhd
 set_global_assignment -name VHDL_FILE HW2P5.vhd
 set_global_assignment -name OPTIMIZATION_MODE BALANCED
+set_global_assignment -name BOARD "MAX 10 DE10 - Lite"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
