@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Sep 21 14:13:28 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : RAMVerilogProject
+Top-level Entity Name : HW2VerilogRAM
+Family : Cyclone IV E
+Total logic elements : 0
+    Total combinational functions : 0
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 73
+Total virtual pins : 0
+Total memory bits : 4,096
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

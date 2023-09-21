@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {HW2RAMVHDLProject_7_1200mv_125c_slow.vho}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:25:11 on Sep 20,2023
+# Start time: 11:22:47 on Sep 21,2023
 # vcom -reportprogress 300 -93 -work work HW2RAMVHDLProject_7_1200mv_125c_slow.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -25,12 +25,12 @@
 # -- Compiling architecture structure of hard_block
 # -- Compiling entity altsyncramVHDL
 # -- Compiling architecture structure of altsyncramVHDL
-# End time: 17:25:11 on Sep 20,2023, Elapsed time: 0:00:00
+# End time: 11:22:48 on Sep 21,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-vsim work.altsyncramvhdl
-# vsim work.altsyncramvhdl 
-# Start time: 17:25:29 on Sep 20,2023
+vsim -gui -l msim_transcript gate_work.altsyncramvhdl -L cycloneive -sdftyp /=X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/HW2RAMVHDLProject_7_1200mv_125c_vhd_slow.sdo
+# vsim -gui -l msim_transcript gate_work.altsyncramvhdl -L cycloneive -sdftyp /=X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/HW2RAMVHDLProject_7_1200mv_125c_vhd_slow.sdo 
+# Start time: 11:25:55 on Sep 21,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -38,8 +38,10 @@ vsim work.altsyncramvhdl
 # Loading ieee.vital_primitives(body)
 # Loading cycloneive.cycloneive_atom_pack(body)
 # Loading cycloneive.cycloneive_components
-# Loading work.altsyncramvhdl(structure)
-# Loading work.hard_block(structure)
+# Loading gate_work.altsyncramvhdl(structure)
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading gate_work.hard_block(structure)
 # Loading ieee.std_logic_arith(body)
 # Loading cycloneive.cycloneive_io_obuf(arch)
 # Loading cycloneive.cycloneive_io_ibuf(arch)
@@ -48,33 +50,96 @@ vsim work.altsyncramvhdl
 # Loading cycloneive.cycloneive_ram_block(block_arch)
 # Loading cycloneive.cycloneive_ram_register(reg_arch)
 # Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
-vsim work.altsyncramvhdl
-# End time: 17:25:37 on Sep 20,2023, Elapsed time: 0:00:08
-# Errors: 0, Warnings: 0
-# vsim work.altsyncramvhdl 
-# Start time: 17:25:37 on Sep 20,2023
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.vital_timing(body)
-# Loading ieee.vital_primitives(body)
-# Loading cycloneive.cycloneive_atom_pack(body)
-# Loading cycloneive.cycloneive_components
-# Loading work.altsyncramvhdl(structure)
-# Loading work.hard_block(structure)
-# Loading ieee.std_logic_arith(body)
-# Loading cycloneive.cycloneive_io_obuf(arch)
-# Loading cycloneive.cycloneive_io_ibuf(arch)
-# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
-# Loading cycloneive.cycloneive_ena_reg(behave)
-# Loading cycloneive.cycloneive_ram_block(block_arch)
-# Loading cycloneive.cycloneive_ram_register(reg_arch)
-# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/HW2RAMVHDLProject_7_1200mv_125c_vhd_slow.sdo
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/HW2RAMVHDLProject_7_1200mv_125c_vhd_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /altsyncramvhdl File: HW2RAMVHDLProject_7_1200mv_125c_slow.vho
 add wave -position end  sim:/altsyncramvhdl/clock
 add wave -position end  sim:/altsyncramvhdl/data
 add wave -position end  sim:/altsyncramvhdl/rdaddress
 add wave -position end  sim:/altsyncramvhdl/wraddress
 add wave -position end  sim:/altsyncramvhdl/wren
 add wave -position end  sim:/altsyncramvhdl/q
-# End time: 17:40:36 on Sep 20,2023, Elapsed time: 0:14:59
+
+force -freeze sim:/altsyncramvhdl/clock 1 0, 0 {10 ps} -r 20
+force -freeze sim:/altsyncramvhdl/data 10#5001 0
+force -freeze sim:/altsyncramvhdl/wren 1 0
+force -freeze sim:/altsyncramvhdl/wraddress 0 0
+# Value length (1) does not equal array index length (7).
+# 
+# ** Error: (vsim-4011) Invalid force value: 0 0.
+# 
+force -freeze sim:/altsyncramvhdl/rdaddress 0000000 0
+force -freeze sim:/altsyncramvhdl/wraddress 0000000 0
+run
+run
+run
+force -freeze sim:/altsyncramvhdl/wren 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/altsyncramvhdl/wren 1 0
+run
+run
+run
+run
+run
+vsim -gui -l msim_transcript -L cycloneive -sdftyp /=X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/HW2RAMVHDLProject_7_1200mv_125c_vhd_slow.sdo gate_work.altsyncramvhdl -t ns
+# End time: 11:28:49 on Sep 21,2023, Elapsed time: 0:02:54
+# Errors: 1, Warnings: 0
+# vsim -gui -l msim_transcript -L cycloneive -sdftyp /=X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/HW2RAMVHDLProject_7_1200mv_125c_vhd_slow.sdo gate_work.altsyncramvhdl -t ns 
+# Start time: 11:28:49 on Sep 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading gate_work.altsyncramvhdl(structure)
+# Loading gate_work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/HW2RAMVHDLProject_7_1200mv_125c_vhd_slow.sdo
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/HW2RAMVHDLProject_7_1200mv_125c_vhd_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ns  Iteration: 0  Instance: /altsyncramvhdl File: HW2RAMVHDLProject_7_1200mv_125c_slow.vho
+add wave -position end  sim:/altsyncramvhdl/clock
+add wave -position end  sim:/altsyncramvhdl/data
+add wave -position end  sim:/altsyncramvhdl/rdaddress
+add wave -position end  sim:/altsyncramvhdl/wraddress
+add wave -position end  sim:/altsyncramvhdl/wren
+add wave -position end  sim:/altsyncramvhdl/q
+force -freeze sim:/altsyncramvhdl/clock 1 0, 0 {10 ns} -r 20
+force -freeze sim:/altsyncramvhdl/data 10#5001 0
+force -freeze sim:/altsyncramvhdl/wren 1 0
+force -freeze sim:/altsyncramvhdl/wraddress 0000000 0
+force -freeze sim:/altsyncramvhdl/rdaddress 0000000 0
+run
+run
+force -freeze sim:/altsyncramvhdl/wren 0 0
+force -freeze sim:/altsyncramvhdl/rdaddress 0000001 0
+force -freeze sim:/altsyncramvhdl/wraddress 0000001 0
+force -freeze sim:/altsyncramvhdl/wren 0 0
+force -freeze sim:/altsyncramvhdl/data 00000000000000000001001110001101 0
+run
+run
+force -freeze sim:/altsyncramvhdl/rdaddress 0000010 0
+run
+run
+force -freeze sim:/altsyncramvhdl/wraddress 0000010 0
+force -freeze sim:/altsyncramvhdl/wren 1 0
+run
+# End time: 14:24:55 on Sep 21,2023, Elapsed time: 2:56:06
 # Errors: 0, Warnings: 0

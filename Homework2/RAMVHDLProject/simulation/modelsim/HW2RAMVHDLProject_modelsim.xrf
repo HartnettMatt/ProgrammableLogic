@@ -1,4 +1,5 @@
 vendor_name = ModelSim
+source_file = 1, X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/HW2RAMVHDLProject.sdc
 source_file = 1, X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/altsyncramVHDL.qip
 source_file = 1, X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/altsyncramVHDL.vhd
 source_file = 1, X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/HW2RAMVHDLProject.vhd
@@ -17,7 +18,6 @@ source_file = 1, x:/quartus18.1/quartus/libraries/megafunctions/altram.inc
 source_file = 1, x:/quartus18.1/quartus/libraries/megafunctions/altdpram.inc
 source_file = 1, x:/quartus18.1/quartus/libraries/megafunctions/cbx.lst
 source_file = 1, X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/db/altsyncram_7vn3.tdf
-source_file = 1, X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/HW2RAMVHDLProject.sdc
 design_name = hard_block
 design_name = altsyncramVHDL
 instance = comp, \q[0]~output\, q[0]~output, altsyncramVHDL, 1

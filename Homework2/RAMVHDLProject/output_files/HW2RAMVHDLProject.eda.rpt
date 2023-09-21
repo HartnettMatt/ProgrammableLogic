@@ -1,5 +1,5 @@
 EDA Netlist Writer report for HW2RAMVHDLProject
-Wed Sep 20 17:13:47 2023
+Thu Sep 21 11:22:14 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Sep 20 17:13:47 2023 ;
+; EDA Netlist Writer Status ; Successful - Thu Sep 21 11:22:14 2023 ;
 ; Revision Name             ; HW2RAMVHDLProject                     ;
 ; Top-level Entity Name     ; altsyncramVHDL                        ;
 ; Family                    ; Cyclone IV E                          ;
@@ -88,7 +88,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Sep 20 17:13:47 2023
+    Info: Processing started: Thu Sep 21 11:22:12 2023
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off HW2RAMVHDLProject -c HW2RAMVHDLProject
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file HW2RAMVHDLProject_7_1200mv_125c_slow.vho in folder "X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/" for EDA simulation tool
@@ -100,9 +100,9 @@ Info (204019): Generated file HW2RAMVHDLProject_7_1200mv_-40c_vhd_slow.sdo in fo
 Info (204019): Generated file HW2RAMVHDLProject_min_1200mv_-40c_vhd_fast.sdo in folder "X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/" for EDA simulation tool
 Info (204019): Generated file HW2RAMVHDLProject_vhd.sdo in folder "X:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4641 megabytes
-    Info: Processing ended: Wed Sep 20 17:13:47 2023
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 4640 megabytes
+    Info: Processing ended: Thu Sep 21 11:22:15 2023
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:01
 
 

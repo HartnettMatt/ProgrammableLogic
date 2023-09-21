@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dX:/Graduate/ECEN5863/ProgrammableLogic/Homework2/RAMVHDLProject/simulation/modelsim
 Ealtsyncramvhdl
-Z1 w1695251627
+Z1 w1695316934
 Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
 Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
 Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
@@ -25,9 +25,9 @@ V@L_f;cMFNaeAKI_EFAU7h3
 !s100 =BDEffQnLIhI;Xmm_IGSi3
 Z10 OV;C;10.5b;63
 31
-Z11 !s110 1695252311
+Z11 !s110 1695316968
 !i10b 1
-Z12 !s108 1695252311.000000
+Z12 !s108 1695316967.000000
 Z13 !s90 -reportprogress|300|-93|-work|work|HW2RAMVHDLProject_7_1200mv_125c_slow.vho|
 Z14 !s107 HW2RAMVHDLProject_7_1200mv_125c_slow.vho|
 !i113 1
