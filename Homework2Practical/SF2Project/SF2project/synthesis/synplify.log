@@ -1,0 +1,82 @@
+One matching license found for this product: synplifypro_actel
+
+Starting:    D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+Hostname:    STARGATE-COMMAN
+Date:        Sat Oct 14 18:34:54 2023
+Version:     Q-2020.03M-SP1
+
+Arguments:   -product synplify_pro -batch -log synplify.log SF2project_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+"automatic_compile_point" is unrecognized option for current device
+Implementation not found: synthesis
+log file: "X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\synthesis\SF2project.srr"
+Running: synthesis in foreground
+
+Running SF2project_syn|synthesis
+
+Running Flow: compile (Compile) on SF2project_syn|synthesis
+# Sat Oct 14 18:34:56 2023
+
+Running Flow: compile_flow (Compile Process) on SF2project_syn|synthesis
+# Sat Oct 14 18:34:56 2023
+
+Running: compiler (Compile Input) on SF2project_syn|synthesis
+# Sat Oct 14 18:34:56 2023
+Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\synthesis\synwork\SF2project_comp.srs to X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\synthesis\SF2project.srs
+
+compiler completed
+# Sat Oct 14 18:34:59 2023
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on SF2project_syn|synthesis
+# Sat Oct 14 18:34:59 2023
+
+multi_srs_gen completed
+# Sat Oct 14 18:34:59 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\synthesis\synwork\SF2project_mult.srs to X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\synthesis\SF2project.srs
+Complete: Compile Process on SF2project_syn|synthesis
+
+Running: premap (Premap) on SF2project_syn|synthesis
+# Sat Oct 14 18:34:59 2023
+
+premap completed with warnings
+# Sat Oct 14 18:35:01 2023
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on SF2project_syn|synthesis
+
+Running Flow: map (Map) on SF2project_syn|synthesis
+# Sat Oct 14 18:35:01 2023
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on SF2project_syn|synthesis
+# Sat Oct 14 18:35:01 2023
+Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\synthesis\synwork\SF2project_m.srm to X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\synthesis\SF2project.srm
+
+fpga_mapper completed with warnings
+# Sat Oct 14 18:35:03 2023
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on SF2project_syn|synthesis
+Complete: Logic Synthesis on SF2project_syn|synthesis
+Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\synthesis\SF2project.srr to X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\synthesis\backup\SF2project.srr
+TCL script complete: "SF2project_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

@@ -1,0 +1,14 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v":274:7:274:12|Synthesizing module OUTBUF in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v":326:7:326:17|Synthesizing module OUTBUF_DIFF in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v":338:7:338:16|Synthesizing module BIBUF_DIFF in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
+@N: CG364 :"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\component\work\SF2project_MSS\SF2project_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\component\work\SF2project_MSS\SF2project_MSS.v":9:7:9:20|Synthesizing module SF2project_MSS in library work.
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\component\work\SF2project\SF2project.v":9:7:9:16|Synthesizing module SF2project in library work.
+@N|Running in 64-bit mode
+

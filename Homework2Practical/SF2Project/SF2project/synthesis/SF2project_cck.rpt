@@ -1,0 +1,204 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+
+# Written on Sat Oct 14 18:35:01 2023
+
+##### DESIGN INFO #######################################################
+
+Top View:                "SF2project"
+Constraint File(s):      "X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\designer\SF2project\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:I2C_0_SCL (bidir end point)
+p:I2C_0_SCL (bidir start point)
+p:I2C_0_SDA (bidir end point)
+p:I2C_0_SDA (bidir start point)
+p:I2C_1_SCL (bidir end point)
+p:I2C_1_SCL (bidir start point)
+p:I2C_1_SDA (bidir end point)
+p:I2C_1_SDA (bidir start point)
+p:MAC_MII_COL
+p:MAC_MII_CRS
+p:MAC_MII_RXD[0]
+p:MAC_MII_RXD[1]
+p:MAC_MII_RXD[2]
+p:MAC_MII_RXD[3]
+p:MAC_MII_RX_DV
+p:MAC_MII_RX_ER
+p:MAC_MII_TXD[0]
+p:MAC_MII_TXD[1]
+p:MAC_MII_TXD[2]
+p:MAC_MII_TXD[3]
+p:MAC_MII_TX_EN
+p:MAC_MII_TX_ER
+p:MDDR_ADDR[0]
+p:MDDR_ADDR[1]
+p:MDDR_ADDR[2]
+p:MDDR_ADDR[3]
+p:MDDR_ADDR[4]
+p:MDDR_ADDR[5]
+p:MDDR_ADDR[6]
+p:MDDR_ADDR[7]
+p:MDDR_ADDR[8]
+p:MDDR_ADDR[9]
+p:MDDR_ADDR[10]
+p:MDDR_ADDR[11]
+p:MDDR_ADDR[12]
+p:MDDR_ADDR[13]
+p:MDDR_ADDR[14]
+p:MDDR_ADDR[15]
+p:MDDR_BA[0]
+p:MDDR_BA[1]
+p:MDDR_BA[2]
+p:MDDR_CAS_N
+p:MDDR_CKE
+p:MDDR_CLK
+p:MDDR_CLK_N
+p:MDDR_CS_N
+p:MDDR_DM_RDQS[0] (bidir end point)
+p:MDDR_DM_RDQS[0] (bidir start point)
+p:MDDR_DM_RDQS[1] (bidir end point)
+p:MDDR_DM_RDQS[1] (bidir start point)
+p:MDDR_DQS[0] (bidir end point)
+p:MDDR_DQS[0] (bidir start point)
+p:MDDR_DQS[1] (bidir end point)
+p:MDDR_DQS[1] (bidir start point)
+p:MDDR_DQS_N[0] (bidir end point)
+p:MDDR_DQS_N[0] (bidir start point)
+p:MDDR_DQS_N[1] (bidir end point)
+p:MDDR_DQS_N[1] (bidir start point)
+p:MDDR_DQS_TMATCH_0_IN
+p:MDDR_DQS_TMATCH_0_OUT
+p:MDDR_DQ[0] (bidir end point)
+p:MDDR_DQ[0] (bidir start point)
+p:MDDR_DQ[1] (bidir end point)
+p:MDDR_DQ[1] (bidir start point)
+p:MDDR_DQ[2] (bidir end point)
+p:MDDR_DQ[2] (bidir start point)
+p:MDDR_DQ[3] (bidir end point)
+p:MDDR_DQ[3] (bidir start point)
+p:MDDR_DQ[4] (bidir end point)
+p:MDDR_DQ[4] (bidir start point)
+p:MDDR_DQ[5] (bidir end point)
+p:MDDR_DQ[5] (bidir start point)
+p:MDDR_DQ[6] (bidir end point)
+p:MDDR_DQ[6] (bidir start point)
+p:MDDR_DQ[7] (bidir end point)
+p:MDDR_DQ[7] (bidir start point)
+p:MDDR_DQ[8] (bidir end point)
+p:MDDR_DQ[8] (bidir start point)
+p:MDDR_DQ[9] (bidir end point)
+p:MDDR_DQ[9] (bidir start point)
+p:MDDR_DQ[10] (bidir end point)
+p:MDDR_DQ[10] (bidir start point)
+p:MDDR_DQ[11] (bidir end point)
+p:MDDR_DQ[11] (bidir start point)
+p:MDDR_DQ[12] (bidir end point)
+p:MDDR_DQ[12] (bidir start point)
+p:MDDR_DQ[13] (bidir end point)
+p:MDDR_DQ[13] (bidir start point)
+p:MDDR_DQ[14] (bidir end point)
+p:MDDR_DQ[14] (bidir start point)
+p:MDDR_DQ[15] (bidir end point)
+p:MDDR_DQ[15] (bidir start point)
+p:MDDR_ODT
+p:MDDR_RAS_N
+p:MDDR_RESET_N
+p:MDDR_WE_N
+p:MMUART_0_RXD
+p:MMUART_0_TXD
+p:MMUART_1_RXD
+p:MMUART_1_TXD
+p:SPI_0_CLK (bidir end point)
+p:SPI_0_CLK (bidir start point)
+p:SPI_0_DI
+p:SPI_0_DO
+p:SPI_0_SS0 (bidir end point)
+p:SPI_0_SS0 (bidir start point)
+p:SPI_1_CLK (bidir end point)
+p:SPI_1_CLK (bidir start point)
+p:SPI_1_DI
+p:SPI_1_DO
+p:SPI_1_SS0 (bidir end point)
+p:SPI_1_SS0 (bidir start point)
+p:USB_ULPI_DATA[0] (bidir end point)
+p:USB_ULPI_DATA[0] (bidir start point)
+p:USB_ULPI_DATA[1] (bidir end point)
+p:USB_ULPI_DATA[1] (bidir start point)
+p:USB_ULPI_DATA[2] (bidir end point)
+p:USB_ULPI_DATA[2] (bidir start point)
+p:USB_ULPI_DATA[3] (bidir end point)
+p:USB_ULPI_DATA[3] (bidir start point)
+p:USB_ULPI_DATA[4] (bidir end point)
+p:USB_ULPI_DATA[4] (bidir start point)
+p:USB_ULPI_DATA[5] (bidir end point)
+p:USB_ULPI_DATA[5] (bidir start point)
+p:USB_ULPI_DATA[6] (bidir end point)
+p:USB_ULPI_DATA[6] (bidir start point)
+p:USB_ULPI_DATA[7] (bidir end point)
+p:USB_ULPI_DATA[7] (bidir start point)
+p:USB_ULPI_DIR
+p:USB_ULPI_NXT
+p:USB_ULPI_STP
+p:USB_ULPI_XCLK
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

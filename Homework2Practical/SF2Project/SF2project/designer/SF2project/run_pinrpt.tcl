@@ -1,0 +1,10 @@
+DESIGN=SF2project
+DESDIR=X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\designer\SF2project
+TARGET_DIR=X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\designer\SF2project
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=fg484
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

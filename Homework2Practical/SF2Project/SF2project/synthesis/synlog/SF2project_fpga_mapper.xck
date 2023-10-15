@@ -1,0 +1,3 @@
+CKID0001:@|S:MCCC_CLK_BASE@|E:SF2project_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:MAC_MII_TX_CLK@|E:SF2project_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
+CKID0003:@|S:MAC_MII_RX_CLK@|E:SF2project_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path2==CKID0003@|M:ClockId0003 

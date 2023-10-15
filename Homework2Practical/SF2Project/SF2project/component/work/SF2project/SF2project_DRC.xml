@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>SF2project</header>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin SF2project_MSS_0:MAC_MII_TX_EN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2project/pins/SF2project_MSS_0:MAC_MII_TX_EN</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin SF2project_MSS_0:MAC_MII_TX_ER</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2project/pins/SF2project_MSS_0:MAC_MII_TX_ER</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin SF2project_MSS_0:MAC_MII_RX_ER</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2project/pins/SF2project_MSS_0:MAC_MII_RX_ER</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin SF2project_MSS_0:MAC_MII_RX_DV</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2project/pins/SF2project_MSS_0:MAC_MII_RX_DV</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin SF2project_MSS_0:MAC_MII_CRS</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2project/pins/SF2project_MSS_0:MAC_MII_CRS</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin SF2project_MSS_0:MAC_MII_COL</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2project/pins/SF2project_MSS_0:MAC_MII_COL</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin SF2project_MSS_0:MAC_MII_RX_CLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2project/pins/SF2project_MSS_0:MAC_MII_RX_CLK</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin SF2project_MSS_0:MAC_MII_TX_CLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2project/pins/SF2project_MSS_0:MAC_MII_TX_CLK</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin SF2project_MSS_0:MAC_MII_TXD[3:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2project/pins/SF2project_MSS_0:MAC_MII_TXD</crossprobe>
+  </drc>
+  <drc>
+    <status>D:\Microsemi\Libero_SoC_v12.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin SF2project_MSS_0:MAC_MII_RXD[3:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2project/pins/SF2project_MSS_0:MAC_MII_RXD</crossprobe>
+  </drc>
+</drcreport>

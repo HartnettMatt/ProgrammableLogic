@@ -1,0 +1,3 @@
+@W: MT420 |Found inferred clock SF2project|MCCC_CLK_BASE with period 10.00ns. Please declare a user-defined clock on port MCCC_CLK_BASE.
+@W: MT420 |Found inferred clock SF2project|MAC_MII_TX_CLK with period 10.00ns. Please declare a user-defined clock on port MAC_MII_TX_CLK.
+@W: MT420 |Found inferred clock SF2project|MAC_MII_RX_CLK with period 10.00ns. Please declare a user-defined clock on port MAC_MII_RX_CLK.

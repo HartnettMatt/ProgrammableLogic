@@ -1,0 +1,27 @@
+#OPTIONS:"|-layerid|0|-orig_srs|X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework2Practical\\SF2Project\\SF2project\\synthesis\\synwork\\SF2project_comp.srs|-top|SF2project|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework2Practical\\SF2Project\\SF2project\\synthesis\\|-I|D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib|-sysv|-devicelib|D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\bin64\\c_ver.exe":1604390270
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v":1604390290
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\hypermods.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\umr_capim.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1604390293
+#CUR:"X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework2Practical\\SF2Project\\SF2project\\component\\work\\SF2project_MSS\\SF2project_MSS_syn.v":1697140011
+#CUR:"X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework2Practical\\SF2Project\\SF2project\\component\\work\\SF2project_MSS\\SF2project_MSS.v":1697140012
+#CUR:"X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework2Practical\\SF2Project\\SF2project\\component\\work\\SF2project\\SF2project.v":1697330085
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\component\work\SF2project_MSS\SF2project_MSS_syn.v" verilog
+1			"X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\component\work\SF2project_MSS\SF2project_MSS.v" verilog
+2			"X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project\component\work\SF2project\SF2project.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 1
+#Dependency Lists(Users Of)
+0 1
+1 2
+2 -1
+#Design Unit to File Association
+module work MSS_010 0
+module work SF2project_MSS 1
+module work SF2project 2

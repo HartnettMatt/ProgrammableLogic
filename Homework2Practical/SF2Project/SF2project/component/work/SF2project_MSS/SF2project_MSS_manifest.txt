@@ -1,0 +1,39 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+
+Date      :  Thu Oct 12 13:46:52 2023
+Project   :  X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\SF2Project\SF2project
+Component :  SF2project_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/SF2project_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/SF2project_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/SF2project_MSS_pre.v
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/SF2project_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/CM3_compile_bfm.tcl
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/user.bfm
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/test.bfm
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/CM3_compile_bfm.tcl
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/test.bfm
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/sys_config_mss_clocks.h
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/sys_config_mddr_define.h
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/sys_config_mss_clocks.h
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/sys_config_mddr_define.h
+
+Configuration files to be used for all Simulation tools:
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/MDDR_init.bfm
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/MDDR_init.bfm
+
+Configuration files to be used for Power Analysis:
+    X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/SF2Project/SF2project/component/work/SF2project_MSS/MDDR_init.reg
+

@@ -1,0 +1,285 @@
+//
+// Written by Synplify Pro 
+// Product Version "Q-2020.03M-SP1"
+// Program "Synplify Pro", Mapper "map202003act, Build 160R"
+// Sat Oct 14 18:57:26 2023
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\generic\smartfusion2.v "
+// file 1 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\x:\graduate\ecen5863\programmablelogic\homework2practical\hw2p7\hw2p7\hdl\hw2p7.v "
+// file 6 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\nlconst.dat "
+// file 7 "\x:\graduate\ecen5863\programmablelogic\homework2practical\hw2p7\hw2p7\designer\hw2p7\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module HW2P7 (
+  P,
+  CP,
+  SR,
+  PE,
+  CEP,
+  CET,
+  Q,
+  TC
+)
+;
+input [3:0] P ;
+input CP ;
+input SR ;
+input PE ;
+input CEP ;
+input CET ;
+output [3:0] Q ;
+output TC ;
+wire CP ;
+wire SR ;
+wire PE ;
+wire CEP ;
+wire CET ;
+wire TC ;
+wire [3:0] count_0_Z;
+wire [3:0] P_c;
+wire [3:0] Q_c;
+wire GND ;
+wire VCC ;
+wire N_5 ;
+wire N_6 ;
+wire N_7 ;
+wire N_8 ;
+wire \un1_count_1.CO0_Z  ;
+wire CP_c ;
+wire SR_c ;
+wire PE_c ;
+wire CEP_c ;
+wire CET_c ;
+wire TC_c ;
+wire TC_1_Z ;
+wire CP_ibuf_Z ;
+  CLKINT CP_ibuf_RNIO6T9 (
+	.Y(CP_c),
+	.A(CP_ibuf_Z)
+);
+// @5:60
+  SLE \count[0]  (
+	.Q(Q_c[0]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(CP_c),
+	.D(count_0_Z[0]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:60
+  SLE \count[1]  (
+	.Q(Q_c[1]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(CP_c),
+	.D(count_0_Z[1]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:60
+  SLE \count[2]  (
+	.Q(Q_c[2]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(CP_c),
+	.D(count_0_Z[2]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:60
+  SLE \count[3]  (
+	.Q(Q_c[3]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(CP_c),
+	.D(count_0_Z[3]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:42
+  INBUF \P_ibuf[0]  (
+	.Y(P_c[0]),
+	.PAD(P[0])
+);
+// @5:42
+  INBUF \P_ibuf[1]  (
+	.Y(P_c[1]),
+	.PAD(P[1])
+);
+// @5:42
+  INBUF \P_ibuf[2]  (
+	.Y(P_c[2]),
+	.PAD(P[2])
+);
+// @5:42
+  INBUF \P_ibuf[3]  (
+	.Y(P_c[3]),
+	.PAD(P[3])
+);
+// @5:43
+  INBUF CP_ibuf (
+	.Y(CP_ibuf_Z),
+	.PAD(CP)
+);
+// @5:44
+  INBUF SR_ibuf (
+	.Y(SR_c),
+	.PAD(SR)
+);
+// @5:45
+  INBUF PE_ibuf (
+	.Y(PE_c),
+	.PAD(PE)
+);
+// @5:46
+  INBUF CEP_ibuf (
+	.Y(CEP_c),
+	.PAD(CEP)
+);
+// @5:47
+  INBUF CET_ibuf (
+	.Y(CET_c),
+	.PAD(CET)
+);
+// @5:48
+  OUTBUF \Q_obuf[0]  (
+	.PAD(Q[0]),
+	.D(Q_c[0])
+);
+// @5:48
+  OUTBUF \Q_obuf[1]  (
+	.PAD(Q[1]),
+	.D(Q_c[1])
+);
+// @5:48
+  OUTBUF \Q_obuf[2]  (
+	.PAD(Q[2]),
+	.D(Q_c[2])
+);
+// @5:48
+  OUTBUF \Q_obuf[3]  (
+	.PAD(Q[3]),
+	.D(Q_c[3])
+);
+// @5:49
+  OUTBUF TC_obuf (
+	.PAD(TC),
+	.D(TC_c)
+);
+// @5:67
+  CFG4 \un1_count_1.SUM[1]  (
+	.A(CEP_c),
+	.B(CET_c),
+	.C(Q_c[0]),
+	.D(Q_c[1]),
+	.Y(N_6)
+);
+defparam \un1_count_1.SUM[1] .INIT=16'h7F80;
+// @5:57
+  CFG2 TC_1 (
+	.A(Q_c[0]),
+	.B(Q_c[1]),
+	.Y(TC_1_Z)
+);
+defparam TC_1.INIT=4'h8;
+// @5:67
+  CFG3 \un1_count_1.SUM[0]  (
+	.A(CEP_c),
+	.B(Q_c[0]),
+	.C(CET_c),
+	.Y(N_5)
+);
+defparam \un1_count_1.SUM[0] .INIT=8'h6C;
+// @5:67
+  CFG3 \un1_count_1.CO0  (
+	.A(CEP_c),
+	.B(Q_c[0]),
+	.C(CET_c),
+	.Y(\un1_count_1.CO0_Z )
+);
+defparam \un1_count_1.CO0 .INIT=8'h80;
+// @5:57
+  CFG4 TC_cZ (
+	.A(TC_1_Z),
+	.B(Q_c[3]),
+	.C(Q_c[2]),
+	.D(CET_c),
+	.Y(TC_c)
+);
+defparam TC_cZ.INIT=16'h8000;
+// @5:67
+  CFG3 \un1_count_1.SUM[2]  (
+	.A(Q_c[1]),
+	.B(\un1_count_1.CO0_Z ),
+	.C(Q_c[2]),
+	.Y(N_7)
+);
+defparam \un1_count_1.SUM[2] .INIT=8'h78;
+// @5:60
+  CFG4 \count_0[0]  (
+	.A(SR_c),
+	.B(P_c[0]),
+	.C(PE_c),
+	.D(N_5),
+	.Y(count_0_Z[0])
+);
+defparam \count_0[0] .INIT=16'hA808;
+// @5:67
+  CFG4 \un1_count_1.SUM[3]  (
+	.A(Q_c[1]),
+	.B(\un1_count_1.CO0_Z ),
+	.C(Q_c[3]),
+	.D(Q_c[2]),
+	.Y(N_8)
+);
+defparam \un1_count_1.SUM[3] .INIT=16'h78F0;
+// @5:60
+  CFG4 \count_0[1]  (
+	.A(SR_c),
+	.B(P_c[1]),
+	.C(PE_c),
+	.D(N_6),
+	.Y(count_0_Z[1])
+);
+defparam \count_0[1] .INIT=16'hA808;
+// @5:60
+  CFG4 \count_0[2]  (
+	.A(SR_c),
+	.B(P_c[2]),
+	.C(PE_c),
+	.D(N_7),
+	.Y(count_0_Z[2])
+);
+defparam \count_0[2] .INIT=16'hA808;
+// @5:60
+  CFG4 \count_0[3]  (
+	.A(SR_c),
+	.B(P_c[3]),
+	.C(PE_c),
+	.D(N_8),
+	.Y(count_0_Z[3])
+);
+defparam \count_0[3] .INIT=16'hA808;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* HW2P7 */
+

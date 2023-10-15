@@ -1,0 +1,38 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/HW2P7/HW2P7/simulation
+vHW2P7
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1697331627
+!i10b 1
+!s100 >^[P?Y=k[ISVi>Ug4Tanj1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I0Ncn]62oEd1G:l>Wj>h^>2
+S1
+R0
+w1697331569
+8X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/HW2P7/HW2P7/synthesis/HW2P7.v
+FX:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/HW2P7/HW2P7/synthesis/HW2P7.v
+!i122 0
+L0 5 73
+VDg1SIo80bB@j0V0VzS_@n1
+OW;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1697331627.000000
+!s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/HW2P7/HW2P7/synthesis/HW2P7.v|
+!s90 -reportprogress|300|-sv|-work|postsynth|X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/HW2P7/HW2P7/synthesis/HW2P7.v|
+!s101 -O0
+!i113 1
+o-sv -work postsynth -O0
+tCvgOpt 0
+n@h@w2@p7

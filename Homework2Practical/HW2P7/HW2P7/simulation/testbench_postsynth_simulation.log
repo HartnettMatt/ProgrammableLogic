@@ -1,0 +1,180 @@
+# Reading pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 19:00:27 on Oct 14,2023
+# vlog -reportprogress 300 -sv -work postsynth X:/Graduate/ECEN5863/ProgrammableLogic/Homework2Practical/HW2P7/HW2P7/synthesis/HW2P7.v 
+# -- Compiling module HW2P7
+# 
+# Top level modules:
+# 	HW2P7
+# End time: 19:00:27 on Oct 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postsynth -t 1fs postsynth.HW2P7 
+# Start time: 19:00:27 on Oct 14,2023
+# //  ModelSim Microsemi 2020.3 Jul 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading postsynth.HW2P7
+# Loading SmartFusion2.CFG4
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.VCC
+# Loading SmartFusion2.INBUF
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.OUTBUF
+# Loading SmartFusion2.CLKINT
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+add wave -position insertpoint  \
+sim:/HW2P7/P \
+sim:/HW2P7/CP \
+sim:/HW2P7/SR \
+sim:/HW2P7/PE \
+sim:/HW2P7/CEP \
+sim:/HW2P7/CET \
+sim:/HW2P7/Q \
+sim:/HW2P7/TC \
+sim:/HW2P7/count_0_Z
+force -freeze sim:/HW2P7/CP 1 0, 0 {50 fs} -r 100
+force -freeze sim:/HW2P7/SR 1 0
+force -freeze sim:/HW2P7/P 1010 0
+force -freeze sim:/HW2P7/PE 1 0
+force -freeze sim:/HW2P7/CEP 0 0
+force -freeze sim:/HW2P7/CET 0 0
+run
+force -freeze sim:/HW2P7/SR 0 0
+run
+force -freeze sim:/HW2P7/SR 1 0
+force -freeze sim:/HW2P7/PE 0 0
+run
+run
+run
+run
+run
+run
+# Load canceled
+restart -f
+force -freeze sim:/HW2P7/CP 1 0, 0 {50000000 fs} -r {100 ns}
+force -freeze sim:/HW2P7/SR 0 0
+force -freeze sim:/HW2P7/PE 1 0
+force -freeze sim:/HW2P7/CEP 0 0
+force -freeze sim:/HW2P7/CET 0 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+force -freeze sim:/HW2P7/CP 1 0, 0 {5 fs} -r 10
+run
+force -freeze sim:/HW2P7/P 1010 0
+run
+force -freeze sim:/HW2P7/SR 1 0
+run
+restart -f
+force -freeze sim:/HW2P7/CP 1 0, 0 {5 fs} -r 10
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart -f
+force -freeze sim:/HW2P7/CP 1 0, 0 {500 fs} -r 1000
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/HW2P7/CP 1 0, 0 {500000 fs} -r {1 ns}
+run
+restart -f
+force -freeze sim:/HW2P7/CP 1 0, 0 {50000000 fs} -r 100ns
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+restart -f
+force -freeze sim:/HW2P7/CP 1 0, 0 {50000000 fs} -r 100ns
+force -freeze sim:/HW2P7/SR 1 0
+force -freeze sim:/HW2P7/P 1010 0
+force -freeze sim:/HW2P7/PE 1 0
+force -freeze sim:/HW2P7/CEP 0 0
+force -freeze sim:/HW2P7/CET 0 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/HW2P7/SR 0 0
+run
+force -freeze sim:/HW2P7/SR 1 0
+force -freeze sim:/HW2P7/PE 0 0
+run
+run
+force -freeze sim:/HW2P7/P 1010 0
+run
+force -drive sim:/HW2P7/P 1100 0
+run
+force -freeze {sim:/HW2P7/P[3]} 1 0
+run
+restart -f
+force -freeze sim:/HW2P7/CP 1 0, 0 {50000000 fs} -r 100ns
+force -freeze sim:/HW2P7/SR 1 0
+force -freeze {sim:/HW2P7/P[3]} 1 0
+force -freeze {sim:/HW2P7/P[2]} 0 0
+force -freeze {sim:/HW2P7/P[1]} 1 0
+force -freeze {sim:/HW2P7/P[0]} 0 0
+force -freeze sim:/HW2P7/PE 1 0
+force -freeze sim:/HW2P7/CEP 0 0
+force -freeze sim:/HW2P7/CET 0 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/HW2P7/SR 0 0
+run
+force -freeze sim:/HW2P7/SR 1 0
+force -freeze sim:/HW2P7/PE 0 0
+run
+force -freeze sim:/HW2P7/PE 1 0
+force -freeze sim:/HW2P7/CEP 1 0
+force -freeze sim:/HW2P7/CET 1 0
+run
+run
+run
+run
+force -freeze sim:/HW2P7/CEP 0 0
+run
+run
+force -freeze sim:/HW2P7/CEP 1 0
+force -freeze sim:/HW2P7/CET 0 0
+run
+run
+run
+force -freeze sim:/HW2P7/CEP 1 0
+force -freeze sim:/HW2P7/CET 1 0
+run
+run
+run
+# End time: 19:23:57 on Oct 14,2023, Elapsed time: 0:23:30
+# Errors: 0, Warnings: 0

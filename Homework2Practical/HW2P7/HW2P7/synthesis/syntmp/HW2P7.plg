@@ -1,0 +1,11 @@
+@P:  Worst Slack : 6.925
+@P:  HW2P7|CP - Estimated Frequency : 325.2 MHz
+@P:  HW2P7|CP - Requested Frequency : 100.0 MHz
+@P:  HW2P7|CP - Estimated Period : 3.075
+@P:  HW2P7|CP - Requested Period : 10.000
+@P:  HW2P7|CP - Slack : 6.925
+@P: HW2P7 Part : m2s010vf400std
+@P: HW2P7 Register bits  : 4 
+@P: HW2P7 DSP Blocks  : 0
+@P: HW2P7 I/O primitives : 14
+@P:  CPU Time : 0h:00m:01s

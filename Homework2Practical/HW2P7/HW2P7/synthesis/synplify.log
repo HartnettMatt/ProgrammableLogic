@@ -1,0 +1,82 @@
+One matching license found for this product: synplifypro_actel
+
+Starting:    D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+Hostname:    STARGATE-COMMAN
+Date:        Sat Oct 14 18:57:20 2023
+Version:     Q-2020.03M-SP1
+
+Arguments:   -product synplify_pro -batch -log synplify.log HW2P7_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+"automatic_compile_point" is unrecognized option for current device
+Implementation not found: synthesis
+log file: "X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\HW2P7\HW2P7\synthesis\HW2P7.srr"
+Running: synthesis in foreground
+
+Running HW2P7_syn|synthesis
+
+Running Flow: compile (Compile) on HW2P7_syn|synthesis
+# Sat Oct 14 18:57:21 2023
+
+Running Flow: compile_flow (Compile Process) on HW2P7_syn|synthesis
+# Sat Oct 14 18:57:21 2023
+
+Running: compiler (Compile Input) on HW2P7_syn|synthesis
+# Sat Oct 14 18:57:21 2023
+Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\HW2P7\HW2P7\synthesis\synwork\HW2P7_comp.srs to X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\HW2P7\HW2P7\synthesis\HW2P7.srs
+
+compiler completed
+# Sat Oct 14 18:57:23 2023
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on HW2P7_syn|synthesis
+# Sat Oct 14 18:57:23 2023
+
+multi_srs_gen completed
+# Sat Oct 14 18:57:23 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\HW2P7\HW2P7\synthesis\synwork\HW2P7_mult.srs to X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\HW2P7\HW2P7\synthesis\HW2P7.srs
+Complete: Compile Process on HW2P7_syn|synthesis
+
+Running: premap (Premap) on HW2P7_syn|synthesis
+# Sat Oct 14 18:57:23 2023
+
+premap completed with warnings
+# Sat Oct 14 18:57:25 2023
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on HW2P7_syn|synthesis
+
+Running Flow: map (Map) on HW2P7_syn|synthesis
+# Sat Oct 14 18:57:25 2023
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on HW2P7_syn|synthesis
+# Sat Oct 14 18:57:25 2023
+Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\HW2P7\HW2P7\synthesis\synwork\HW2P7_m.srm to X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\HW2P7\HW2P7\synthesis\HW2P7.srm
+
+fpga_mapper completed with warnings
+# Sat Oct 14 18:57:27 2023
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on HW2P7_syn|synthesis
+Complete: Logic Synthesis on HW2P7_syn|synthesis
+Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\HW2P7\HW2P7\synthesis\HW2P7.srr to X:\Graduate\ECEN5863\ProgrammableLogic\Homework2Practical\HW2P7\HW2P7\synthesis\backup\HW2P7.srr
+TCL script complete: "HW2P7_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

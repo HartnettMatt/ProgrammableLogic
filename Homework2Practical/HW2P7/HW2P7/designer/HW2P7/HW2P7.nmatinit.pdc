@@ -1,0 +1,55 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: HW2P7 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 484 FBGA , Speed grade: STD 
+
+# Date generated: Sat Oct 14 18:57:46 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io CEP -DIRECTION INPUT -pinname E15 -fixed no
+set_io CET -DIRECTION INPUT -pinname B15 -fixed no
+set_io CP -DIRECTION INPUT -pinname H1 -fixed no
+set_io PE -DIRECTION INPUT -pinname D14 -fixed no
+set_io P\[0\] -DIRECTION INPUT -pinname F14 -fixed no
+set_io P\[1\] -DIRECTION INPUT -pinname A17 -fixed no
+set_io P\[2\] -DIRECTION INPUT -pinname G14 -fixed no
+set_io P\[3\] -DIRECTION INPUT -pinname F15 -fixed no
+set_io Q\[0\] -DIRECTION OUTPUT -pinname C15 -fixed no
+set_io Q\[1\] -DIRECTION OUTPUT -pinname A18 -fixed no
+set_io Q\[2\] -DIRECTION OUTPUT -pinname A19 -fixed no
+set_io Q\[3\] -DIRECTION OUTPUT -pinname B17 -fixed no
+set_io SR -DIRECTION INPUT -pinname A14 -fixed no
+set_io TC -DIRECTION OUTPUT -pinname E16 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location count\[1\] -fixed no 167 100
+set_location count\[0\] -fixed no 165 100
+set_location CP_ibuf_RNIO6T9 -fixed no 220 54
+set_location count_0\[1\] -fixed no 167 99
+set_location TC_1 -fixed no 157 99
+set_location un1_count_1.SUM\[1\] -fixed no 166 99
+set_location un1_count_1.SUM\[2\] -fixed no 159 99
+set_location count_0\[3\] -fixed no 164 99
+set_location count_0\[0\] -fixed no 165 99
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location count\[2\] -fixed no 161 100
+set_location count_0\[2\] -fixed no 161 99
+set_location un1_count_1.CO0 -fixed no 158 99
+set_location un1_count_1.SUM\[3\] -fixed no 163 99
+set_location count\[3\] -fixed no 164 100
+set_location TC_cZ -fixed no 162 99
+set_location ip_interface_inst -fixed no 191 0
+set_location CP_ibuf_RNIO6T9/U0_RGB1 -fixed no 218 99
+set_location un1_count_1.SUM\[0\] -fixed no 156 99
