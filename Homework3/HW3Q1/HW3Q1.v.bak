@@ -1,0 +1,11 @@
+module HW3Q1 (
+	input clk,
+	input RdPtrClr,
+	input WrPtrClr,
+	input rdinc,
+	input wrinc,
+	input DataIn,
+	output DataOut,
+	input rden,
+	input wden
+);
