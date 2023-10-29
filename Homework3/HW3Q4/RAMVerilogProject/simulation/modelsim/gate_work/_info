@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q4/RAMVerilogProject/simulation/modelsim
+vhard_block
+Z1 !s110 1698605364
+!i10b 1
+!s100 A[DX?2O`W7_BOW7_jAT9z2
+IbPLA:3eAZnN1Y:dec7h;<3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1698603475
+Z4 8RAMVerilogProject_7_1200mv_125c_slow.vo
+Z5 FRAMVerilogProject_7_1200mv_125c_slow.vo
+L0 1254
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1698605364.000000
+Z8 !s107 RAMVerilogProject_7_1200mv_125c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|RAMVerilogProject_7_1200mv_125c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vHW2VerilogRAM
+R1
+!i10b 1
+!s100 O:K>`KQQk6Y^YN3Yn;SYN3
+I3^gQf>dT6zW_AZ@4nzZ_[1
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@h@w2@verilog@r@a@m
