@@ -1,0 +1,941 @@
+# Reading X:/Quartus18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying X:/Quartus18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:35:28 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:35:28 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:35:28 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:35:28 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:35:29 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlfthkix7v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthkix7v
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:35:38 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:35:38 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:35:38 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:35:38 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:35:43 on Oct 28,2023, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:35:43 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlftay9kdk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftay9kdk
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 350 ns
+# 
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:36:23 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:36:23 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:36:23 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(106): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:36:23 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:36:24 on Oct 28,2023, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:36:24 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlftmdtqx2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmdtqx2
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label clk /HW3Q2_tb_clocked/clock
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 350 ns
+# 
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:37:04 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:37:04 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:37:04 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Error: (vlog-13069) X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(141): near "end": syntax error, unexpected end.
+# End time: 17:37:04 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./HW3Q2_run_msim_rtl_verilog.do line 10
+# X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/H..."
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:37:28 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:37:28 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:37:28 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Error: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(103): (vlog-2110) Illegal reference to net "clock".
+# ** Error: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(139): (vlog-2110) Illegal reference to net "clock".
+# End time: 17:37:28 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# ** Error: X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./HW3Q2_run_msim_rtl_verilog.do line 10
+# X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/H..."
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:38:02 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:38:02 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:38:02 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Error: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(103): (vlog-2110) Illegal reference to net "clock".
+# ** Error: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(139): (vlog-2110) Illegal reference to net "clock".
+# End time: 17:38:02 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# ** Error: X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./HW3Q2_run_msim_rtl_verilog.do line 10
+# X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/H..."
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:38:13 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:38:13 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:38:13 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:38:13 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:38:15 on Oct 28,2023, Elapsed time: 0:01:51
+# Errors: 14, Warnings: 6
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:38:15 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlft2j4ti9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2j4ti9
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label clk /HW3Q2_tb_clocked/clock
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 350 ns
+# 
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:38:35 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:38:35 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:38:35 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:38:35 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:38:37 on Oct 28,2023, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:38:37 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlftx6tbsg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftx6tbsg
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label clk /HW3Q2_tb_clocked/clock
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 350 ns
+# 
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:38:52 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:38:52 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:38:52 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:38:52 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:38:53 on Oct 28,2023, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:38:53 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlft40qtj1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft40qtj1
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label clk /HW3Q2_tb_clocked/clock
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 350 ns
+# 
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:39:43 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:39:43 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:39:43 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:39:43 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:39:44 on Oct 28,2023, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:39:44 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlft1nyaw3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1nyaw3
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label clk /HW3Q2_tb_clocked/clock
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 700 ns
+# 
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:40:34 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:40:34 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:40:34 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:40:34 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:40:36 on Oct 28,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:40:36 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlftznqg4q".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftznqg4q
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label clk /HW3Q2_tb_clocked/clock
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 700 ns
+# 
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:41:55 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:41:55 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:41:55 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:41:55 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:41:56 on Oct 28,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:41:56 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlftz8dzg8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz8dzg8
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label clk /HW3Q2_tb_clocked/clock
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 700 ns
+# 
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:45:31 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:45:31 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:45:31 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:45:31 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:45:32 on Oct 28,2023, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:45:32 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlftbq68gi".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbq68gi
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label clk /HW3Q2_tb_clocked/clock
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 700 ns
+# 
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:47:41 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:47:42 on Oct 28,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:47:42 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:47:42 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:47:43 on Oct 28,2023, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:47:43 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlft676kq5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft676kq5
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label clk /HW3Q2_tb_clocked/clock
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 700 ns
+# 
+do HW3Q2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:48:46 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_clocked.v 
+# -- Compiling module HW3Q2_clocked
+# 
+# Top level modules:
+# 	HW3Q2_clocked
+# End time: 17:48:46 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:48:46 on Oct 28,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v 
+# -- Compiling module HW3Q2_tb_clocked
+# ** Warning: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb_clocked.v(107): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	HW3Q2_tb_clocked
+# End time: 17:48:46 on Oct 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb_clocked
+# End time: 17:48:49 on Oct 28,2023, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q2_tb_clocked 
+# Start time: 17:48:49 on Oct 28,2023
+# Loading work.HW3Q2_tb_clocked
+# Loading work.HW3Q2_clocked
+# 
+# do clocked_waves.do
+# add wave -divider "Inputs"
+# add wave -label A -radix hexadecimal /HW3Q2_tb_clocked/A
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mattm  Hostname: STARGATE-COMMAN  ProcessID: 22024
+#           Attempting to use alternate WLF file "./wlft2454qb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2454qb
+# add wave -label B -radix hexadecimal /HW3Q2_tb_clocked/B
+# add wave -label clk /HW3Q2_tb_clocked/clock
+# add wave -label Op /HW3Q2_tb_clocked/Op
+# add wave -divider "Outputs"
+# add wave -label Y -radix hexadecimal /HW3Q2_tb_clocked/Y
+# add wave -divider "ALU Internal"
+# add wave -label out -radix hexadecimal /HW3Q2_tb_clocked/dut/out
+# add wave -divider "TB Indices"
+# add wave -label i -radix unsigned /HW3Q2_tb_clocked/i
+# add wave -label j -radix unsigned /HW3Q2_tb_clocked/j
+# add wave -divider "Expected outputs"
+# add wave -label expOut -radix hexadecimal /HW3Q2_tb_clocked/expOut
+# add wave -label expY -radix hexadecimal /HW3Q2_tb_clocked/expY
+# add wave -label Correctness /HW3Q2_tb_clocked/correctness
+# add wave -label error_count /HW3Q2_tb_clocked/error_count
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 700 ns
+# 
+# End time: 17:59:59 on Oct 28,2023, Elapsed time: 0:11:10
+# Errors: 0, Warnings: 2

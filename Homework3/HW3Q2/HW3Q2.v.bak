@@ -1,0 +1,11 @@
+module HW3Q2 (
+// Inputs:
+	input		A,
+	input		B,
+	input		Op,
+// Outputs:
+	output	Y
+);
+
+
+endmodule

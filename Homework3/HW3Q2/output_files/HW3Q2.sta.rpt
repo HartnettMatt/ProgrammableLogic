@@ -1,0 +1,1040 @@
+Timing Analyzer report for HW3Q2
+Sun Oct 29 10:18:29 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Timing Analyzer Summary
+  3. Parallel Compilation
+  4. SDC File List
+  5. Clocks
+  6. Slow 1200mV 85C Model Fmax Summary
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Slow 1200mV 85C Model Metastability Summary
+ 13. Slow 1200mV 0C Model Fmax Summary
+ 14. Slow 1200mV 0C Model Setup Summary
+ 15. Slow 1200mV 0C Model Hold Summary
+ 16. Slow 1200mV 0C Model Recovery Summary
+ 17. Slow 1200mV 0C Model Removal Summary
+ 18. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 19. Slow 1200mV 0C Model Metastability Summary
+ 20. Fast 1200mV 0C Model Setup Summary
+ 21. Fast 1200mV 0C Model Hold Summary
+ 22. Fast 1200mV 0C Model Recovery Summary
+ 23. Fast 1200mV 0C Model Removal Summary
+ 24. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 25. Fast 1200mV 0C Model Metastability Summary
+ 26. Multicorner Timing Analysis Summary
+ 27. Board Trace Model Assignments
+ 28. Input Transition Times
+ 29. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 30. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 31. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 32. Clock Transfers
+ 33. Report TCCS
+ 34. Report RSKM
+ 35. Unconstrained Paths Summary
+ 36. Unconstrained Input Ports
+ 37. Unconstrained Output Ports
+ 38. Unconstrained Input Ports
+ 39. Unconstrained Output Ports
+ 40. Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                     ;
++-----------------------+-----------------------------------------------------+
+; Quartus Prime Version ; Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Timing Analyzer       ; Legacy Timing Analyzer                              ;
+; Revision Name         ; HW3Q2                                               ;
+; Device Family         ; MAX 10                                              ;
+; Device Name           ; 10M50DAF484C6GES                                    ;
+; Timing Models         ; Preliminary                                         ;
+; Delay Model           ; Combined                                            ;
+; Rise/Fall Delays      ; Enabled                                             ;
++-----------------------+-----------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.28        ;
+; Maximum used               ; 12          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-12        ;   2.5%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------+
+; SDC File List                                     ;
++---------------+--------+--------------------------+
+; SDC File Path ; Status ; Read at                  ;
++---------------+--------+--------------------------+
+; HW3Q2.sdc     ; OK     ; Sun Oct 29 10:18:28 2023 ;
++---------------+--------+--------------------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+-----------------------------------------------------
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
+-----------------------------------------------------
+No paths to report.
+
+
+-----------------------------------------------
+; Slow 1200mV 85C Model Metastability Summary ;
+-----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
+----------------------------------------------
+; Slow 1200mV 0C Model Metastability Summary ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
+----------------------------------------------
+; Fast 1200mV 0C Model Metastability Summary ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                   ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin          ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Y[0]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[1]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[2]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[3]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[4]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[5]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[6]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[7]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[8]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[9]         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[10]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[11]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[12]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[13]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[14]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[15]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[16]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[17]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[18]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[19]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[20]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[21]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[22]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[23]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[24]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[25]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[26]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[27]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[28]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[29]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[30]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; Y[31]        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_TDO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++---------------------------------------------------------------------------------+
+; Input Transition Times                                                          ;
++---------------------+-----------------------+-----------------+-----------------+
+; Pin                 ; I/O Standard          ; 10-90 Rise Time ; 90-10 Fall Time ;
++---------------------+-----------------------+-----------------+-----------------+
+; Op[3]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; Op[4]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[1]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[1]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[0]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[0]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; Op[2]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; Op[1]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; Op[0]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[2]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[2]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[3]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[3]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[4]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[4]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[5]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[5]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[6]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[6]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[7]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[7]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[8]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[8]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[9]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[9]                ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[10]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[10]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[11]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[11]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[12]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[12]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[13]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[13]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[14]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[14]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[15]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[15]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[16]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[16]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[17]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[17]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[18]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[18]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[19]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[19]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[20]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[20]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[21]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[21]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[22]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[22]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[23]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[23]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[24]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[24]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[25]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[25]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[26]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[26]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[27]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[27]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[28]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[28]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[29]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[29]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[30]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[30]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; B[31]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; A[31]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_TMS~        ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_TCK~        ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_TDI~        ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_CONFIG_SEL~ ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_nCONFIG~    ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_nSTATUS~    ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_CONF_DONE~  ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
++---------------------+-----------------------+-----------------+-----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Y[0]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[1]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[2]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[3]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[4]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[5]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[6]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[7]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.33 V              ; -0.00606 V          ; 0.204 V                              ; 0.152 V                              ; 3.83e-09 s                  ; 3.51e-09 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.33 V             ; -0.00606 V         ; 0.204 V                             ; 0.152 V                             ; 3.83e-09 s                 ; 3.51e-09 s                 ; No                        ; Yes                       ;
+; Y[8]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[9]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[10]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[11]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[12]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[13]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[14]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[15]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[16]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[17]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[18]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[19]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[20]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.33 V              ; -0.00599 V          ; 0.204 V                              ; 0.151 V                              ; 3.82e-09 s                  ; 3.51e-09 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.33 V             ; -0.00599 V         ; 0.204 V                             ; 0.151 V                             ; 3.82e-09 s                 ; 3.51e-09 s                 ; No                        ; Yes                       ;
+; Y[21]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[22]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[23]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[24]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[25]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[26]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[27]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[28]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[29]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0607 V           ; 0.271 V                              ; 0.095 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0607 V          ; 0.271 V                             ; 0.095 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[30]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; Y[31]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.17e-08 V                   ; 2.42 V              ; -0.0619 V           ; 0.272 V                              ; 0.096 V                              ; 2.93e-10 s                  ; 3.92e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.17e-08 V                  ; 2.42 V             ; -0.0619 V          ; 0.272 V                             ; 0.096 V                             ; 2.93e-10 s                 ; 3.92e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_TDO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.97e-08 V                   ; 2.4 V               ; -0.023 V            ; 0.201 V                              ; 0.081 V                              ; 4.59e-10 s                  ; 5.51e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.97e-08 V                  ; 2.4 V              ; -0.023 V           ; 0.201 V                             ; 0.081 V                             ; 4.59e-10 s                 ; 5.51e-10 s                 ; No                        ; Yes                       ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Y[0]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[1]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[2]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[3]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[4]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[5]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[6]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[7]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.33 V              ; -0.00323 V          ; 0.209 V                              ; 0.136 V                              ; 4.56e-09 s                  ; 4.19e-09 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.33 V             ; -0.00323 V         ; 0.209 V                             ; 0.136 V                             ; 4.56e-09 s                 ; 4.19e-09 s                 ; No                        ; Yes                       ;
+; Y[8]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[9]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[10]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[11]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[12]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[13]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[14]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[15]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[16]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[17]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[18]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[19]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[20]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.33 V              ; -0.00327 V          ; 0.208 V                              ; 0.135 V                              ; 4.55e-09 s                  ; 4.19e-09 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.33 V             ; -0.00327 V         ; 0.208 V                             ; 0.135 V                             ; 4.55e-09 s                 ; 4.19e-09 s                 ; No                        ; Yes                       ;
+; Y[21]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[22]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[23]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[24]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[25]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[26]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[27]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[28]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[29]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.041 V            ; 0.145 V                              ; 0.14 V                               ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.041 V           ; 0.145 V                             ; 0.14 V                              ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[30]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; Y[31]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.79e-06 V                   ; 2.38 V              ; -0.0389 V           ; 0.145 V                              ; 0.139 V                              ; 4.54e-10 s                  ; 4.3e-10 s                   ; No                         ; Yes                        ; 2.32 V                      ; 1.79e-06 V                  ; 2.38 V             ; -0.0389 V          ; 0.145 V                             ; 0.139 V                             ; 4.54e-10 s                 ; 4.3e-10 s                  ; No                        ; Yes                       ;
+; ~ALTERA_TDO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.04e-06 V                   ; 2.37 V              ; -0.0108 V           ; 0.13 V                               ; 0.066 V                              ; 6.32e-10 s                  ; 6.45e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.04e-06 V                  ; 2.37 V             ; -0.0108 V          ; 0.13 V                              ; 0.066 V                             ; 6.32e-10 s                 ; 6.45e-10 s                 ; No                        ; Yes                       ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Y[0]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[1]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[2]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[3]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[4]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[5]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[6]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[7]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.64 V              ; -0.00888 V          ; 0.249 V                              ; 0.203 V                              ; 3.12e-09 s                  ; 3.02e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.64 V             ; -0.00888 V         ; 0.249 V                             ; 0.203 V                             ; 3.12e-09 s                 ; 3.02e-09 s                 ; No                        ; Yes                       ;
+; Y[8]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[9]         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[10]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[11]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[12]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[13]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[14]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[15]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[16]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[17]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[18]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[19]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[20]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.64 V              ; -0.00887 V          ; 0.249 V                              ; 0.203 V                              ; 3.12e-09 s                  ; 3.02e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.64 V             ; -0.00887 V         ; 0.249 V                             ; 0.203 V                             ; 3.12e-09 s                 ; 3.02e-09 s                 ; No                        ; Yes                       ;
+; Y[21]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[22]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[23]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[24]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[25]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[26]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[27]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[28]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[29]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.94e-08 V                   ; 2.78 V              ; -0.0444 V           ; 0.25 V                               ; 0.107 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.94e-08 V                  ; 2.78 V             ; -0.0444 V          ; 0.25 V                              ; 0.107 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[30]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; Y[31]        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 9.95e-08 V                   ; 2.78 V              ; -0.0452 V           ; 0.248 V                              ; 0.108 V                              ; 2.67e-10 s                  ; 2.75e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 9.95e-08 V                  ; 2.78 V             ; -0.0452 V          ; 0.248 V                             ; 0.108 V                             ; 2.67e-10 s                 ; 2.75e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_TDO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 1.68e-07 V                   ; 2.73 V              ; -0.0395 V           ; 0.361 V                              ; 0.109 V                              ; 3.1e-10 s                   ; 4.41e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 1.68e-07 V                  ; 2.73 V             ; -0.0395 V          ; 0.361 V                             ; 0.109 V                             ; 3.1e-10 s                  ; 4.41e-10 s                 ; No                        ; Yes                       ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths Summary                    ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 69    ; 69   ;
+; Unconstrained Input Port Paths  ; 1278  ; 1278 ;
+; Unconstrained Output Ports      ; 32    ; 32   ;
+; Unconstrained Output Port Paths ; 1278  ; 1278 ;
++---------------------------------+-------+------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; A[0]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[1]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[2]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[3]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[4]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[5]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[6]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[7]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[8]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[9]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[10]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[11]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[12]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[13]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[14]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[15]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[16]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[17]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[18]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[19]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[20]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[21]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[22]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[23]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[24]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[25]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[26]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[27]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[28]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[29]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[30]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[31]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[0]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[1]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[2]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[3]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[4]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[5]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[6]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[7]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[8]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[9]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[10]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[11]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[12]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[13]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[14]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[15]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[16]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[17]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[18]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[19]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[20]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[21]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[22]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[23]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[24]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[25]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[26]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[27]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[28]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[29]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[30]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[31]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Op[0]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Op[1]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Op[2]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Op[3]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Op[4]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                          ;
++-------------+---------------------------------------------------------------------------------------+
+; Output Port ; Comment                                                                               ;
++-------------+---------------------------------------------------------------------------------------+
+; Y[0]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[1]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[2]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[3]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[4]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[5]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[6]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[7]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[8]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[9]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[10]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[11]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[12]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[13]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[14]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[15]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[16]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[17]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[18]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[19]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[20]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[21]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[22]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[23]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[24]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[25]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[26]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[27]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[28]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[29]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[30]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[31]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++-------------+---------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; A[0]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[1]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[2]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[3]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[4]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[5]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[6]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[7]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[8]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[9]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[10]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[11]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[12]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[13]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[14]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[15]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[16]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[17]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[18]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[19]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[20]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[21]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[22]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[23]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[24]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[25]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[26]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[27]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[28]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[29]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[30]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[31]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[0]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[1]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[2]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[3]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[4]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[5]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[6]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[7]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[8]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[9]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[10]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[11]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[12]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[13]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[14]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[15]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[16]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[17]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[18]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[19]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[20]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[21]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[22]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[23]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[24]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[25]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[26]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[27]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[28]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[29]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[30]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; B[31]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Op[0]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Op[1]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Op[2]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Op[3]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Op[4]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                          ;
++-------------+---------------------------------------------------------------------------------------+
+; Output Port ; Comment                                                                               ;
++-------------+---------------------------------------------------------------------------------------+
+; Y[0]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[1]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[2]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[3]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[4]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[5]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[6]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[7]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[8]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[9]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[10]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[11]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[12]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[13]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[14]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[15]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[16]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[17]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[18]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[19]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[20]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[21]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[22]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[23]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[24]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[25]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[26]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[27]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[28]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[29]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[30]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Y[31]       ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++-------------+---------------------------------------------------------------------------------------+
+
+
++--------------------------+
+; Timing Analyzer Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Timing Analyzer
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Sun Oct 29 10:18:27 2023
+Info: Command: quartus_sta HW3Q2 -c HW3Q2
+Info: qsta_default_script.tcl version: #1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (332104): Reading SDC File: 'HW3Q2.sdc'
+Warning (332174): Ignored filter at HW3Q2.sdc(41): clk could not be matched with a port File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 41
+Warning (332049): Ignored create_clock at HW3Q2.sdc(41): Argument <targets> is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 41
+    Info (332050): create_clock -name {clk} -period 10.000 -waveform { 0.000 5.000 } [get_ports { clk }] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 41
+Warning (332174): Ignored filter at HW3Q2.sdc(60): clk could not be matched with a clock File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 60
+Warning (332049): Ignored set_clock_uncertainty at HW3Q2.sdc(60): Argument -rise_from with value [get_clocks {clk}] contains zero elements File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 60
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -rise_to [get_clocks {clk}]  0.020   File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 60
+Warning (332049): Ignored set_clock_uncertainty at HW3Q2.sdc(60): Argument -rise_to with value [get_clocks {clk}] contains zero elements File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 60
+Warning (332049): Ignored set_clock_uncertainty at HW3Q2.sdc(61): Argument -rise_from with value [get_clocks {clk}] contains zero elements File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 61
+    Info (332050): set_clock_uncertainty -rise_from [get_clocks {clk}] -fall_to [get_clocks {clk}]  0.020   File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 61
+Warning (332049): Ignored set_clock_uncertainty at HW3Q2.sdc(61): Argument -fall_to with value [get_clocks {clk}] contains zero elements File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 61
+Warning (332049): Ignored set_clock_uncertainty at HW3Q2.sdc(62): Argument -fall_from with value [get_clocks {clk}] contains zero elements File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 62
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -rise_to [get_clocks {clk}]  0.020   File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 62
+Warning (332049): Ignored set_clock_uncertainty at HW3Q2.sdc(62): Argument -rise_to with value [get_clocks {clk}] contains zero elements File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 62
+Warning (332049): Ignored set_clock_uncertainty at HW3Q2.sdc(63): Argument -fall_from with value [get_clocks {clk}] contains zero elements File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 63
+    Info (332050): set_clock_uncertainty -fall_from [get_clocks {clk}] -fall_to [get_clocks {clk}]  0.020   File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 63
+Warning (332049): Ignored set_clock_uncertainty at HW3Q2.sdc(63): Argument -fall_to with value [get_clocks {clk}] contains zero elements File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 63
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(70): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 70
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[0]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 70
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(71): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 71
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[1]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 71
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(72): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 72
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[2]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 72
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(73): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 73
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[3]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 73
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(74): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 74
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[4]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 74
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(75): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 75
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[5]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 75
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(76): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 76
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[6]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 76
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(77): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 77
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[7]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 77
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(78): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 78
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[8]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 78
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(79): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 79
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[9]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 79
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(80): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 80
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[10]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 80
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(81): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 81
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[11]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 81
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(82): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 82
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[12]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 82
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(83): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 83
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[13]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 83
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(84): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 84
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[14]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 84
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(85): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 85
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[15]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 85
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(86): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 86
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[16]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 86
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(87): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 87
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[17]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 87
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(88): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 88
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[18]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 88
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(89): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 89
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[19]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 89
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(90): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 90
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[20]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 90
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(91): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 91
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[21]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 91
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(92): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 92
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[22]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 92
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(93): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 93
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[23]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 93
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(94): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 94
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[24]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 94
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(95): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 95
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[25]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 95
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(96): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 96
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[26]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 96
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(97): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 97
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[27]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 97
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(98): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 98
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[28]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 98
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(99): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 99
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[29]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 99
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(100): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 100
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[30]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 100
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(101): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 101
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {A[31]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 101
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(102): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 102
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[0]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 102
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(103): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 103
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[1]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 103
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(104): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 104
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[2]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 104
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(105): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 105
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[3]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 105
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(106): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 106
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[4]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 106
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(107): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 107
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[5]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 107
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(108): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 108
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[6]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 108
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(109): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 109
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[7]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 109
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(110): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 110
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[8]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 110
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(111): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 111
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[9]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 111
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(112): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 112
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[10]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 112
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(113): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 113
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[11]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 113
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(114): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 114
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[12]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 114
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(115): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 115
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[13]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 115
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(116): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 116
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[14]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 116
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(117): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 117
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[15]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 117
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(118): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 118
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[16]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 118
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(119): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 119
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[17]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 119
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(120): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 120
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[18]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 120
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(121): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 121
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[19]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 121
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(122): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 122
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[20]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 122
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(123): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 123
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[21]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 123
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(124): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 124
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[22]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 124
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(125): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 125
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[23]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 125
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(126): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 126
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[24]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 126
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(127): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 127
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[25]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 127
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(128): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 128
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[26]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 128
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(129): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 129
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[27]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 129
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(130): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 130
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[28]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 130
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(131): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 131
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[29]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 131
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(132): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 132
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[30]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 132
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(133): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 133
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {B[31]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 133
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(134): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 134
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Op[0]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 134
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(135): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 135
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Op[1]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 135
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(136): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 136
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Op[2]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 136
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(137): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 137
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Op[3]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 137
+Warning (332049): Ignored set_input_delay at HW3Q2.sdc(138): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 138
+    Info (332050): set_input_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Op[4]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 138
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(145): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 145
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[0]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 145
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(146): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 146
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[1]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 146
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(147): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 147
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[2]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 147
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(148): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 148
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[3]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 148
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(149): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 149
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[4]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 149
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(150): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 150
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[5]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 150
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(151): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 151
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[6]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 151
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(152): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 152
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[7]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 152
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(153): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 153
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[8]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 153
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(154): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 154
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[9]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 154
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(155): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 155
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[10]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 155
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(156): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 156
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[11]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 156
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(157): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 157
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[12]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 157
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(158): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 158
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[13]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 158
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(159): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 159
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[14]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 159
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(160): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 160
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[15]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 160
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(161): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 161
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[16]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 161
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(162): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 162
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[17]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 162
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(163): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 163
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[18]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 163
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(164): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 164
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[19]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 164
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(165): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 165
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[20]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 165
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(166): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 166
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[21]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 166
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(167): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 167
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[22]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 167
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(168): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 168
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[23]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 168
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(169): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 169
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[24]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 169
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(170): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 170
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[25]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 170
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(171): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 171
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[26]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 171
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(172): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 172
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[27]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 172
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(173): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 173
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[28]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 173
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(174): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 174
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[29]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 174
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(175): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 175
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[30]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 175
+Warning (332049): Ignored set_output_delay at HW3Q2.sdc(176): Argument -clock is an empty collection File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 176
+    Info (332050): set_output_delay -add_delay  -clock [get_clocks {clk}]  1.000 [get_ports {Y[31]}] File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.sdc Line: 176
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow 1200mV 85C Model
+Info (332140): No fmax paths to report
+Info: Can't run Report Timing Closure Recommendations. The current device family is not supported.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Warning (334000): Timing characteristics of device 10M50DAF484C6GES are preliminary
+Info (334004): Delay annotation completed successfully
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Fast 1200mV 0C Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 117 warnings
+    Info: Peak virtual memory: 4913 megabytes
+    Info: Processing ended: Sun Oct 29 10:18:29 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

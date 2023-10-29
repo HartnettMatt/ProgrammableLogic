@@ -1,0 +1,31 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2.v}
+
+vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q2/HW3Q2_tb.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  HW3Q2_tb
+add wave -divider "Inputs"
+add wave -label A -radix hexadecimal /HW3Q2_tb/A
+add wave -label B -radix hexadecimal /HW3Q2_tb/B
+add wave -label Op /HW3Q2_tb/Op
+add wave -divider "Outputs"
+add wave -label Y -radix hexadecimal /HW3Q2_tb/Y
+add wave -divider "ALU Internal"
+add wave -label out -radix hexadecimal /HW3Q2_tb/dut/out
+add wave -divider "TB Indices"
+add wave -label i -radix unsigned /HW3Q2_tb/i
+add wave -label j -radix unsigned /HW3Q2_tb/j
+add wave -divider "Expected outputs"
+add wave -label expOut -radix hexadecimal /HW3Q2_tb/expOut
+add wave -label expY -radix hexadecimal /HW3Q2_tb/expY
+add wave -label Correctness /HW3Q2_tb/correctness
+add wave -label error_count /HW3Q2_tb/error_count
+view structure
+view signals
+run 350 ns
