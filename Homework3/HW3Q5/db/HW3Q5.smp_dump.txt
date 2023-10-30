@@ -1,0 +1,8 @@
+
+State Machine - |Tcontrol|state
+Name state.Astop state.Bin state.Ain state.ABout state.Bstop 
+state.ABout 0 0 0 0 0 
+state.Ain 0 0 1 1 0 
+state.Bin 0 1 0 1 0 
+state.Astop 1 0 0 1 0 
+state.Bstop 0 0 0 1 1 

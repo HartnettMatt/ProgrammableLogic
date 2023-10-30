@@ -1,0 +1,920 @@
+# Reading X:/Quartus18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying X:/Quartus18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:49:24 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 20:49:24 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:49:24 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 20:49:24 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 20:49:24 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:50:48 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 20:50:49 on Oct 29,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:50:49 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 20:50:49 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 20:50:50 on Oct 29,2023, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 20:50:50 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:52:41 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 20:52:41 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:52:41 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 20:52:41 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 20:52:43 on Oct 29,2023, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 20:52:43 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:56:27 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 20:56:27 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:56:27 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 20:56:27 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 20:56:29 on Oct 29,2023, Elapsed time: 0:03:46
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 20:56:29 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:31 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 20:58:31 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:31 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 20:58:31 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 20:58:32 on Oct 29,2023, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 20:58:32 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:01:22 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:01:22 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:01:22 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# ** Error: (vlog-13069) X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v(136): near "-": syntax error, unexpected '-'.
+# End time: 21:01:22 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./HW3Q5_run_msim_rtl_verilog.do line 10
+# X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/H..."
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:01:32 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:01:32 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:01:32 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 21:01:32 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 21:01:34 on Oct 29,2023, Elapsed time: 0:03:02
+# Errors: 4, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 21:01:34 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:02:32 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:02:32 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:02:32 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# ** Error: (vlog-13069) X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v(175): near "end": syntax error, unexpected end.
+# End time: 21:02:32 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./HW3Q5_run_msim_rtl_verilog.do line 10
+# X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/H..."
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:02:52 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:02:52 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:02:52 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 21:02:52 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 21:02:53 on Oct 29,2023, Elapsed time: 0:01:19
+# Errors: 4, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 21:02:53 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:03:02 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:03:02 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:03:02 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 21:03:02 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 21:03:04 on Oct 29,2023, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 21:03:04 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:05:45 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:05:45 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:05:45 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 21:05:45 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 21:05:46 on Oct 29,2023, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 21:05:46 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:07:12 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:07:12 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:07:12 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 21:07:12 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 21:07:14 on Oct 29,2023, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 21:07:14 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:03 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:09:03 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:04 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 21:09:04 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 21:09:05 on Oct 29,2023, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 21:09:05 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:11:05 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:11:05 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:11:05 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 21:11:05 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 21:11:07 on Oct 29,2023, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 21:11:07 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:12:42 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:12:42 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:12:42 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 21:12:42 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 21:12:43 on Oct 29,2023, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 21:12:43 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:13:21 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:13:21 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:13:21 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 21:13:21 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 21:13:22 on Oct 29,2023, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 21:13:22 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 ns
+do HW3Q5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:13:44 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v 
+# -- Compiling module Tcontrol
+# 
+# Top level modules:
+# 	Tcontrol
+# End time: 21:13:44 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5 {X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:13:44 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5" X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v 
+# -- Compiling module HW3Q5_tb
+# 
+# Top level modules:
+# 	HW3Q5_tb
+# End time: 21:13:44 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  HW3Q5_tb
+# End time: 21:13:48 on Oct 29,2023, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" HW3Q5_tb 
+# Start time: 21:13:48 on Oct 29,2023
+# Loading work.HW3Q5_tb
+# Loading work.Tcontrol
+# 
+# add wave -divider "Inputs"
+# add wave -label Clock /HW3Q5_tb/clock
+# add wave -label Reset_n /HW3Q5_tb/reset_n
+# add wave -label Sensor /HW3Q5_tb/sensor
+# 
+# add wave -divider "Outputs"
+# add wave -label Switches /HW3Q5_tb/switch
+# add wave -label DirA /HW3Q5_tb/dirA
+# add wave -label DirB /HW3Q5_tb/dirB
+# 
+# add wave -divider "Internal"
+# add wave -label State -radix unsigned /HW3Q5_tb/dut/state
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 900 ps
+# End time: 21:18:23 on Oct 29,2023, Elapsed time: 0:04:35
+# Errors: 0, Warnings: 0

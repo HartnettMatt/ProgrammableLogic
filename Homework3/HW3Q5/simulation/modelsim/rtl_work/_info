@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/simulation/modelsim
+vHW3Q5_tb
+Z1 !s110 1698635624
+!i10b 1
+!s100 Ajg8i07cB<@I4Eg[3Zd<63
+IAl@Z8QYajMbB4H0TZ2CeJ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1698635599
+8X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v
+FX:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v
+L0 59
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1698635624.000000
+!s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5|X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/HW3Q5_tb.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5
+Z7 tCvgOpt 0
+n@h@w3@q5_tb
+vTcontrol
+R1
+!i10b 1
+!s100 @42:OdXo_G;HQD=7=blVQ3
+IgVcB5cjf1]4IdSadQKQ`K0
+R2
+R0
+w1698634707
+8X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v
+FX:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5|X:/Graduate/ECEN5863/ProgrammableLogic/Homework3/HW3Q5/Tcontrol.v|
+!i113 1
+R5
+R6
+R7
+n@tcontrol

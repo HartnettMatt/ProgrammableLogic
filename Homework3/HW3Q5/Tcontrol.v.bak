@@ -1,0 +1,5 @@
+module Tcontrol(
+	input reset_n, clock, sensor1, sensor2, sensor3, sensor4, sensor5,
+	output switch1, switch2, switch3,
+	output [1:0] dirA, dirB
+);

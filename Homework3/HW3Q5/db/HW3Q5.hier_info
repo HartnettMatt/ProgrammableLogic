@@ -1,0 +1,24 @@
+|Tcontrol
+reset_n => state~3.DATAIN
+clock => state~1.DATAIN
+sensor1 => Decoder4.IN0
+sensor2 => Decoder1.IN0
+sensor2 => Decoder1.IN1
+sensor2 => Decoder0.IN0
+sensor2 => Selector0.IN6
+sensor3 => Decoder2.IN0
+sensor3 => Decoder3.IN0
+sensor3 => Selector0.IN7
+sensor4 => Decoder0.IN1
+sensor4 => Decoder2.IN1
+sensor4 => Selector1.IN7
+sensor5 => ~NO_FANOUT~
+switch1 <= SW1.DB_MAX_OUTPUT_PORT_TYPE
+switch2 <= SW1.DB_MAX_OUTPUT_PORT_TYPE
+switch3 <= <GND>
+dirA[0] <= dirA[0].DB_MAX_OUTPUT_PORT_TYPE
+dirA[1] <= <VCC>
+dirB[0] <= dirB[0].DB_MAX_OUTPUT_PORT_TYPE
+dirB[1] <= <GND>
+
+
