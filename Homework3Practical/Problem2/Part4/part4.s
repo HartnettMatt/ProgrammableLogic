@@ -7,24 +7,24 @@ _start:
         MOV R0, R4          // parameter for DIVIDE goes in R0
         MOV R1, #1000       // divisor parameter for DIVIDE goes in R1
         BL DIVIDE
-        STRB R1, [R5, #3]   // Thousands digit is in R1
+        STRB R1, [R5, #3]   // Thousands digit is in R1, store into R5 + 3
         
         MOV R1, #100        // divisor parameter for DIVIDE goes in R1
         BL DIVIDE
-        STRB R1, [R5, #2]   // Hundreds digit is in R1
+        STRB R1, [R5, #2]   // Hundreds digit is in R1, store into R5 + 2
         
         MOV R1, #10         // divisor parameter for DIVIDE goes in R1
         BL DIVIDE
-        STRB R1, [R5, #1]   // Tens digit is in R1
-        STRB R0, [R5]       // Ones digit is in R0
+        STRB R1, [R5, #1]   // Tens digit is in R1, store into R5 + 1
+        STRB R0, [R5]       // Ones digit is in R0, store into R5
 END:    B END
 /* Subroutine to perform the integer division R0 / 10.
 * Returns: quotient in R1, and remainder in R0
 */
 DIVIDE: MOV R2, #0
-CONT:   CMP R0, R1
+CONT:   CMP R0, R1          // Modified this line to swap #10 with R1
         BLT DIV_END
-        SUB R0, R1
+        SUB R0, R1          // Modified this line to swap #10 with R1
         ADD R2, #1
         B CONT
 DIV_END: MOV R1, R2         // return quotient in R1 (remainder is in R0)
