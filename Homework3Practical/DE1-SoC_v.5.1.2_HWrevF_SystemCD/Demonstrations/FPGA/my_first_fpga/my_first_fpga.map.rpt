@@ -1,6 +1,6 @@
 Analysis & Synthesis report for my_first_fpga
-Tue Aug 23 16:39:53 2016
-Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Wed Nov 15 11:05:05 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -27,44 +27,43 @@ Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
-Your use of Altera Corporation's design tools, logic functions 
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, the Altera Quartus Prime License Agreement,
-the Altera MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Altera and sold by Altera or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                      ;
-+---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Aug 23 16:39:53 2016           ;
-; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
-; Revision Name                   ; my_first_fpga                                   ;
-; Top-level Entity Name           ; my_first_fpga                                   ;
-; Family                          ; Cyclone V                                       ;
-; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 27                                              ;
-; Total pins                      ; 7                                               ;
-; Total virtual pins              ; 0                                               ;
-; Total block memory bits         ; 0                                               ;
-; Total DSP Blocks                ; 0                                               ;
-; Total HSSI RX PCSs              ; 0                                               ;
-; Total HSSI PMA RX Deserializers ; 0                                               ;
-; Total HSSI TX PCSs              ; 0                                               ;
-; Total HSSI PMA TX Serializers   ; 0                                               ;
-; Total PLLs                      ; 1                                               ;
-; Total DLLs                      ; 0                                               ;
-+---------------------------------+-------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Wed Nov 15 11:05:05 2023       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; my_first_fpga                               ;
+; Top-level Entity Name           ; my_first_fpga                               ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 27                                          ;
+; Total pins                      ; 7                                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 1                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -76,13 +75,13 @@ agreement for further details.
 ; Top-level entity name                                                           ; my_first_fpga      ; my_first_fpga      ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
-; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
 ; Enable compact report table                                                     ; Off                ; Off                ;
 ; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
 ; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
 ; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
 ; Preserve fewer node names                                                       ; On                 ; On                 ;
-; Disable OpenCore Plus hardware evaluation                                       ; Off                ; Off                ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
 ; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
 ; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
 ; State Machine Processing                                                        ; Auto               ; Auto               ;
@@ -133,7 +132,7 @@ agreement for further details.
 ; Report Connectivity Checks                                                      ; On                 ; On                 ;
 ; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
 ; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
-; PowerPlay Power Optimization During Synthesis                                   ; Normal compilation ; Normal compilation ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
 ; HDL message level                                                               ; Level2             ; Level2             ;
 ; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
 ; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
@@ -149,7 +148,6 @@ agreement for further details.
 ; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
 ; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
 ; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
-; Synthesis Seed                                                                  ; 1                  ; 1                  ;
 ; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
 ; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
@@ -160,36 +158,36 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 2           ;
+; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
+;     Processors 2-12        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                     ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                           ; Library ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+---------+
-; my_first_fpga.bdf                ; yes             ; User Block Diagram/Schematic File  ; F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/my_first_fpga.bdf ;         ;
-; simple_counter.v                 ; yes             ; User Verilog HDL File              ; F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/simple_counter.v  ;         ;
-; pll.v                            ; yes             ; User Wizard-Generated File         ; F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/pll.v             ; pll     ;
-; pll/pll_0002.v                   ; yes             ; User Verilog HDL File              ; F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/pll/pll_0002.v    ; pll     ;
-; counter_bus_mux.v                ; yes             ; User Wizard-Generated File         ; F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/counter_bus_mux.v ;         ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                       ; e:/altera/16.0/quartus/libraries/megafunctions/lpm_mux.tdf                             ;         ;
-; aglobal160.inc                   ; yes             ; Megafunction                       ; e:/altera/16.0/quartus/libraries/megafunctions/aglobal160.inc                          ;         ;
-; muxlut.inc                       ; yes             ; Megafunction                       ; e:/altera/16.0/quartus/libraries/megafunctions/muxlut.inc                              ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                       ; e:/altera/16.0/quartus/libraries/megafunctions/bypassff.inc                            ;         ;
-; altshift.inc                     ; yes             ; Megafunction                       ; e:/altera/16.0/quartus/libraries/megafunctions/altshift.inc                            ;         ;
-; db/mux_sjc.tdf                   ; yes             ; Auto-Generated Megafunction        ; F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/db/mux_sjc.tdf    ;         ;
-; altera_pll.v                     ; yes             ; Megafunction                       ; e:/altera/16.0/quartus/libraries/megafunctions/altera_pll.v                            ;         ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                            ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                                                  ; Library ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; my_first_fpga.bdf                ; yes             ; User Block Diagram/Schematic File  ; X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/my_first_fpga.bdf ;         ;
+; simple_counter.v                 ; yes             ; User Verilog HDL File              ; X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/simple_counter.v  ;         ;
+; pll.v                            ; yes             ; User Wizard-Generated File         ; X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/pll.v             ; pll     ;
+; pll/pll_0002.v                   ; yes             ; User Verilog HDL File              ; X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/pll/pll_0002.v    ; pll     ;
+; counter_bus_mux.v                ; yes             ; User Wizard-Generated File         ; X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/counter_bus_mux.v ;         ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                       ; x:/quartus18.1/quartus/libraries/megafunctions/lpm_mux.tdf                                                                                    ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                       ; x:/quartus18.1/quartus/libraries/megafunctions/aglobal181.inc                                                                                 ;         ;
+; muxlut.inc                       ; yes             ; Megafunction                       ; x:/quartus18.1/quartus/libraries/megafunctions/muxlut.inc                                                                                     ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                       ; x:/quartus18.1/quartus/libraries/megafunctions/bypassff.inc                                                                                   ;         ;
+; altshift.inc                     ; yes             ; Megafunction                       ; x:/quartus18.1/quartus/libraries/megafunctions/altshift.inc                                                                                   ;         ;
+; db/mux_sjc.tdf                   ; yes             ; Auto-Generated Megafunction        ; X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/db/mux_sjc.tdf    ;         ;
+; altera_pll.v                     ; yes             ; Megafunction                       ; x:/quartus18.1/quartus/libraries/megafunctions/altera_pll.v                                                                                   ;         ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------------------------------------------------------------+
@@ -222,20 +220,20 @@ agreement for further details.
 +---------------------------------------------+--------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                   ;
-+------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------+-----------------+--------------+
-; Compilation Hierarchy Node         ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                   ; Entity Name     ; Library Name ;
-+------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------+-----------------+--------------+
-; |my_first_fpga                     ; 31 (0)            ; 27 (0)       ; 0                 ; 0          ; 7    ; 0            ; |my_first_fpga                                                                        ; my_first_fpga   ; work         ;
-;    |counter_bus_mux:inst5|         ; 4 (0)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|counter_bus_mux:inst5                                                  ; counter_bus_mux ; work         ;
-;       |lpm_mux:LPM_MUX_component|  ; 4 (0)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|counter_bus_mux:inst5|lpm_mux:LPM_MUX_component                        ; lpm_mux         ; work         ;
-;          |mux_sjc:auto_generated|  ; 4 (4)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|counter_bus_mux:inst5|lpm_mux:LPM_MUX_component|mux_sjc:auto_generated ; mux_sjc         ; work         ;
-;    |pll:inst1|                     ; 0 (0)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|pll:inst1                                                              ; pll             ; pll          ;
-;       |pll_0002:pll_inst|          ; 0 (0)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|pll:inst1|pll_0002:pll_inst                                            ; pll_0002        ; pll          ;
-;          |altera_pll:altera_pll_i| ; 0 (0)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|pll:inst1|pll_0002:pll_inst|altera_pll:altera_pll_i                    ; altera_pll      ; work         ;
-;    |simple_counter:inst|           ; 27 (27)           ; 27 (27)      ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|simple_counter:inst                                                    ; simple_counter  ; work         ;
-+------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------+-----------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                  ;
++------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node         ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                   ; Entity Name     ; Library Name ;
++------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------+-----------------+--------------+
+; |my_first_fpga                     ; 31 (0)              ; 27 (0)                    ; 0                 ; 0          ; 7    ; 0            ; |my_first_fpga                                                                        ; my_first_fpga   ; work         ;
+;    |counter_bus_mux:inst5|         ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|counter_bus_mux:inst5                                                  ; counter_bus_mux ; work         ;
+;       |lpm_mux:LPM_MUX_component|  ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|counter_bus_mux:inst5|lpm_mux:LPM_MUX_component                        ; lpm_mux         ; work         ;
+;          |mux_sjc:auto_generated|  ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|counter_bus_mux:inst5|lpm_mux:LPM_MUX_component|mux_sjc:auto_generated ; mux_sjc         ; work         ;
+;    |pll:inst1|                     ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|pll:inst1                                                              ; pll             ; pll          ;
+;       |pll_0002:pll_inst|          ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|pll:inst1|pll_0002:pll_inst                                            ; pll_0002        ; pll          ;
+;          |altera_pll:altera_pll_i| ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|pll:inst1|pll_0002:pll_inst|altera_pll:altera_pll_i                    ; altera_pll      ; work         ;
+;    |simple_counter:inst|           ; 27 (27)             ; 27 (27)                   ; 0                 ; 0          ; 0    ; 0            ; |my_first_fpga|simple_counter:inst                                                    ; simple_counter  ; work         ;
++------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -567,7 +565,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -576,44 +574,44 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Tue Aug 23 16:39:34 2016
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Wed Nov 15 11:04:52 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off my_first_fpga -c my_first_fpga
 Warning (125092): Tcl Script File pll1.qip not found
     Info (125063): set_global_assignment -name QIP_FILE pll1.qip
 Warning (125092): Tcl Script File pll1.sip not found
     Info (125063): set_global_assignment -name SIP_FILE pll1.sip
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file my_first_fpga.bdf
     Info (12023): Found entity 1: my_first_fpga
 Info (12021): Found 1 design units, including 1 entities, in source file simple_counter.v
-    Info (12023): Found entity 1: simple_counter File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/simple_counter.v Line: 2
+    Info (12023): Found entity 1: simple_counter File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/simple_counter.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file pll.v
-    Info (12023): Found entity 1: pll File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/pll.v Line: 8
+    Info (12023): Found entity 1: pll File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/pll.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file pll/pll_0002.v
-    Info (12023): Found entity 1: pll_0002 File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/pll/pll_0002.v Line: 2
+    Info (12023): Found entity 1: pll_0002 File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/pll/pll_0002.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file counter_bus_mux.v
-    Info (12023): Found entity 1: counter_bus_mux File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/counter_bus_mux.v Line: 40
+    Info (12023): Found entity 1: counter_bus_mux File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/counter_bus_mux.v Line: 40
 Info (12127): Elaborating entity "my_first_fpga" for the top level hierarchy
 Info (12128): Elaborating entity "counter_bus_mux" for hierarchy "counter_bus_mux:inst5"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "counter_bus_mux:inst5|lpm_mux:LPM_MUX_component" File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/counter_bus_mux.v Line: 69
-Info (12130): Elaborated megafunction instantiation "counter_bus_mux:inst5|lpm_mux:LPM_MUX_component" File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/counter_bus_mux.v Line: 69
-Info (12133): Instantiated megafunction "counter_bus_mux:inst5|lpm_mux:LPM_MUX_component" with the following parameter: File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/counter_bus_mux.v Line: 69
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "counter_bus_mux:inst5|lpm_mux:LPM_MUX_component" File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/counter_bus_mux.v Line: 69
+Info (12130): Elaborated megafunction instantiation "counter_bus_mux:inst5|lpm_mux:LPM_MUX_component" File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/counter_bus_mux.v Line: 69
+Info (12133): Instantiated megafunction "counter_bus_mux:inst5|lpm_mux:LPM_MUX_component" with the following parameter: File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/counter_bus_mux.v Line: 69
     Info (12134): Parameter "lpm_size" = "2"
     Info (12134): Parameter "lpm_type" = "LPM_MUX"
     Info (12134): Parameter "lpm_width" = "4"
     Info (12134): Parameter "lpm_widths" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_sjc.tdf
-    Info (12023): Found entity 1: mux_sjc File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/db/mux_sjc.tdf Line: 23
-Info (12128): Elaborating entity "mux_sjc" for hierarchy "counter_bus_mux:inst5|lpm_mux:LPM_MUX_component|mux_sjc:auto_generated" File: e:/altera/16.0/quartus/libraries/megafunctions/lpm_mux.tdf Line: 87
+    Info (12023): Found entity 1: mux_sjc File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/db/mux_sjc.tdf Line: 22
+Info (12128): Elaborating entity "mux_sjc" for hierarchy "counter_bus_mux:inst5|lpm_mux:LPM_MUX_component|mux_sjc:auto_generated" File: x:/quartus18.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 86
 Info (12128): Elaborating entity "simple_counter" for hierarchy "simple_counter:inst"
 Info (12128): Elaborating entity "pll" for hierarchy "pll:inst1"
-Info (12128): Elaborating entity "pll_0002" for hierarchy "pll:inst1|pll_0002:pll_inst" File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/pll.v Line: 19
-Info (12128): Elaborating entity "altera_pll" for hierarchy "pll:inst1|pll_0002:pll_inst|altera_pll:altera_pll_i" File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/pll/pll_0002.v Line: 85
+Info (12128): Elaborating entity "pll_0002" for hierarchy "pll:inst1|pll_0002:pll_inst" File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/pll.v Line: 19
+Info (12128): Elaborating entity "altera_pll" for hierarchy "pll:inst1|pll_0002:pll_inst|altera_pll:altera_pll_i" File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/pll/pll_0002.v Line: 85
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
-Info (12130): Elaborated megafunction instantiation "pll:inst1|pll_0002:pll_inst|altera_pll:altera_pll_i" File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/pll/pll_0002.v Line: 85
-Info (12133): Instantiated megafunction "pll:inst1|pll_0002:pll_inst|altera_pll:altera_pll_i" with the following parameter: File: F:/SVN/de1_soc/trunk/cd/CD_HW_revF/Demonstrations/FPGA/my_first_fpga/pll/pll_0002.v Line: 85
+Info (12130): Elaborated megafunction instantiation "pll:inst1|pll_0002:pll_inst|altera_pll:altera_pll_i" File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/pll/pll_0002.v Line: 85
+Info (12133): Instantiated megafunction "pll:inst1|pll_0002:pll_inst|altera_pll:altera_pll_i" with the following parameter: File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework3Practical/DE1-SoC_v.5.1.2_HWrevF_SystemCD/Demonstrations/FPGA/my_first_fpga/pll/pll_0002.v Line: 85
     Info (12134): Parameter "fractional_vco_multiplier" = "false"
     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
     Info (12134): Parameter "operation_mode" = "normal"
@@ -684,9 +682,9 @@ Info (21057): Implemented 39 device resources after synthesis - the final resour
     Info (21061): Implemented 31 logic cells
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 886 megabytes
-    Info: Processing ended: Tue Aug 23 16:39:53 2016
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:41
+    Info: Peak virtual memory: 4891 megabytes
+    Info: Processing ended: Wed Nov 15 11:05:05 2023
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:05
 
 

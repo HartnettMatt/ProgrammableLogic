@@ -20,7 +20,7 @@ LOOP:   SUBS R2, R2, #1         // decrement the loop counter
         MOV R0, R1              // update the largerst number
         B LOOP
 DONE:   STR R0, [R4]            // store largest number into result location
-        RET                     // Return to calling program
+        MOV PC, LR                     // Return to calling program
 
 RESULT: .word 0
 N:      .word 7                 // number of entries in the list

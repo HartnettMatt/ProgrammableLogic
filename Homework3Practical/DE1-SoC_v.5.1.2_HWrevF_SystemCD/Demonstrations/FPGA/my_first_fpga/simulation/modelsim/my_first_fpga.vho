@@ -1,23 +1,22 @@
--- Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
--- Your use of Altera Corporation's design tools, logic functions 
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
 -- and other software and tools, and its AMPP partner logic 
 -- functions, and any output files from any of the foregoing 
 -- (including device programming or simulation files), and any 
 -- associated documentation or information are expressly subject 
--- to the terms and conditions of the Altera Program License 
--- Subscription Agreement, the Altera Quartus Prime License Agreement,
--- the Altera MegaCore Function License Agreement, or other 
--- applicable license agreement, including, without limitation, 
--- that your use is for the sole purpose of programming logic 
--- devices manufactured by Altera and sold by Altera or its 
--- authorized distributors.  Please refer to the applicable 
--- agreement for further details.
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
 
 -- VENDOR "Altera"
 -- PROGRAM "Quartus Prime"
--- VERSION "Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition"
+-- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "08/23/2016 16:41:21"
+-- DATE "11/15/2023 11:06:03"
 
 -- 
 -- Device: Altera 5CSEMA5F31C6 Package FBGA896
@@ -340,7 +339,7 @@ PORT MAP (
 GENERIC MAP (
 	dsm_accumulator_reset_value => 0,
 	forcelock => "false",
-	mimic_fbclk_type => "gclk_far",
+	mimic_fbclk_type => "qclk_near",
 	nreset_invert => "true",
 	output_clock_frequency => "300.0 mhz",
 	pll_atb => 0,
@@ -482,7 +481,7 @@ PORT MAP (
 	inclk => \inst1|pll_inst|altera_pll_i|outclk_wire\(0),
 	outclk => \inst1|pll_inst|altera_pll_i|outclk_wire[0]~CLKENA0_outclk\);
 
--- Location: LABCELL_X53_Y3_N0
+-- Location: LABCELL_X53_Y2_N0
 \inst|counter_out[0]~0\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|counter_out[0]~0_combout\ = ( !\inst|counter_out\(0) )
@@ -497,7 +496,7 @@ PORT MAP (
 	datae => \inst|ALT_INV_counter_out\(0),
 	combout => \inst|counter_out[0]~0_combout\);
 
--- Location: FF_X53_Y3_N2
+-- Location: FF_X53_Y2_N2
 \inst|counter_out[0]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -511,7 +510,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(0));
 
--- Location: LABCELL_X53_Y3_N30
+-- Location: LABCELL_X53_Y2_N30
 \inst|Add0~101\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~101_sumout\ = SUM(( \inst|counter_out\(0) ) + ( \inst|counter_out\(1) ) + ( !VCC ))
@@ -530,7 +529,7 @@ PORT MAP (
 	sumout => \inst|Add0~101_sumout\,
 	cout => \inst|Add0~102\);
 
--- Location: FF_X53_Y3_N31
+-- Location: FF_X53_Y2_N31
 \inst|counter_out[1]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -544,7 +543,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(1));
 
--- Location: LABCELL_X53_Y3_N33
+-- Location: LABCELL_X53_Y2_N33
 \inst|Add0~97\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~97_sumout\ = SUM(( \inst|counter_out\(2) ) + ( GND ) + ( \inst|Add0~102\ ))
@@ -562,7 +561,7 @@ PORT MAP (
 	sumout => \inst|Add0~97_sumout\,
 	cout => \inst|Add0~98\);
 
--- Location: FF_X53_Y3_N35
+-- Location: FF_X53_Y2_N35
 \inst|counter_out[2]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -576,7 +575,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(2));
 
--- Location: LABCELL_X53_Y3_N36
+-- Location: LABCELL_X53_Y2_N36
 \inst|Add0~93\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~93_sumout\ = SUM(( \inst|counter_out\(3) ) + ( GND ) + ( \inst|Add0~98\ ))
@@ -594,7 +593,7 @@ PORT MAP (
 	sumout => \inst|Add0~93_sumout\,
 	cout => \inst|Add0~94\);
 
--- Location: FF_X53_Y3_N38
+-- Location: FF_X53_Y2_N38
 \inst|counter_out[3]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -608,7 +607,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(3));
 
--- Location: LABCELL_X53_Y3_N39
+-- Location: LABCELL_X53_Y2_N39
 \inst|Add0~89\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~89_sumout\ = SUM(( \inst|counter_out\(4) ) + ( GND ) + ( \inst|Add0~94\ ))
@@ -626,7 +625,7 @@ PORT MAP (
 	sumout => \inst|Add0~89_sumout\,
 	cout => \inst|Add0~90\);
 
--- Location: FF_X53_Y3_N41
+-- Location: FF_X53_Y2_N41
 \inst|counter_out[4]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -640,7 +639,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(4));
 
--- Location: LABCELL_X53_Y3_N42
+-- Location: LABCELL_X53_Y2_N42
 \inst|Add0~85\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~85_sumout\ = SUM(( \inst|counter_out\(5) ) + ( GND ) + ( \inst|Add0~90\ ))
@@ -658,7 +657,7 @@ PORT MAP (
 	sumout => \inst|Add0~85_sumout\,
 	cout => \inst|Add0~86\);
 
--- Location: FF_X53_Y3_N43
+-- Location: FF_X53_Y2_N43
 \inst|counter_out[5]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -672,7 +671,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(5));
 
--- Location: LABCELL_X53_Y3_N45
+-- Location: LABCELL_X53_Y2_N45
 \inst|Add0~81\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~81_sumout\ = SUM(( \inst|counter_out\(6) ) + ( GND ) + ( \inst|Add0~86\ ))
@@ -690,7 +689,7 @@ PORT MAP (
 	sumout => \inst|Add0~81_sumout\,
 	cout => \inst|Add0~82\);
 
--- Location: FF_X53_Y3_N47
+-- Location: FF_X53_Y2_N47
 \inst|counter_out[6]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -704,7 +703,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(6));
 
--- Location: LABCELL_X53_Y3_N48
+-- Location: LABCELL_X53_Y2_N48
 \inst|Add0~77\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~77_sumout\ = SUM(( \inst|counter_out\(7) ) + ( GND ) + ( \inst|Add0~82\ ))
@@ -722,7 +721,7 @@ PORT MAP (
 	sumout => \inst|Add0~77_sumout\,
 	cout => \inst|Add0~78\);
 
--- Location: FF_X53_Y3_N50
+-- Location: FF_X53_Y2_N50
 \inst|counter_out[7]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -736,7 +735,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(7));
 
--- Location: LABCELL_X53_Y3_N51
+-- Location: LABCELL_X53_Y2_N51
 \inst|Add0~73\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~73_sumout\ = SUM(( \inst|counter_out\(8) ) + ( GND ) + ( \inst|Add0~78\ ))
@@ -754,7 +753,7 @@ PORT MAP (
 	sumout => \inst|Add0~73_sumout\,
 	cout => \inst|Add0~74\);
 
--- Location: FF_X53_Y3_N52
+-- Location: FF_X53_Y2_N52
 \inst|counter_out[8]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -768,7 +767,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(8));
 
--- Location: LABCELL_X53_Y3_N54
+-- Location: LABCELL_X53_Y2_N54
 \inst|Add0~69\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~69_sumout\ = SUM(( \inst|counter_out\(9) ) + ( GND ) + ( \inst|Add0~74\ ))
@@ -786,7 +785,7 @@ PORT MAP (
 	sumout => \inst|Add0~69_sumout\,
 	cout => \inst|Add0~70\);
 
--- Location: FF_X53_Y3_N56
+-- Location: FF_X53_Y2_N56
 \inst|counter_out[9]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -800,7 +799,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(9));
 
--- Location: LABCELL_X53_Y3_N57
+-- Location: LABCELL_X53_Y2_N57
 \inst|Add0~65\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~65_sumout\ = SUM(( \inst|counter_out\(10) ) + ( GND ) + ( \inst|Add0~70\ ))
@@ -818,7 +817,7 @@ PORT MAP (
 	sumout => \inst|Add0~65_sumout\,
 	cout => \inst|Add0~66\);
 
--- Location: FF_X53_Y3_N59
+-- Location: FF_X53_Y2_N59
 \inst|counter_out[10]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -832,7 +831,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(10));
 
--- Location: LABCELL_X53_Y2_N0
+-- Location: LABCELL_X53_Y1_N0
 \inst|Add0~61\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~61_sumout\ = SUM(( \inst|counter_out\(11) ) + ( GND ) + ( \inst|Add0~66\ ))
@@ -850,7 +849,7 @@ PORT MAP (
 	sumout => \inst|Add0~61_sumout\,
 	cout => \inst|Add0~62\);
 
--- Location: FF_X53_Y2_N2
+-- Location: FF_X53_Y1_N2
 \inst|counter_out[11]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -864,7 +863,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(11));
 
--- Location: LABCELL_X53_Y2_N3
+-- Location: LABCELL_X53_Y1_N3
 \inst|Add0~57\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~57_sumout\ = SUM(( \inst|counter_out\(12) ) + ( GND ) + ( \inst|Add0~62\ ))
@@ -882,7 +881,7 @@ PORT MAP (
 	sumout => \inst|Add0~57_sumout\,
 	cout => \inst|Add0~58\);
 
--- Location: FF_X53_Y2_N5
+-- Location: FF_X53_Y1_N5
 \inst|counter_out[12]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -896,7 +895,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(12));
 
--- Location: LABCELL_X53_Y2_N6
+-- Location: LABCELL_X53_Y1_N6
 \inst|Add0~53\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~53_sumout\ = SUM(( \inst|counter_out\(13) ) + ( GND ) + ( \inst|Add0~58\ ))
@@ -914,7 +913,7 @@ PORT MAP (
 	sumout => \inst|Add0~53_sumout\,
 	cout => \inst|Add0~54\);
 
--- Location: FF_X53_Y2_N7
+-- Location: FF_X53_Y1_N7
 \inst|counter_out[13]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -928,7 +927,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(13));
 
--- Location: LABCELL_X53_Y2_N9
+-- Location: LABCELL_X53_Y1_N9
 \inst|Add0~49\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~49_sumout\ = SUM(( \inst|counter_out\(14) ) + ( GND ) + ( \inst|Add0~54\ ))
@@ -946,7 +945,7 @@ PORT MAP (
 	sumout => \inst|Add0~49_sumout\,
 	cout => \inst|Add0~50\);
 
--- Location: FF_X53_Y2_N11
+-- Location: FF_X53_Y1_N11
 \inst|counter_out[14]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -960,7 +959,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(14));
 
--- Location: LABCELL_X53_Y2_N12
+-- Location: LABCELL_X53_Y1_N12
 \inst|Add0~45\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~45_sumout\ = SUM(( \inst|counter_out\(15) ) + ( GND ) + ( \inst|Add0~50\ ))
@@ -978,7 +977,7 @@ PORT MAP (
 	sumout => \inst|Add0~45_sumout\,
 	cout => \inst|Add0~46\);
 
--- Location: FF_X53_Y2_N14
+-- Location: FF_X53_Y1_N14
 \inst|counter_out[15]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -992,7 +991,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(15));
 
--- Location: LABCELL_X53_Y2_N15
+-- Location: LABCELL_X53_Y1_N15
 \inst|Add0~41\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~41_sumout\ = SUM(( \inst|counter_out\(16) ) + ( GND ) + ( \inst|Add0~46\ ))
@@ -1010,7 +1009,7 @@ PORT MAP (
 	sumout => \inst|Add0~41_sumout\,
 	cout => \inst|Add0~42\);
 
--- Location: FF_X53_Y2_N17
+-- Location: FF_X53_Y1_N17
 \inst|counter_out[16]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1024,7 +1023,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(16));
 
--- Location: LABCELL_X53_Y2_N18
+-- Location: LABCELL_X53_Y1_N18
 \inst|Add0~37\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~37_sumout\ = SUM(( \inst|counter_out\(17) ) + ( GND ) + ( \inst|Add0~42\ ))
@@ -1042,7 +1041,7 @@ PORT MAP (
 	sumout => \inst|Add0~37_sumout\,
 	cout => \inst|Add0~38\);
 
--- Location: FF_X53_Y2_N20
+-- Location: FF_X53_Y1_N20
 \inst|counter_out[17]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1056,7 +1055,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(17));
 
--- Location: LABCELL_X53_Y2_N21
+-- Location: LABCELL_X53_Y1_N21
 \inst|Add0~33\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~33_sumout\ = SUM(( \inst|counter_out\(18) ) + ( GND ) + ( \inst|Add0~38\ ))
@@ -1074,7 +1073,7 @@ PORT MAP (
 	sumout => \inst|Add0~33_sumout\,
 	cout => \inst|Add0~34\);
 
--- Location: FF_X53_Y2_N23
+-- Location: FF_X53_Y1_N23
 \inst|counter_out[18]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1088,7 +1087,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(18));
 
--- Location: LABCELL_X53_Y2_N24
+-- Location: LABCELL_X53_Y1_N24
 \inst|Add0~29\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~29_sumout\ = SUM(( \inst|counter_out\(19) ) + ( GND ) + ( \inst|Add0~34\ ))
@@ -1106,7 +1105,7 @@ PORT MAP (
 	sumout => \inst|Add0~29_sumout\,
 	cout => \inst|Add0~30\);
 
--- Location: FF_X53_Y2_N26
+-- Location: FF_X53_Y1_N26
 \inst|counter_out[19]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1120,7 +1119,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(19));
 
--- Location: LABCELL_X53_Y2_N27
+-- Location: LABCELL_X53_Y1_N27
 \inst|Add0~25\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~25_sumout\ = SUM(( \inst|counter_out\(20) ) + ( GND ) + ( \inst|Add0~30\ ))
@@ -1138,7 +1137,7 @@ PORT MAP (
 	sumout => \inst|Add0~25_sumout\,
 	cout => \inst|Add0~26\);
 
--- Location: FF_X53_Y2_N29
+-- Location: FF_X53_Y1_N29
 \inst|counter_out[20]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1152,7 +1151,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(20));
 
--- Location: LABCELL_X53_Y2_N30
+-- Location: LABCELL_X53_Y1_N30
 \inst|Add0~21\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~21_sumout\ = SUM(( \inst|counter_out\(21) ) + ( GND ) + ( \inst|Add0~26\ ))
@@ -1170,7 +1169,7 @@ PORT MAP (
 	sumout => \inst|Add0~21_sumout\,
 	cout => \inst|Add0~22\);
 
--- Location: FF_X53_Y2_N32
+-- Location: FF_X53_Y1_N32
 \inst|counter_out[21]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1184,7 +1183,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(21));
 
--- Location: LABCELL_X53_Y2_N33
+-- Location: LABCELL_X53_Y1_N33
 \inst|Add0~17\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~17_sumout\ = SUM(( \inst|counter_out\(22) ) + ( GND ) + ( \inst|Add0~22\ ))
@@ -1202,7 +1201,7 @@ PORT MAP (
 	sumout => \inst|Add0~17_sumout\,
 	cout => \inst|Add0~18\);
 
--- Location: FF_X53_Y2_N35
+-- Location: FF_X53_Y1_N35
 \inst|counter_out[22]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1216,7 +1215,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(22));
 
--- Location: LABCELL_X53_Y2_N36
+-- Location: LABCELL_X53_Y1_N36
 \inst|Add0~9\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~9_sumout\ = SUM(( \inst|counter_out\(23) ) + ( GND ) + ( \inst|Add0~18\ ))
@@ -1234,7 +1233,7 @@ PORT MAP (
 	sumout => \inst|Add0~9_sumout\,
 	cout => \inst|Add0~10\);
 
--- Location: FF_X53_Y2_N38
+-- Location: FF_X53_Y1_N38
 \inst|counter_out[23]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1248,7 +1247,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(23));
 
--- Location: LABCELL_X53_Y2_N39
+-- Location: LABCELL_X53_Y1_N39
 \inst|Add0~1\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~1_sumout\ = SUM(( \inst|counter_out\(24) ) + ( GND ) + ( \inst|Add0~10\ ))
@@ -1266,7 +1265,7 @@ PORT MAP (
 	sumout => \inst|Add0~1_sumout\,
 	cout => \inst|Add0~2\);
 
--- Location: FF_X53_Y2_N41
+-- Location: FF_X53_Y1_N41
 \inst|counter_out[24]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1280,7 +1279,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(24));
 
--- Location: LABCELL_X53_Y2_N42
+-- Location: LABCELL_X53_Y1_N42
 \inst|Add0~13\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~13_sumout\ = SUM(( \inst|counter_out\(25) ) + ( GND ) + ( \inst|Add0~2\ ))
@@ -1298,7 +1297,7 @@ PORT MAP (
 	sumout => \inst|Add0~13_sumout\,
 	cout => \inst|Add0~14\);
 
--- Location: FF_X53_Y2_N44
+-- Location: FF_X53_Y1_N44
 \inst|counter_out[25]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1312,7 +1311,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(25));
 
--- Location: LABCELL_X53_Y2_N45
+-- Location: LABCELL_X53_Y1_N45
 \inst|Add0~5\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst|Add0~5_sumout\ = SUM(( \inst|counter_out\(26) ) + ( GND ) + ( \inst|Add0~14\ ))
@@ -1328,7 +1327,7 @@ PORT MAP (
 	cin => \inst|Add0~14\,
 	sumout => \inst|Add0~5_sumout\);
 
--- Location: FF_X53_Y2_N47
+-- Location: FF_X53_Y1_N47
 \inst|counter_out[26]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -1342,7 +1341,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst|counter_out\(26));
 
--- Location: LABCELL_X53_Y2_N48
+-- Location: LABCELL_X53_Y1_N48
 \inst5|LPM_MUX_component|auto_generated|l1_w3_n0_mux_dataout~0\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst5|LPM_MUX_component|auto_generated|l1_w3_n0_mux_dataout~0_combout\ = ( \inst|counter_out\(24) & ( (\inst|counter_out\(26)) # (\KEY[0]~input_o\) ) ) # ( !\inst|counter_out\(24) & ( (!\KEY[0]~input_o\ & \inst|counter_out\(26)) ) )
@@ -1359,7 +1358,7 @@ PORT MAP (
 	dataf => \inst|ALT_INV_counter_out\(24),
 	combout => \inst5|LPM_MUX_component|auto_generated|l1_w3_n0_mux_dataout~0_combout\);
 
--- Location: LABCELL_X53_Y2_N57
+-- Location: LABCELL_X53_Y1_N57
 \inst5|LPM_MUX_component|auto_generated|l1_w2_n0_mux_dataout~0\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst5|LPM_MUX_component|auto_generated|l1_w2_n0_mux_dataout~0_combout\ = ( \inst|counter_out\(25) & ( (!\KEY[0]~input_o\) # (\inst|counter_out\(23)) ) ) # ( !\inst|counter_out\(25) & ( (\inst|counter_out\(23) & \KEY[0]~input_o\) ) )
@@ -1376,7 +1375,7 @@ PORT MAP (
 	dataf => \inst|ALT_INV_counter_out\(25),
 	combout => \inst5|LPM_MUX_component|auto_generated|l1_w2_n0_mux_dataout~0_combout\);
 
--- Location: LABCELL_X53_Y2_N51
+-- Location: LABCELL_X53_Y1_N51
 \inst5|LPM_MUX_component|auto_generated|l1_w1_n0_mux_dataout~0\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst5|LPM_MUX_component|auto_generated|l1_w1_n0_mux_dataout~0_combout\ = ( \inst|counter_out\(22) & ( (\inst|counter_out\(24)) # (\KEY[0]~input_o\) ) ) # ( !\inst|counter_out\(22) & ( (!\KEY[0]~input_o\ & \inst|counter_out\(24)) ) )
@@ -1393,7 +1392,7 @@ PORT MAP (
 	dataf => \inst|ALT_INV_counter_out\(22),
 	combout => \inst5|LPM_MUX_component|auto_generated|l1_w1_n0_mux_dataout~0_combout\);
 
--- Location: LABCELL_X53_Y2_N54
+-- Location: LABCELL_X53_Y1_N54
 \inst5|LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0\ : cyclonev_lcell_comb
 -- Equation(s):
 -- \inst5|LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0_combout\ = ( \inst|counter_out\(21) & ( (\KEY[0]~input_o\) # (\inst|counter_out\(23)) ) ) # ( !\inst|counter_out\(21) & ( (\inst|counter_out\(23) & !\KEY[0]~input_o\) ) )
@@ -1410,7 +1409,7 @@ PORT MAP (
 	dataf => \inst|ALT_INV_counter_out\(21),
 	combout => \inst5|LPM_MUX_component|auto_generated|l1_w0_n0_mux_dataout~0_combout\);
 
--- Location: LABCELL_X9_Y52_N3
+-- Location: LABCELL_X19_Y18_N0
 \~QUARTUS_CREATED_GND~I\ : cyclonev_lcell_comb
 -- Equation(s):
 
