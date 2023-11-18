@@ -1,12 +1,12 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // Company: Univeristy of Colorado Boulder
 //
-// File: HW4_Q2B.v
+// File: HW4_Q2C.v
 // File history:
 //      1.0: 11/18/2023: Initial work
 //
-// Description: A top level module for a 16 bit counter on a SmartFusion2 FPGA
-//
+// Description: A top level module for a 16 bit counter on a SmartFusion2 FPGA, with a skewed clock
+// for the 4 most significant bits of the counter.
 //
 // Targeted device: <Family::SmartFusion2> <Die::M2S010> <Package::144 TQ>
 // Author: Matt Hartnett
@@ -55,7 +55,8 @@ module HW4_Q2C( clk, rst_n, q, rollover, sC ); /* synthesis syn_noprune=1 */;
 				Rollover <= 1'b0;
 		end
 	end
-
+	
+// These blocks handle the most significant 4 bits, each with more skew than the last:
 	always @(posedge sC[0] or negedge Reset_n) begin
 		if(!Reset_n)
 			Q_skewed[0] <= 1'b0;
@@ -87,6 +88,7 @@ module HW4_Q2C( clk, rst_n, q, rollover, sC ); /* synthesis syn_noprune=1 */;
         end
     end
 
+// This section generated the string of inverters:
 	genvar i;
 	assign inverterString[0] = clk;
 	assign sC[0] = inverterString[3];
