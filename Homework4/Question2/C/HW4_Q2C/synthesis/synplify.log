@@ -3,10 +3,10 @@ One matching license found for this product: synplifypro_actel
 Starting:    D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\mbin\synbatch.exe
 Install:     D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 Hostname:    STARGATE-COMMAN
-Date:        Sat Nov 18 16:03:50 2023
+Date:        Sat Nov 18 16:24:09 2023
 Version:     Q-2020.03M-SP1
 
-Arguments:   -product synplify_pro -batch -log synplify.log HW4_Q2B_syn.tcl
+Arguments:   -product synplify_pro -batch -log synplify.log HW4_Q2C_syn.tcl
 ProductType: synplify_pro
 
 License checkout: synplifypro_actel
@@ -17,64 +17,57 @@ License Option: actel_oem
 Running in Vendor Mode
 
 auto_infer_blackbox is not supported in current product.
-log file: "X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\HW4_Q2B.srr"
+log file: "X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\HW4_Q2C.srr"
 Running: synthesis in foreground
 
-Running HW4_Q2B_syn|synthesis
+Running HW4_Q2C_syn|synthesis
 
-Running Flow: compile (Compile) on HW4_Q2B_syn|synthesis
-# Sat Nov 18 16:03:51 2023
+Running Flow: compile (Compile) on HW4_Q2C_syn|synthesis
+# Sat Nov 18 16:24:11 2023
 
-Running Flow: compile_flow (Compile Process) on HW4_Q2B_syn|synthesis
-# Sat Nov 18 16:03:51 2023
+Running Flow: compile_flow (Compile Process) on HW4_Q2C_syn|synthesis
+# Sat Nov 18 16:24:11 2023
 
-Running: compiler (Compile Input) on HW4_Q2B_syn|synthesis
-# Sat Nov 18 16:03:51 2023
-Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\synwork\HW4_Q2B_comp.srs to X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\HW4_Q2B.srs
+Running: compiler (Compile Input) on HW4_Q2C_syn|synthesis
+# Sat Nov 18 16:24:11 2023
 
 compiler completed
-# Sat Nov 18 16:03:53 2023
-
-Return Code: 0
-Run Time:00h:00m:02s
-
-Running: multi_srs_gen (Multi-srs Generator) on HW4_Q2B_syn|synthesis
-# Sat Nov 18 16:03:53 2023
-
-multi_srs_gen completed
-# Sat Nov 18 16:03:53 2023
+# Sat Nov 18 16:24:11 2023
 
 Return Code: 0
 Run Time:00h:00m:00s
-Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\synwork\HW4_Q2B_mult.srs to X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\HW4_Q2B.srs
-Complete: Compile Process on HW4_Q2B_syn|synthesis
 
-Running: premap (Premap) on HW4_Q2B_syn|synthesis
-# Sat Nov 18 16:03:53 2023
+Running: multi_srs_gen (Multi-srs Generator) on HW4_Q2C_syn|synthesis
+# Sat Nov 18 16:24:11 2023
+Up-To-Date: multi_srs_gen. No run necessary
+Complete: Compile Process on HW4_Q2C_syn|synthesis
+
+Running: premap (Premap) on HW4_Q2C_syn|synthesis
+# Sat Nov 18 16:24:11 2023
 
 premap completed with warnings
-# Sat Nov 18 16:03:55 2023
+# Sat Nov 18 16:24:13 2023
 
 Return Code: 1
 Run Time:00h:00m:02s
-Complete: Compile on HW4_Q2B_syn|synthesis
+Complete: Compile on HW4_Q2C_syn|synthesis
 
-Running Flow: map (Map) on HW4_Q2B_syn|synthesis
-# Sat Nov 18 16:03:55 2023
+Running Flow: map (Map) on HW4_Q2C_syn|synthesis
+# Sat Nov 18 16:24:13 2023
 License granted for 4 parallel jobs
 
-Running: fpga_mapper (Map & Optimize) on HW4_Q2B_syn|synthesis
-# Sat Nov 18 16:03:55 2023
-Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\synwork\HW4_Q2B_m.srm to X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\HW4_Q2B.srm
+Running: fpga_mapper (Map & Optimize) on HW4_Q2C_syn|synthesis
+# Sat Nov 18 16:24:13 2023
+Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\synwork\HW4_Q2C_m.srm to X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\HW4_Q2C.srm
 
 fpga_mapper completed with warnings
-# Sat Nov 18 16:03:58 2023
+# Sat Nov 18 16:24:16 2023
 
 Return Code: 1
 Run Time:00h:00m:03s
-Complete: Map on HW4_Q2B_syn|synthesis
-Complete: Logic Synthesis on HW4_Q2B_syn|synthesis
-TCL script complete: "HW4_Q2B_syn.tcl"
+Complete: Map on HW4_Q2C_syn|synthesis
+Complete: Logic Synthesis on HW4_Q2C_syn|synthesis
+TCL script complete: "HW4_Q2C_syn.tcl"
 exit status=0
 exit status=0
 License checkin: synplifypro_actel

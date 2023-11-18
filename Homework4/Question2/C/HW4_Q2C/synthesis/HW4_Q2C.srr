@@ -1,0 +1,541 @@
+#Build: Synplify Pro (R) Q-2020.03M-SP1, Build 166R, Oct 19 2020
+#install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: STARGATE-COMMAN
+
+# Sat Nov 18 16:24:11 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\hdl\HW4_Q2C.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module HW4_Q2C
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\hdl\HW4_Q2C.v":17:7:17:13|Synthesizing module HW4_Q2C in library work.
+Running optimization stage 1 on HW4_Q2C .......
+@W: CL207 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\hdl\HW4_Q2C.v":40:1:40:6|All reachable assignments to Rollover assign 0, register removed by optimization.
+Running optimization stage 2 on HW4_Q2C .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 88MB peak: 89MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 18 16:24:11 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 18 16:24:11 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\synwork\HW4_Q2C_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 18 16:24:11 2023
+
+###########################################################]
+
+@A: multi_srs_gen output is up to date. No run necessary.
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Multi-srs Generator Report
+@R:"X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\synlog\HW4_Q2C_multi_srs_gen.srr"
+Premap Report
+
+# Sat Nov 18 16:24:12 2023
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+Reading constraint file: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\designer\HW4_Q2C\synthesis.fdc
+@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\HW4_Q2C_scck.rpt 
+See clock summary report "X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\HW4_Q2C_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist HW4_Q2C 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+
+
+Clock Summary
+******************
+
+          Start           Requested     Requested     Clock        Clock                   Clock
+Level     Clock           Frequency     Period        Type         Group                   Load 
+------------------------------------------------------------------------------------------------
+0 -       HW4_Q2C|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     16   
+================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                Clock     Source        Clock Pin         Non-clock Pin     Non-clock Pin                
+Clock           Load      Pin           Seq Example       Seq Example       Comb Example                 
+---------------------------------------------------------------------------------------------------------
+HW4_Q2C|clk     16        clk(port)     Q_skewed[0].C     -                 inverterString_1[2].I[0](inv)
+=========================================================================================================
+
+@W: MT530 :"x:\graduate\ecen5863\programmablelogic\homework4\question2\c\hw4_q2c\hdl\hw4_q2c.v":40:1:40:6|Found inferred clock HW4_Q2C|clk which controls 16 sequential elements including Q[11:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\HW4_Q2C.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 164MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 18 16:24:13 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Nov 18 16:24:13 2023
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 129MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 159MB peak: 159MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+@N: MO231 :"x:\graduate\ecen5863\programmablelogic\homework4\question2\c\hw4_q2c\hdl\hw4_q2c.v":40:1:40:6|Found counter in view:work.HW4_Q2C(verilog) instance Q[11:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     0.52ns		  38 /        16
+   2		0h:00m:00s		    -0.11ns		  38 /        16
+@N: FP130 |Promoting Net clk_c on CLKINT  I_6 
+@N: FP130 |Promoting Net rst_n_c on CLKINT  I_7 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 166MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 166MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 16 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   16         Q[10]          
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 166MB)
+
+Writing Analyst data base X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\synwork\HW4_Q2C_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 167MB)
+
+@W: MT420 |Found inferred clock HW4_Q2C|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sat Nov 18 16:24:15 2023
+#
+
+
+Top view:               HW4_Q2C
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\designer\HW4_Q2C\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 2.188
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+HW4_Q2C|clk        100.0 MHz     177.8 MHz     10.000        5.623         2.188     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------
+HW4_Q2C|clk  HW4_Q2C|clk  |  10.000      7.834  |  10.000      7.070  |  5.000       2.188  |  No paths    -    
+================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: HW4_Q2C|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                    Arrival          
+Instance     Reference       Type     Pin     Net        Time        Slack
+             Clock                                                        
+--------------------------------------------------------------------------
+Q[4]         HW4_Q2C|clk     SLE      Q       q_c[4]     0.108       2.188
+Q[0]         HW4_Q2C|clk     SLE      Q       q_c[0]     0.108       2.234
+Q[5]         HW4_Q2C|clk     SLE      Q       q_c[5]     0.108       2.267
+Q[8]         HW4_Q2C|clk     SLE      Q       q_c[8]     0.108       2.311
+Q[1]         HW4_Q2C|clk     SLE      Q       q_c[1]     0.108       2.312
+Q[6]         HW4_Q2C|clk     SLE      Q       q_c[6]     0.108       2.312
+Q[2]         HW4_Q2C|clk     SLE      Q       q_c[2]     0.108       2.357
+Q[7]         HW4_Q2C|clk     SLE      Q       q_c[7]     0.108       2.389
+Q[9]         HW4_Q2C|clk     SLE      Q       q_c[9]     0.108       2.389
+Q[3]         HW4_Q2C|clk     SLE      Q       q_c[3]     0.108       2.434
+==========================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                              Required          
+Instance        Reference       Type     Pin     Net                  Time         Slack
+                Clock                                                                   
+----------------------------------------------------------------------------------------
+Q_skewed[0]     HW4_Q2C|clk     SLE      EN      Q_skewed7            4.662        2.188
+Q_skewed[1]     HW4_Q2C|clk     SLE      D       Q_skewed_ldmx[1]     4.745        2.252
+Q_skewed[2]     HW4_Q2C|clk     SLE      EN      Q_skewed27           4.662        2.359
+Q_skewed[3]     HW4_Q2C|clk     SLE      EN      Q_skewed37           4.662        2.359
+Q[11]           HW4_Q2C|clk     SLE      D       Q_s[11]              9.745        7.834
+Q[10]           HW4_Q2C|clk     SLE      D       Q_s[10]              9.745        7.850
+Q[9]            HW4_Q2C|clk     SLE      D       Q_s[9]               9.745        7.867
+Q[8]            HW4_Q2C|clk     SLE      D       Q_s[8]               9.745        7.883
+Q[7]            HW4_Q2C|clk     SLE      D       Q_s[7]               9.745        7.899
+Q[6]            HW4_Q2C|clk     SLE      D       Q_s[6]               9.745        7.916
+========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.662
+
+    - Propagation time:                      2.474
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     2.188
+
+    Number of logic level(s):                2
+    Starting point:                          Q[4] / Q
+    Ending point:                            Q_skewed[0] / EN
+    The start point is clocked by            HW4_Q2C|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            HW4_Q2C|clk [falling] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+Q[4]               SLE      Q        Out     0.108     0.108 f     -         
+q_c[4]             Net      -        -       1.117     -           5         
+Q_skewed7_8        CFG4     D        In      -         1.225 f     -         
+Q_skewed7_8        CFG4     Y        Out     0.288     1.513 f     -         
+Q_skewed7_8        Net      -        -       0.497     -           2         
+Q_skewed7          CFG3     C        In      -         2.010 f     -         
+Q_skewed7          CFG3     Y        Out     0.210     2.220 f     -         
+Q_skewed7          Net      -        -       0.254     -           1         
+Q_skewed[0]        SLE      EN       In      -         2.474 f     -         
+=============================================================================
+Total path delay (propagation time + setup) of 2.812 is 0.943(33.5%) logic and 1.868(66.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+---------------------------------------
+Resource Usage Report for HW4_Q2C 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          2 uses
+CFG1           2 uses
+CFG2           3 uses
+CFG3           1 use
+CFG4           12 uses
+
+Carry cells:
+ARI1            12 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            16 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 23
+I/O primitives: 23
+INBUF          2 uses
+OUTBUF         21 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    30
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  16 + 0 + 0 + 0 = 16;
+Total number of LUTs after P&R:  30 + 0 + 0 + 0 = 30;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 59MB peak: 167MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sat Nov 18 16:24:15 2023
+
+###########################################################]

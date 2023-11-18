@@ -14,7 +14,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////// 
 
 
-module HW4_Q2B( clk, rst_n, q, rollover, sC ); /* synthesis syn_noprune=1 */;
+module HW4_Q2C( clk, rst_n, q, rollover, sC ); /* synthesis syn_noprune=1 */;
     input           clk;
     input           rst_n;
     output  [15:0]  q;
@@ -24,7 +24,8 @@ module HW4_Q2B( clk, rst_n, q, rollover, sC ); /* synthesis syn_noprune=1 */;
 	parameter n = 16; 			// Quantity of bits for the counter
 	parameter k = 65536;		// Highest value of counter
 	
-	reg [n-1:0] Q;
+	reg [11:0] Q;
+	reg [3:0] Q_skewed;
 	reg Rollover;
 	wire Reset_n;
 	wire Clock;
@@ -32,7 +33,8 @@ module HW4_Q2B( clk, rst_n, q, rollover, sC ); /* synthesis syn_noprune=1 */;
 	
 	assign Clock = clk;
 	assign Reset_n = rst_n;
-	assign q = Q;
+	assign q[11:0] = Q;
+	assign q[15:12] = Q_skewed;
 	assign rollover = Rollover;
 	
 	always @(posedge Clock or negedge Reset_n)
@@ -53,6 +55,37 @@ module HW4_Q2B( clk, rst_n, q, rollover, sC ); /* synthesis syn_noprune=1 */;
 				Rollover <= 1'b0;
 		end
 	end
+
+	always @(posedge sC[0] or negedge Reset_n) begin
+		if(!Reset_n)
+			Q_skewed[0] <= 1'b0;
+		else if (Q == 12'hFFF)
+			Q_skewed[0] <= 1'b1;
+	end
+
+    always @(posedge sC[1] or negedge Reset_n) begin
+        if(!Reset_n) begin
+            Q_skewed[1] <= 1'b0;
+        end else if (Q == 12'hFFF && Q_skewed[0] == 1'b1) begin
+            Q_skewed[1] <= 1'b1;
+        end
+    end
+
+    always @(posedge sC[2] or negedge Reset_n) begin
+        if(!Reset_n) begin
+            Q_skewed[2] <= 1'b0;
+        end else if (Q == 12'hFFF && Q_skewed[1:0] == 2'b11) begin
+            Q_skewed[2] <= 1'b1;
+        end
+    end
+
+    always @(posedge sC[3] or negedge Reset_n) begin
+        if(!Reset_n) begin
+            Q_skewed[3] <= 1'b0;
+        end else if (Q == 12'hFFF && Q_skewed[2:0] == 3'b111) begin
+            Q_skewed[3] <= 1'b1;
+        end
+    end
 
 	genvar i;
 	assign inverterString[0] = clk;

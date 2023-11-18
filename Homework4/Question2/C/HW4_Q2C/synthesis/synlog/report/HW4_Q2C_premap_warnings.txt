@@ -1,0 +1,1 @@
+@W: MT530 :"x:\graduate\ecen5863\programmablelogic\homework4\question2\c\hw4_q2c\hdl\hw4_q2c.v":40:1:40:6|Found inferred clock HW4_Q2C|clk which controls 16 sequential elements including Q[11:0]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,1 +1,1 @@
-run_tcl -fg HW4_Q2B_syn.tcl
+run_tcl -fg HW4_Q2C_syn.tcl

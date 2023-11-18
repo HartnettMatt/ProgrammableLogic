@@ -1,0 +1,88 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: HW4_Q2C 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Sat Nov 18 16:24:28 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io clk -DIRECTION INPUT -pinname 20 -fixed no
+set_io q\[0\] -DIRECTION OUTPUT -pinname 67 -fixed no
+set_io q\[1\] -DIRECTION OUTPUT -pinname 57 -fixed no
+set_io q\[2\] -DIRECTION OUTPUT -pinname 49 -fixed no
+set_io q\[3\] -DIRECTION OUTPUT -pinname 58 -fixed no
+set_io q\[4\] -DIRECTION OUTPUT -pinname 56 -fixed no
+set_io q\[5\] -DIRECTION OUTPUT -pinname 52 -fixed no
+set_io q\[6\] -DIRECTION OUTPUT -pinname 61 -fixed no
+set_io q\[7\] -DIRECTION OUTPUT -pinname 55 -fixed no
+set_io q\[8\] -DIRECTION OUTPUT -pinname 64 -fixed no
+set_io q\[9\] -DIRECTION OUTPUT -pinname 63 -fixed no
+set_io q\[10\] -DIRECTION OUTPUT -pinname 60 -fixed no
+set_io q\[11\] -DIRECTION OUTPUT -pinname 53 -fixed no
+set_io q\[12\] -DIRECTION OUTPUT -pinname 66 -fixed no
+set_io q\[13\] -DIRECTION OUTPUT -pinname 89 -fixed no
+set_io q\[14\] -DIRECTION OUTPUT -pinname 82 -fixed no
+set_io q\[15\] -DIRECTION OUTPUT -pinname 85 -fixed no
+set_io rollover -DIRECTION OUTPUT -pinname 116 -fixed no
+set_io rst_n -DIRECTION INPUT -pinname 48 -fixed no
+set_io sC\[0\] -DIRECTION OUTPUT -pinname 100 -fixed no
+set_io sC\[1\] -DIRECTION OUTPUT -pinname 101 -fixed no
+set_io sC\[2\] -DIRECTION OUTPUT -pinname 93 -fixed no
+set_io sC\[3\] -DIRECTION OUTPUT -pinname 94 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location Q_skewed_RNO\[2\] -fixed no 309 3
+set_location Q_skewed7 -fixed no 310 3
+set_location Q_skewed\[2\] -fixed no 311 4
+set_location Q_skewed7_9_4 -fixed no 302 3
+set_location Q\[9\] -fixed no 324 4
+set_location Q_skewed7_9_5 -fixed no 300 3
+set_location clk_ibuf_RNIVTI2 -fixed no 219 54
+set_location Q\[0\] -fixed no 305 4
+set_location Q_skewed_RNO_0\[3\] -fixed no 293 3
+set_location Q_skewed_RNO_1\[2\] -fixed no 301 3
+set_location Q\[3\] -fixed no 318 4
+set_location Q\[7\] -fixed no 322 4
+set_location Q\[1\] -fixed no 316 4
+set_location rst_n_ibuf_RNIBNDC/U0_RGB1 -fixed no 218 3
+set_location Q_skewed\[3\] -fixed no 310 4
+set_location Q_skewed_RNO_2\[3\] -fixed no 292 3
+set_location Q\[11\] -fixed no 326 4
+set_location Q_skewed_ldmx\[1\] -fixed no 307 3
+set_location Q_skewed_RNO_4\[3\] -fixed no 311 3
+set_location Q_skewed_RNO\[3\] -fixed no 299 3
+set_location Q\[6\] -fixed no 321 4
+set_location ip_interface_inst -fixed no 191 0
+set_location Q_skewed_RNO_1\[3\] -fixed no 306 3
+set_location Q_skewed7_8 -fixed no 295 3
+set_location Q\[2\] -fixed no 317 4
+set_location Q\[4\] -fixed no 319 4
+set_location Q\[8\] -fixed no 323 4
+set_location clk_ibuf_RNIVTI2/U0_RGB1 -fixed no 219 3
+set_location Q_skewed\[1\] -fixed no 307 4
+set_location Q_skewed_RNO_0\[2\] -fixed no 296 3
+set_location Q\[5\] -fixed no 320 4
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location Q_RNO\[0\] -fixed no 305 3
+set_location rst_n_ibuf_RNIBNDC -fixed no 225 54
+set_location Q_skewed_RNO_3\[2\] -fixed no 308 3
+set_location Q_skewed_RNO_3\[3\] -fixed no 303 3
+set_location Q_skewed_RNO_2\[2\] -fixed no 304 3
+set_location Q\[10\] -fixed no 325 4
+set_location Q_skewed\[0\] -fixed no 301 4
+set_location clk_ibuf_RNIVTI2_0 -fixed no 295 18
+set_location Q_s_5 -fixed no 315 3
+set_location Q_s_5_CC_0 -fixed no 315 5
+set_location Q_s_5_CC_1 -fixed no 324 5

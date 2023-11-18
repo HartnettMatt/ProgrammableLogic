@@ -1,14 +1,14 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03M-SP1
-#--  Project file X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\scratchproject.prs
+#--  Project file X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog "X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/B/HW4_Q2B/hdl/HW4_Q2B.v"
-add_file -fpga_constraint "X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/B/HW4_Q2B/designer/HW4_Q2B/synthesis.fdc"
+add_file -verilog "X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/C/HW4_Q2C/hdl/HW4_Q2C.v"
+add_file -fpga_constraint "X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/C/HW4_Q2C/designer/HW4_Q2C/synthesis.fdc"
 
 
 #implementation: "synthesis"
-impl -add X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis -type fpga
+impl -add X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis -type fpga
 
 #
 #implementation attributes
@@ -24,7 +24,7 @@ set_option -part_companion ""
 
 #compilation/mapping options
 set_option -use_fsm_explorer 0
-set_option -top_module "HW4_Q2B"
+set_option -top_module "HW4_Q2C"
 
 # hdl_compiler_options
 set_option -distributed_compile 0
@@ -82,5 +82,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/B/HW4_Q2B/synthesis/HW4_Q2B.vm"
+project -result_file "X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/C/HW4_Q2C/synthesis/HW4_Q2C.vm"
 impl -active "synthesis"

@@ -14,25 +14,24 @@ Hostname: STARGATE-COMMAN
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
 
-Modified Files: 1
+Modified Files: 0
 FID:  path (prevtimestamp, timestamp)
-7        X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\hdl\HW4_Q2B.v (2023-11-18 16:02:55, 2023-11-18 16:03:27)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 1
+Modules that may have changed as a result of file changes: 0
 MID:  lib.cell.view
-2        work.HW4_Q2B.verilog may have changed because the following files changed:
-                        X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\hdl\HW4_Q2B.v (2023-11-18 16:02:55, 2023-11-18 16:03:27) <-- (module definition)
 
 *******************************************************************
-Unmodified files: 5
+Unmodified files: 6
 FID:  path (timestamp)
 0        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v (2020-11-03 00:58:10)
 1        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v (2020-11-03 00:58:13)
 2        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v (2020-11-03 00:58:13)
 3        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh (2020-11-03 00:58:13)
 4        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v (2020-11-03 00:58:13)
+8        X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\hdl\HW4_Q2C.v (2023-11-18 16:23:18)
 
 *******************************************************************
-Unchanged modules: 0
+Unchanged modules: 1
 MID:  lib.cell.view
+3        work.HW4_Q2C.verilog

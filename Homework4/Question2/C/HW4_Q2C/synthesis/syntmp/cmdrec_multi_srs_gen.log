@@ -1,7 +1,7 @@
-D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  HW4_Q2B  -multisrs  X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\synwork\HW4_Q2B_comp.srs  -osyn  X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\synwork\HW4_Q2B_mult.srs  -log  X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\synlog\HW4_Q2B_multi_srs_gen.srr 
-relcom:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top HW4_Q2B -multisrs ..\synwork\HW4_Q2B_comp.srs -osyn ..\synwork\HW4_Q2B_mult.srs -log ..\synlog\HW4_Q2B_multi_srs_gen.srr
+D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  HW4_Q2C  -multisrs  X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\synwork\HW4_Q2C_comp.srs  -osyn  X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\synwork\HW4_Q2C_mult.srs  -log  X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\synlog\HW4_Q2C_multi_srs_gen.srr 
+relcom:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top HW4_Q2C -multisrs ..\synwork\HW4_Q2C_comp.srs -osyn ..\synwork\HW4_Q2C_mult.srs -log ..\synlog\HW4_Q2C_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:..\synwork\HW4_Q2B_comp.srs|io:i|time:1700348631|size:2443|exec:0|csum:1FD3337051C82B58B5C787DA649054F3
-file:..\synwork\HW4_Q2B_mult.srs|io:o|time:1700348633|size:2164|exec:0|csum:
-file:..\synlog\HW4_Q2B_multi_srs_gen.srr|io:o|time:1700348633|size:1189|exec:0|csum:
+file:..\synwork\HW4_Q2C_comp.srs|io:i|time:1700349811|size:2668|exec:0|csum:1EE45F6A0B70F2C08B7FC2D3EAFA6FC9
+file:..\synwork\HW4_Q2C_mult.srs|io:o|time:1700349812|size:2380|exec:0|csum:
+file:..\synlog\HW4_Q2C_multi_srs_gen.srr|io:o|time:1700349812|size:1057|exec:0|csum:
 file:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

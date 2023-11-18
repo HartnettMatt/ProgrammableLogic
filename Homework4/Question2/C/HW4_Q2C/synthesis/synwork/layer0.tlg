@@ -1,9 +1,10 @@
-Selecting top level module HW4_Q2B
-@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\hdl\HW4_Q2B.v":17:7:17:13|Synthesizing module HW4_Q2B in library work.
-Running optimization stage 1 on HW4_Q2B .......
-Running optimization stage 2 on HW4_Q2B .......
+Selecting top level module HW4_Q2C
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\hdl\HW4_Q2C.v":17:7:17:13|Synthesizing module HW4_Q2C in library work.
+Running optimization stage 1 on HW4_Q2C .......
+@W: CL207 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\hdl\HW4_Q2C.v":40:1:40:6|All reachable assignments to Rollover assign 0, register removed by optimization.
+Running optimization stage 2 on HW4_Q2C .......
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\synthesis\synwork\layer0.rt.csv
+@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C\synthesis\synwork\layer0.rt.csv
 

@@ -31,7 +31,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B"
+KEY ProjectLocation "X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\C\HW4_Q2C"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -40,7 +40,7 @@ KEY GlobalIncludePaths ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
 KEY Vendor "Actel"
-KEY ActiveRoot "HW4_Q2A::work"
+KEY ActiveRoot "HW4_Q2C::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
@@ -54,15 +54,25 @@ TIME="1700345296"
 SIZE="188"
 IS_TARGET="TRUE"
 ENDFILE
+VALUE "<project>\designer\HW4_Q2C\HW4_Q2C_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1700350009"
+SIZE="77748"
+ENDFILE
+VALUE "<project>\designer\HW4_Q2C\HW4_Q2C_ba.v,ba_hdl"
+STATE="utd"
+TIME="1700350009"
+SIZE="28376"
+ENDFILE
 VALUE "<project>\hdl\counter.v,hdl"
 STATE="utd"
 TIME="1700344291"
 SIZE="1366"
 ENDFILE
-VALUE "<project>\hdl\HW4_Q2A.v,hdl"
+VALUE "<project>\hdl\HW4_Q2C.v,hdl"
 STATE="utd"
-TIME="1700346593"
-SIZE="1378"
+TIME="1700349798"
+SIZE="2713"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
@@ -73,6 +83,11 @@ VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
 TIME="1700346651"
 SIZE="233"
+ENDFILE
+VALUE "<project>\simulation\testbench_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1700350079"
+SIZE="20"
 ENDFILE
 VALUE "<project>\simulation\testbench_postsynth_simulation.log,log"
 STATE="utd"
@@ -91,7 +106,7 @@ SIZE="9762"
 ENDFILE
 VALUE "<project>\synthesis\HW4_Q2A_syn.prj,prj"
 STATE="utd"
-TIME="1700346607"
+TIME="1700347532"
 SIZE="2331"
 ENDFILE
 VALUE "<project>\synthesis\HW4_Q2A_vm.sdc,syn_sdc"
@@ -99,29 +114,45 @@ STATE="utd"
 TIME="1700346606"
 SIZE="1095"
 ENDFILE
+VALUE "<project>\synthesis\HW4_Q2B_syn.prj,prj"
+STATE="utd"
+TIME="1700349411"
+SIZE="2331"
+ENDFILE
+VALUE "<project>\synthesis\HW4_Q2C.so,so"
+STATE="utd"
+TIME="1700349816"
+SIZE="257"
+ENDFILE
+VALUE "<project>\synthesis\HW4_Q2C.vm,syn_vm"
+STATE="utd"
+TIME="1700349816"
+SIZE="11137"
+ENDFILE
+VALUE "<project>\synthesis\HW4_Q2C_syn.prj,prj"
+STATE="utd"
+TIME="1700349816"
+SIZE="2331"
+ENDFILE
+VALUE "<project>\synthesis\HW4_Q2C_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1700349816"
+SIZE="897"
+ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1700344254"
+TIME="1700348563"
 SIZE="159"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
-LIST "HW4_Q2A::work"
-FILE "<project>\hdl\HW4_Q2A.v,hdl"
-LIST SynthesisConstraints
-VALUE "<project>\constraint\user.sdc,sdc"
-ENDLIST
-LIST TimingConstraints
-VALUE "<project>\constraint\user.sdc,sdc"
-ENDLIST
-LIST PNRConstraints
-VALUE "<project>\constraint\user.sdc,sdc"
-ENDLIST
+LIST "HW4_Q2C::work"
+FILE "<project>\hdl\HW4_Q2C.v,hdl"
 LIST ProjectState5.1
 LIST Impl1
-ideSYNTHESIS(<project>\synthesis\HW4_Q2A.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\HW4_Q2C.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -205,8 +236,8 @@ NAME="Synplify Pro from Synopsys"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro from Synopsys"
 LOCATION="D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM=" -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -214,7 +245,7 @@ NAME="ModelSim"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="D:\Microsemi\Libero_SoC_v12.6\ModelSim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l testbench_postlayout_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -230,9 +261,9 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
-LIST "HW4_Q2A::work"
+LIST "HW4_Q2C::work"
 LIST Impl1
-ideSYNTHESIS(<project>\synthesis\HW4_Q2A.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\HW4_Q2C.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -255,13 +286,17 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Timing Report Explorer;Timing Report Explorer;0
+Reports;Reports;0
+ReportsCurrentItem;Verify Timing:HW4_Q2C_max_timing_slow_1.14V_85C.xml
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+HDL;hdl\HW4_Q2C.v;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "counter::work","hdl\counter.v","FALSE","FALSE"
 ENDLIST
-LIST "HW4_Q2A::work","hdl\HW4_Q2A.v","FALSE","FALSE"
+LIST "HW4_Q2C::work","hdl\HW4_Q2C.v","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
