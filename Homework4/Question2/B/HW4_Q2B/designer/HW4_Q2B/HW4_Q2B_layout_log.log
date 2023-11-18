@@ -1,0 +1,71 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+I/O Register Combining   : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+
+INFO: No User PDC file(s) was specified.
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 0 fixed I/O macros, 23 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 1 seconds
+
+Placer V5.0 - 12.900.20 
+Design: HW4_Q2B                         Started: Sat Nov 18 16:04:04 2023
+
+Initializing Normal-Effort Standard Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: HW4_Q2B                         
+Finished: Sat Nov 18 16:04:07 2023
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:03
+Total Memory Usage: 106.9 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\designer\HW4_Q2B\HW4_Q2BStarted: Sat Nov 18 16:04:08 2023
+
+
+Router completed successfully.
+
+Design: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\B\HW4_Q2B\designer\HW4_Q2B\HW4_Q2B
+Finished: Sat Nov 18 16:04:12 2023
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 446.4 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 23   | 12084 | 0.19       |
+| DFF           | 17   | 12084 | 0.14       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 23   | 12084 | 0.19       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  0    | 0.00%      |
+| Placed |  23   | 100.00%    |
++--------+-------+------------+
+

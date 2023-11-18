@@ -1,0 +1,12 @@
+HelpInfo,D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\html,fpgahelp.qhc,synerrmsg.mp,D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\assistant
+Implementation;Synthesis||FX1184||@N: Applying syn_allowed_resources blockrams=21 on top level netlist HW4_Q2B ||HW4_Q2B.srr(185);liberoaction://cross_probe/hdl/file/'<project>\synthesis\HW4_Q2B.srr'/linenumber/185||null;null
+Implementation;Synthesis||MT530||@W:Found inferred clock HW4_Q2B|clk which controls 17 sequential elements including Q[15:0]. This clock has no specified timing constraint which may adversely impact design performance. ||HW4_Q2B.srr(211);liberoaction://cross_probe/hdl/file/'<project>\synthesis\HW4_Q2B.srr'/linenumber/211||hw4_q2b.v(38);liberoaction://cross_probe/hdl/file/'<project>\hdl\HW4_Q2B.v'/linenumber/38
+Implementation;Synthesis||FX1143||@N: Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.||HW4_Q2B.srr(213);liberoaction://cross_probe/hdl/file/'<project>\synthesis\HW4_Q2B.srr'/linenumber/213||null;null
+Implementation;Synthesis||MO231||@N: Found counter in view:work.HW4_Q2B(verilog) instance Q[15:0] ||HW4_Q2B.srr(282);liberoaction://cross_probe/hdl/file/'<project>\synthesis\HW4_Q2B.srr'/linenumber/282||hw4_q2b.v(38);liberoaction://cross_probe/hdl/file/'<project>\hdl\HW4_Q2B.v'/linenumber/38
+Implementation;Synthesis||FP130||@N: Promoting Net clk_c on CLKINT  I_2 ||HW4_Q2B.srr(310);liberoaction://cross_probe/hdl/file/'<project>\synthesis\HW4_Q2B.srr'/linenumber/310||null;null
+Implementation;Synthesis||FP130||@N: Promoting Net rst_n_c on CLKINT  I_3 ||HW4_Q2B.srr(311);liberoaction://cross_probe/hdl/file/'<project>\synthesis\HW4_Q2B.srr'/linenumber/311||null;null
+Implementation;Synthesis||MT420||@W:Found inferred clock HW4_Q2B|clk with period 10.00ns. Please declare a user-defined clock on port clk.||HW4_Q2B.srr(360);liberoaction://cross_probe/hdl/file/'<project>\synthesis\HW4_Q2B.srr'/linenumber/360||null;null
+Implementation;Place and Route;RootName:HW4_Q2B
+Implementation;Place and Route||(null)||Please refer to the log file for details about 4 Info(s)||HW4_Q2B_layout_log.log;liberoaction://open_report/file/HW4_Q2B_layout_log.log||(null);(null)
+Implementation;Generate Bitstream;RootName:HW4_Q2B
+Implementation;Generate Bitstream||(null)||Please refer to the log file for details||HW4_Q2B_generateBitstream.log;liberoaction://open_report/file/HW4_Q2B_generateBitstream.log||(null);(null)

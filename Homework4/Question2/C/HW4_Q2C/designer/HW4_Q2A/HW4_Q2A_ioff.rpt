@@ -1,0 +1,15 @@
+I/O Register Combining Report
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+Date: Sat Nov 18 15:35:46 2023
+
+I/O Register Combining Summary
++-----------+---------------+---------------+
+| Port Name | Register Type | Register Name |
++-----------+---------------+---------------+
+| rollover  | Output        | Rollover      |
++-----------+---------------+---------------+
+
+I/O DDR Register Combining Summary
++
++
+

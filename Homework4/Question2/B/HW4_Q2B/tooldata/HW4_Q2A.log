@@ -1,0 +1,16 @@
+Project Name: HW4_Q2A
+Location: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\A\HW4_Q2A
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-TQ144
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 144 TQ
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM
