@@ -1,0 +1,78 @@
+INFO: Reading User SDC file X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question3\C\HW4_Q3C\constraint\user.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: No User PDC file(s) was specified.
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 0 fixed I/O macros, 27 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 12.900.20 
+Design: HW4_Q3A                         Started: Sat Nov 18 17:20:47 2023
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: HW4_Q3A                         
+Finished: Sat Nov 18 17:20:58 2023
+Total CPU Time:     00:00:09            Total Elapsed Time: 00:00:11
+Total Memory Usage: 288.7 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question3\C\HW4_Q3C\designer\HW4_Q3A\HW4_Q3AStarted: Sat Nov 18 17:21:00 2023
+
+
+Router completed successfully.
+
+Design: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question3\C\HW4_Q3C\designer\HW4_Q3A\HW4_Q3A
+Finished: Sat Nov 18 17:21:04 2023
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 446.4 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 25   | 12084 | 0.21       |
+| DFF           | 24   | 12084 | 0.20       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 25   | 12084 | 0.21       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  0    | 0.00%      |
+| Placed |  27   | 100.00%    |
++--------+-------+------------+
+

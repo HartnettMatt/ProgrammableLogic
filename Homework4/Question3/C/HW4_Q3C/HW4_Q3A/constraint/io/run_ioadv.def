@@ -1,0 +1,25 @@
+data HELP_TYPE_DES 2data DESIGN HW4_Q2A
+data HPATH 'X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/designer/HW4_Q2A'
+data CPATH 'X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/constraint/io'
+data CDIR 'X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/constraint'
+data ETYPE IO
+data FAM SmartFusion2
+data DIE PA4M1000_N
+data PACKAGE tq144
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE NEW
+data AFL 'X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/designer/HW4_Q2A/HW4_Q2A.afl'
+data ADL 'X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/designer/HW4_Q2A/HW4_Q2A.adl'
+data LOC 'X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/designer/HW4_Q2A/HW4_Q2A.loc'
+data SEG 'X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/designer/HW4_Q2A/HW4_Q2A.seg'
+data NMAT_PDC 'X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/designer/HW4_Q2A/HW4_Q2A.nmatinit.pdc'
+
+data TARGET_IOPDC  'X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/constraint/io/user.pdc'
+data TARGET_FPPDC  'X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/constraint/fp/user.pdc'
+

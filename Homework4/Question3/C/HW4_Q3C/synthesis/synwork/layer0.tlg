@@ -1,0 +1,9 @@
+Selecting top level module HW4_Q3A
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question3\C\HW4_Q3C\hdl\HW4_Q3C.v":17:7:17:13|Synthesizing module HW4_Q3A in library work.
+Running optimization stage 1 on HW4_Q3A .......
+Running optimization stage 2 on HW4_Q3A .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question3\C\HW4_Q3C\synthesis\synwork\layer0.rt.csv
+

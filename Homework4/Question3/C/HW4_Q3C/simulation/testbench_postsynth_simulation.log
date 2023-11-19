@@ -1,0 +1,121 @@
+# Reading pref.tcl
+# do run.do
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 15:31:03 on Nov 18,2023
+# vlog -reportprogress 300 -sv -work postsynth X:/Graduate/ECEN5863/ProgrammableLogic/Homework4/Question2/A/HW4_Q2A/synthesis/HW4_Q2A.v 
+# -- Compiling module HW4_Q2A
+# 
+# Top level modules:
+# 	HW4_Q2A
+# End time: 15:31:03 on Nov 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postsynth -t 1fs postsynth.HW4_Q2A 
+# Start time: 15:31:04 on Nov 18,2023
+# //  ModelSim Microsemi 2020.3 Jul 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading postsynth.HW4_Q2A
+# Loading SmartFusion2.OUTBUF
+# Loading SmartFusion2.ARI1
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CLKINT
+# Loading SmartFusion2.INBUF
+# Loading SmartFusion2.CFG4
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.VCC
+# Loading SmartFusion2.CFG1
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+add wave -position end  sim:/HW4_Q2A/clk
+add wave -position end  sim:/HW4_Q2A/rst_n
+add wave -position end  sim:/HW4_Q2A/q
+add wave -position end  sim:/HW4_Q2A/rollover
+force -freeze sim:/HW4_Q2A/clk 1 0, 0 {50 fs} -r 100
+force -freeze sim:/HW4_Q2A/rst_n 0 0
+run
+run
+run
+run
+# Load canceled
+vsim -L SmartFusion2 -L postsynth -t ns postlayout.HW4_Q2A
+# End time: 15:36:05 on Nov 18,2023, Elapsed time: 0:05:01
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postsynth -t ns postlayout.HW4_Q2A 
+# Start time: 15:36:05 on Nov 18,2023
+# Loading sv_std.std
+# Loading postlayout.HW4_Q2A
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_IOPAD_TRI
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading SmartFusion2.CFG4
+# Loading SmartFusion2.ARI1_CC
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.IOOEFF
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.CC_CONFIG
+# Loading postlayout.sdf_IOPAD_IN
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.CFG1
+# Loading SmartFusion2.VCC
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+add wave -position end  sim:/HW4_Q2A/clk
+add wave -position end  sim:/HW4_Q2A/rst_n
+add wave -position end  sim:/HW4_Q2A/q
+add wave -position end  sim:/HW4_Q2A/rollover
+force -freeze sim:/HW4_Q2A/clk 1 0, 0 {10 ns} -r 20
+force -freeze sim:/HW4_Q2A/rst_n 0 0
+run
+force -freeze sim:/HW4_Q2A/rst_n 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 15:43:44 on Nov 18,2023, Elapsed time: 0:07:39
+# Errors: 0, Warnings: 0

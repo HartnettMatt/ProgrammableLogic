@@ -1,0 +1,788 @@
+//
+// Written by Synplify Pro 
+// Product Version "Q-2020.03M-SP1"
+// Program "Synplify Pro", Mapper "map202003act, Build 160R"
+// Sat Nov 18 17:13:38 2023
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\generic\smartfusion2.v "
+// file 1 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\x:\graduate\ecen5863\programmablelogic\homework4\question3\a\hw4_q3a\hdl\hw4_q3a.v "
+// file 6 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\nlconst.dat "
+// file 7 "\x:\graduate\ecen5863\programmablelogic\homework4\question3\a\hw4_q3a\designer\hw4_q3a\synthesis.fdc "
+// file 8 "\x:/graduate/ecen5863/programmablelogic/homework4/question3/a/hw4_q3a/designer/hw4_q3a/synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module HW4_Q3A (
+  clk,
+  rst_n,
+  q,
+  TC
+)
+;
+
+/*  Synopsys
+.origName=HW4_Q3A
+.langParams="n"
+n=24
+ */
+input clk ;
+input rst_n ;
+output [23:0] q ;
+output TC ;
+wire clk ;
+wire rst_n ;
+wire TC ;
+wire [22:0] q_c;
+wire [22:0] Q_s;
+wire [22:1] Q_cry_Z;
+wire [23:23] Q_s_Z;
+wire [22:1] Q_cry_Y;
+wire [23:23] Q_s_FCO;
+wire [23:23] Q_s_Y;
+wire VCC ;
+wire GND ;
+wire clk_c ;
+wire rst_n_c ;
+wire TC_c ;
+wire Q_s_1_FCO ;
+wire Q_s_1_S ;
+wire Q_s_1_Y ;
+wire clk_ibuf_Z ;
+wire rst_n_ibuf_Z ;
+  CLKINT rst_n_ibuf_RNIBNDC (
+	.Y(rst_n_c),
+	.A(rst_n_ibuf_Z)
+);
+  CLKINT clk_ibuf_RNIVTI2 (
+	.Y(clk_c),
+	.A(clk_ibuf_Z)
+);
+  CFG1 \Q_RNO[0]  (
+	.A(q_c[0]),
+	.Y(Q_s[0])
+);
+defparam \Q_RNO[0] .INIT=2'h1;
+// @5:34
+  SLE \Q[0]  (
+	.Q(q_c[0]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[0]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[1]  (
+	.Q(q_c[1]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[1]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[2]  (
+	.Q(q_c[2]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[2]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[3]  (
+	.Q(q_c[3]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[3]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[4]  (
+	.Q(q_c[4]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[4]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[5]  (
+	.Q(q_c[5]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[5]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[6]  (
+	.Q(q_c[6]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[6]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[7]  (
+	.Q(q_c[7]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[7]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[8]  (
+	.Q(q_c[8]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[8]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[9]  (
+	.Q(q_c[9]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[9]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[10]  (
+	.Q(q_c[10]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[10]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[11]  (
+	.Q(q_c[11]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[11]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[12]  (
+	.Q(q_c[12]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[12]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[13]  (
+	.Q(q_c[13]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[13]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[14]  (
+	.Q(q_c[14]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[14]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[15]  (
+	.Q(q_c[15]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[15]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[16]  (
+	.Q(q_c[16]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[16]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[17]  (
+	.Q(q_c[17]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[17]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[18]  (
+	.Q(q_c[18]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[18]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[19]  (
+	.Q(q_c[19]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[19]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[20]  (
+	.Q(q_c[20]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[20]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[21]  (
+	.Q(q_c[21]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[21]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[22]  (
+	.Q(q_c[22]),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s[22]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \Q[23]  (
+	.Q(TC_c),
+	.ADn(VCC),
+	.ALn(rst_n_c),
+	.CLK(clk_c),
+	.D(Q_s_Z[23]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:18
+  INBUF clk_ibuf (
+	.Y(clk_ibuf_Z),
+	.PAD(clk)
+);
+// @5:19
+  INBUF rst_n_ibuf (
+	.Y(rst_n_ibuf_Z),
+	.PAD(rst_n)
+);
+// @5:20
+  OUTBUF \q_obuf[0]  (
+	.PAD(q[0]),
+	.D(q_c[0])
+);
+// @5:20
+  OUTBUF \q_obuf[1]  (
+	.PAD(q[1]),
+	.D(q_c[1])
+);
+// @5:20
+  OUTBUF \q_obuf[2]  (
+	.PAD(q[2]),
+	.D(q_c[2])
+);
+// @5:20
+  OUTBUF \q_obuf[3]  (
+	.PAD(q[3]),
+	.D(q_c[3])
+);
+// @5:20
+  OUTBUF \q_obuf[4]  (
+	.PAD(q[4]),
+	.D(q_c[4])
+);
+// @5:20
+  OUTBUF \q_obuf[5]  (
+	.PAD(q[5]),
+	.D(q_c[5])
+);
+// @5:20
+  OUTBUF \q_obuf[6]  (
+	.PAD(q[6]),
+	.D(q_c[6])
+);
+// @5:20
+  OUTBUF \q_obuf[7]  (
+	.PAD(q[7]),
+	.D(q_c[7])
+);
+// @5:20
+  OUTBUF \q_obuf[8]  (
+	.PAD(q[8]),
+	.D(q_c[8])
+);
+// @5:20
+  OUTBUF \q_obuf[9]  (
+	.PAD(q[9]),
+	.D(q_c[9])
+);
+// @5:20
+  OUTBUF \q_obuf[10]  (
+	.PAD(q[10]),
+	.D(q_c[10])
+);
+// @5:20
+  OUTBUF \q_obuf[11]  (
+	.PAD(q[11]),
+	.D(q_c[11])
+);
+// @5:20
+  OUTBUF \q_obuf[12]  (
+	.PAD(q[12]),
+	.D(q_c[12])
+);
+// @5:20
+  OUTBUF \q_obuf[13]  (
+	.PAD(q[13]),
+	.D(q_c[13])
+);
+// @5:20
+  OUTBUF \q_obuf[14]  (
+	.PAD(q[14]),
+	.D(q_c[14])
+);
+// @5:20
+  OUTBUF \q_obuf[15]  (
+	.PAD(q[15]),
+	.D(q_c[15])
+);
+// @5:20
+  OUTBUF \q_obuf[16]  (
+	.PAD(q[16]),
+	.D(q_c[16])
+);
+// @5:20
+  OUTBUF \q_obuf[17]  (
+	.PAD(q[17]),
+	.D(q_c[17])
+);
+// @5:20
+  OUTBUF \q_obuf[18]  (
+	.PAD(q[18]),
+	.D(q_c[18])
+);
+// @5:20
+  OUTBUF \q_obuf[19]  (
+	.PAD(q[19]),
+	.D(q_c[19])
+);
+// @5:20
+  OUTBUF \q_obuf[20]  (
+	.PAD(q[20]),
+	.D(q_c[20])
+);
+// @5:20
+  OUTBUF \q_obuf[21]  (
+	.PAD(q[21]),
+	.D(q_c[21])
+);
+// @5:20
+  OUTBUF \q_obuf[22]  (
+	.PAD(q[22]),
+	.D(q_c[22])
+);
+// @5:20
+  OUTBUF \q_obuf[23]  (
+	.PAD(q[23]),
+	.D(TC_c)
+);
+// @5:21
+  OUTBUF TC_obuf (
+	.PAD(TC),
+	.D(TC_c)
+);
+// @5:34
+  ARI1 Q_s_1 (
+	.FCO(Q_s_1_FCO),
+	.S(Q_s_1_S),
+	.Y(Q_s_1_Y),
+	.B(q_c[0]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(VCC)
+);
+defparam Q_s_1.INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[1]  (
+	.FCO(Q_cry_Z[1]),
+	.S(Q_s[1]),
+	.Y(Q_cry_Y[1]),
+	.B(q_c[1]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_s_1_FCO)
+);
+defparam \Q_cry[1] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[2]  (
+	.FCO(Q_cry_Z[2]),
+	.S(Q_s[2]),
+	.Y(Q_cry_Y[2]),
+	.B(q_c[2]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[1])
+);
+defparam \Q_cry[2] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[3]  (
+	.FCO(Q_cry_Z[3]),
+	.S(Q_s[3]),
+	.Y(Q_cry_Y[3]),
+	.B(q_c[3]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[2])
+);
+defparam \Q_cry[3] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[4]  (
+	.FCO(Q_cry_Z[4]),
+	.S(Q_s[4]),
+	.Y(Q_cry_Y[4]),
+	.B(q_c[4]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[3])
+);
+defparam \Q_cry[4] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[5]  (
+	.FCO(Q_cry_Z[5]),
+	.S(Q_s[5]),
+	.Y(Q_cry_Y[5]),
+	.B(q_c[5]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[4])
+);
+defparam \Q_cry[5] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[6]  (
+	.FCO(Q_cry_Z[6]),
+	.S(Q_s[6]),
+	.Y(Q_cry_Y[6]),
+	.B(q_c[6]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[5])
+);
+defparam \Q_cry[6] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[7]  (
+	.FCO(Q_cry_Z[7]),
+	.S(Q_s[7]),
+	.Y(Q_cry_Y[7]),
+	.B(q_c[7]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[6])
+);
+defparam \Q_cry[7] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[8]  (
+	.FCO(Q_cry_Z[8]),
+	.S(Q_s[8]),
+	.Y(Q_cry_Y[8]),
+	.B(q_c[8]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[7])
+);
+defparam \Q_cry[8] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[9]  (
+	.FCO(Q_cry_Z[9]),
+	.S(Q_s[9]),
+	.Y(Q_cry_Y[9]),
+	.B(q_c[9]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[8])
+);
+defparam \Q_cry[9] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[10]  (
+	.FCO(Q_cry_Z[10]),
+	.S(Q_s[10]),
+	.Y(Q_cry_Y[10]),
+	.B(q_c[10]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[9])
+);
+defparam \Q_cry[10] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[11]  (
+	.FCO(Q_cry_Z[11]),
+	.S(Q_s[11]),
+	.Y(Q_cry_Y[11]),
+	.B(q_c[11]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[10])
+);
+defparam \Q_cry[11] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[12]  (
+	.FCO(Q_cry_Z[12]),
+	.S(Q_s[12]),
+	.Y(Q_cry_Y[12]),
+	.B(q_c[12]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[11])
+);
+defparam \Q_cry[12] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[13]  (
+	.FCO(Q_cry_Z[13]),
+	.S(Q_s[13]),
+	.Y(Q_cry_Y[13]),
+	.B(q_c[13]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[12])
+);
+defparam \Q_cry[13] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[14]  (
+	.FCO(Q_cry_Z[14]),
+	.S(Q_s[14]),
+	.Y(Q_cry_Y[14]),
+	.B(q_c[14]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[13])
+);
+defparam \Q_cry[14] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[15]  (
+	.FCO(Q_cry_Z[15]),
+	.S(Q_s[15]),
+	.Y(Q_cry_Y[15]),
+	.B(q_c[15]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[14])
+);
+defparam \Q_cry[15] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[16]  (
+	.FCO(Q_cry_Z[16]),
+	.S(Q_s[16]),
+	.Y(Q_cry_Y[16]),
+	.B(q_c[16]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[15])
+);
+defparam \Q_cry[16] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[17]  (
+	.FCO(Q_cry_Z[17]),
+	.S(Q_s[17]),
+	.Y(Q_cry_Y[17]),
+	.B(q_c[17]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[16])
+);
+defparam \Q_cry[17] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[18]  (
+	.FCO(Q_cry_Z[18]),
+	.S(Q_s[18]),
+	.Y(Q_cry_Y[18]),
+	.B(q_c[18]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[17])
+);
+defparam \Q_cry[18] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[19]  (
+	.FCO(Q_cry_Z[19]),
+	.S(Q_s[19]),
+	.Y(Q_cry_Y[19]),
+	.B(q_c[19]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[18])
+);
+defparam \Q_cry[19] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[20]  (
+	.FCO(Q_cry_Z[20]),
+	.S(Q_s[20]),
+	.Y(Q_cry_Y[20]),
+	.B(q_c[20]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[19])
+);
+defparam \Q_cry[20] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[21]  (
+	.FCO(Q_cry_Z[21]),
+	.S(Q_s[21]),
+	.Y(Q_cry_Y[21]),
+	.B(q_c[21]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[20])
+);
+defparam \Q_cry[21] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_s[23]  (
+	.FCO(Q_s_FCO[23]),
+	.S(Q_s_Z[23]),
+	.Y(Q_s_Y[23]),
+	.B(TC_c),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[22])
+);
+defparam \Q_s[23] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \Q_cry[22]  (
+	.FCO(Q_cry_Z[22]),
+	.S(Q_s[22]),
+	.Y(Q_cry_Y[22]),
+	.B(q_c[22]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(Q_cry_Z[21])
+);
+defparam \Q_cry[22] .INIT=20'h4AA00;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* HW4_Q3A */
+

@@ -1,0 +1,35 @@
+Resource Usage Report for HW4_Q3A 
+
+Mapping to part: m2s010vf400-1
+Cell usage:
+CLKINT          2 uses
+CFG1           1 use
+
+Carry cells:
+ARI1            24 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            24 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 27
+I/O primitives: 27
+INBUF          2 uses
+OUTBUF         25 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    25
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  24 + 0 + 0 + 0 = 24;
+Total number of LUTs after P&R:  25 + 0 + 0 + 0 = 25;
+
