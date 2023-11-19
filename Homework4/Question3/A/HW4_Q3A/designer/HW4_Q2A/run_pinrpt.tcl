@@ -1,0 +1,10 @@
+DESIGN=HW4_Q2A
+DESDIR=X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\A\HW4_Q2A\designer\HW4_Q2A
+TARGET_DIR=X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question2\A\HW4_Q2A\designer\HW4_Q2A
+FAM=SmartFusion2
+DIE=PA4M1000_N
+PACKAGE=tq144
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

@@ -1,0 +1,11 @@
+@P:  Worst Slack : 13.473
+@P:  clk - Estimated Frequency : 153.2 MHz
+@P:  clk - Requested Frequency : 50.0 MHz
+@P:  clk - Estimated Period : 6.527
+@P:  clk - Requested Period : 20.000
+@P:  clk - Slack : 13.473
+@P: HW4_Q2A Part : m2s010vf400std
+@P: HW4_Q2A Register bits  : 17 
+@P: HW4_Q2A DSP Blocks  : 0
+@P: HW4_Q2A I/O primitives : 19
+@P:  CPU Time : 0h:00m:01s

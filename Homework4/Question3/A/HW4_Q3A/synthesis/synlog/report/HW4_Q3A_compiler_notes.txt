@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework4\Question3\A\HW4_Q3A\hdl\HW4_Q3A.v":17:7:17:13|Synthesizing module HW4_Q3A in library work.
+@N|Running in 64-bit mode
+

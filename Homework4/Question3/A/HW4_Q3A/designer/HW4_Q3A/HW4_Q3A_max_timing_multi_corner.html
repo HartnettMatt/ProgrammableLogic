@@ -1,0 +1,1415 @@
+<html>
+    <head>
+        <style>
+      body { font-family:arial; font-size:10pt; text-align:left; }
+      h1, h2 {
+          padding-top: 30px;
+      }
+      h3 {
+          padding-top: 20px;
+      }
+      h4, h5, h6 {
+          padding-top: 10px;
+          font-size:12pt;
+      }
+      table {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          border-collapse:collapse;
+      }
+      table th, table td {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          padding: 4px;
+      }
+     </style>
+    </head>
+    <body>
+        <h1 align="center">Timing Multi Corner Report Max Delay Analysis
+</h1>
+        <p>SmartTime Version 12.900.20.24</p>
+        <p>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</p>
+        <p>Date: Sat Nov 18 17:11:50 2023
+</p>
+        <table cellpadding="4">
+            <tr/>
+            <tr>
+                <td>Design</td>
+                <td>HW4_Q3A</td>
+            </tr>
+            <tr>
+                <td>Family</td>
+                <td>SmartFusion2</td>
+            </tr>
+            <tr>
+                <td>Die</td>
+                <td>M2S010</td>
+            </tr>
+            <tr>
+                <td>Package</td>
+                <td>144 TQ</td>
+            </tr>
+            <tr>
+                <td>Temperature Range</td>
+                <td>0 - 85 C</td>
+            </tr>
+            <tr>
+                <td>Voltage Range</td>
+                <td>1.14 - 1.26 V</td>
+            </tr>
+            <tr>
+                <td>Speed Grade</td>
+                <td>-1</td>
+            </tr>
+            <tr>
+                <td>Design State</td>
+                <td>Post-Layout</td>
+            </tr>
+            <tr>
+                <td>Data source</td>
+                <td>Production</td>
+            </tr>
+            <tr>
+                <td>Multi Corner Report Operating Conditions</td>
+                <td>BEST, TYPICAL, WORST</td>
+            </tr>
+            <tr>
+                <td>Scenario for Timing Analysis</td>
+                <td>timing_analysis</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Summary</h2>
+        <table cellpadding="4">
+            <tr>
+                <th>Clock Domain</th>
+                <th>Required Period (ns)</th>
+                <th>Required Frequency (MHz)</th>
+                <th>Worst Slack (ns)</th>
+                <th>Operating Conditions</th>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td>20.000</td>
+                <td>50.000</td>
+                <td>10.039</td>
+                <td>WORST</td>
+            </tr>
+        </table>
+        <p/>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th>Worst Slack (ns)</th>
+                <th>Operating Conditions</th>
+            </tr>
+            <tr>
+                <td>Input to Output</td>
+                <td/>
+                <td/>
+            </tr>
+        </table>
+        <h2>Clock Domain clk</h2>
+        <p/>
+        <h3>SET Register to Register</h3>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th>From</th>
+                <th>To</th>
+                <th>Delay (ns)</th>
+                <th>Slack (ns)</th>
+                <th>Arrival (ns)</th>
+                <th>Required (ns)</th>
+                <th>Setup (ns)</th>
+                <th>Minimum Period (ns)</th>
+                <th>Operating Conditions</th>
+            </tr>
+            <tr>
+                <td>Path 1</td>
+                <td>Q[2]:CLK</td>
+                <td>Rollover:Dn</td>
+                <td>4.051</td>
+                <td>15.830</td>
+                <td>6.466</td>
+                <td>22.296</td>
+                <td>0.159</td>
+                <td>4.170</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 2</td>
+                <td>Q[20]:CLK</td>
+                <td>Rollover:Dn</td>
+                <td>3.713</td>
+                <td>16.169</td>
+                <td>6.127</td>
+                <td>22.296</td>
+                <td>0.159</td>
+                <td>3.831</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 3</td>
+                <td>Q[2]:CLK</td>
+                <td>Q[23]:D</td>
+                <td>3.528</td>
+                <td>16.201</td>
+                <td>5.943</td>
+                <td>22.144</td>
+                <td>0.254</td>
+                <td>3.799</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 4</td>
+                <td>Q[2]:CLK</td>
+                <td>Q[20]:D</td>
+                <td>3.507</td>
+                <td>16.224</td>
+                <td>5.922</td>
+                <td>22.146</td>
+                <td>0.254</td>
+                <td>3.776</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 5</td>
+                <td>Q[22]:CLK</td>
+                <td>Rollover:Dn</td>
+                <td>3.602</td>
+                <td>16.247</td>
+                <td>6.049</td>
+                <td>22.296</td>
+                <td>0.159</td>
+                <td>3.753</td>
+                <td>WORST</td>
+            </tr>
+        </table>
+        <p/>
+        <h4>Expanded Path 1</h4>
+        <table cellpadding="4">
+            <tr>
+                <th>Pin Name</th>
+                <th>Type</th>
+                <th>Net Name</th>
+                <th>Cell Name</th>
+                <th>Op</th>
+                <th>Delay (ns)</th>
+                <th>Total (ns)</th>
+                <th>Fanout</th>
+                <th>Edge</th>
+            </tr>
+            <tr>
+                <td>From: Q[2]:CLK</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>To: Rollover:Dn</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>data required time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>22.296</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>data arrival time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td>-</td>
+                <td/>
+                <td>6.466</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>slack</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>15.830</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr/>
+            <tr>
+                <td>Data arrival time calculation</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td>Clock source</td>
+                <td/>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf/U0/U_IOPAD:PAD</td>
+                <td>net</td>
+                <td>clk</td>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf/U0/U_IOPAD:Y</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:IOPAD_IN</td>
+                <td>+</td>
+                <td>1.273</td>
+                <td>1.273</td>
+                <td>2</td>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2:An</td>
+                <td>net</td>
+                <td>clk_ibuf_Z</td>
+                <td/>
+                <td>+</td>
+                <td>0.054</td>
+                <td>1.327</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2:YNn</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:GB</td>
+                <td>+</td>
+                <td>0.085</td>
+                <td>1.412</td>
+                <td>1</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1:An</td>
+                <td>net</td>
+                <td>clk_ibuf_RNIVTI2/U0_YNn</td>
+                <td/>
+                <td>+</td>
+                <td>0.284</td>
+                <td>1.696</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1:YL</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:RGB</td>
+                <td>+</td>
+                <td>0.251</td>
+                <td>1.947</td>
+                <td>1</td>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>Q[2]:CLK</td>
+                <td>net</td>
+                <td>clk_c</td>
+                <td/>
+                <td>+</td>
+                <td>0.468</td>
+                <td>2.415</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>Q[2]:Q</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:SLE</td>
+                <td>+</td>
+                <td>0.108</td>
+                <td>2.523</td>
+                <td>3</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>Rollover5_14:C</td>
+                <td>net</td>
+                <td>q_c[2]</td>
+                <td/>
+                <td>+</td>
+                <td>1.186</td>
+                <td>3.709</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>Rollover5_14:Y</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:CFG4</td>
+                <td>+</td>
+                <td>0.087</td>
+                <td>3.796</td>
+                <td>1</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>Rollover5_21:A</td>
+                <td>net</td>
+                <td>Rollover5_14_Z</td>
+                <td/>
+                <td>+</td>
+                <td>0.640</td>
+                <td>4.436</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>Rollover5_21:Y</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:CFG4</td>
+                <td>+</td>
+                <td>0.281</td>
+                <td>4.717</td>
+                <td>1</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>Rollover5:C</td>
+                <td>net</td>
+                <td>Rollover5_21_Z</td>
+                <td/>
+                <td>+</td>
+                <td>0.224</td>
+                <td>4.941</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>Rollover5:Y</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:CFG3</td>
+                <td>+</td>
+                <td>0.198</td>
+                <td>5.139</td>
+                <td>1</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>Rollover:Dn</td>
+                <td>net</td>
+                <td>Rollover5_Z</td>
+                <td/>
+                <td>+</td>
+                <td>1.327</td>
+                <td>6.466</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>data arrival time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6.466</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr/>
+            <tr>
+                <td>Data required time calculation</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td>Clock Constraint</td>
+                <td/>
+                <td/>
+                <td/>
+                <td>20.000</td>
+                <td>20.000</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td>Clock source</td>
+                <td/>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>20.000</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf/U0/U_IOPAD:PAD</td>
+                <td>net</td>
+                <td>clk</td>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>20.000</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf/U0/U_IOPAD:Y</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:IOPAD_IN</td>
+                <td>+</td>
+                <td>1.273</td>
+                <td>21.273</td>
+                <td>2</td>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2:An</td>
+                <td>net</td>
+                <td>clk_ibuf_Z</td>
+                <td/>
+                <td>+</td>
+                <td>0.054</td>
+                <td>21.327</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2:YSn</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:GB</td>
+                <td>+</td>
+                <td>0.085</td>
+                <td>21.412</td>
+                <td>5</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1_RGB3:An</td>
+                <td>net</td>
+                <td>clk_ibuf_RNIVTI2/U0_YNn_GSouth</td>
+                <td/>
+                <td>+</td>
+                <td>0.289</td>
+                <td>21.701</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1_RGB3:YL</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:RGB</td>
+                <td>+</td>
+                <td>0.251</td>
+                <td>21.952</td>
+                <td>1</td>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>Rollover:CLK</td>
+                <td>net</td>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1_RGB3_rgbl_net_1</td>
+                <td/>
+                <td>+</td>
+                <td>0.503</td>
+                <td>22.455</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>Rollover:Dn</td>
+                <td>Library setup time</td>
+                <td/>
+                <td>ADLIB:IOOEFF</td>
+                <td>-</td>
+                <td>0.159</td>
+                <td>22.296</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>data required time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>22.296</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr/>
+            <tr>
+                <td>Operating Conditions</td>
+                <td>WORST</td>
+            </tr>
+        </table>
+        <h3>SET External Setup</h3>
+        <p>No Path</p>
+        <h3>SET Clock to Output</h3>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th>From</th>
+                <th>To</th>
+                <th>Delay (ns)</th>
+                <th>Slack (ns)</th>
+                <th>Arrival (ns)</th>
+                <th>Required (ns)</th>
+                <th>Clock to Out (ns)</th>
+                <th>Operating Conditions</th>
+            </tr>
+            <tr>
+                <td>Path 1</td>
+                <td>Q[7]:CLK</td>
+                <td>q[7]</td>
+                <td>5.503</td>
+                <td>10.039</td>
+                <td>7.961</td>
+                <td>18.000</td>
+                <td>7.961</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 2</td>
+                <td>Q[17]:CLK</td>
+                <td>q[17]</td>
+                <td>5.226</td>
+                <td>10.317</td>
+                <td>7.683</td>
+                <td>18.000</td>
+                <td>7.683</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 3</td>
+                <td>Q[19]:CLK</td>
+                <td>q[19]</td>
+                <td>5.133</td>
+                <td>10.411</td>
+                <td>7.589</td>
+                <td>18.000</td>
+                <td>7.589</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 4</td>
+                <td>Q[16]:CLK</td>
+                <td>q[16]</td>
+                <td>5.115</td>
+                <td>10.438</td>
+                <td>7.562</td>
+                <td>18.000</td>
+                <td>7.562</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 5</td>
+                <td>Q[18]:CLK</td>
+                <td>q[18]</td>
+                <td>5.107</td>
+                <td>10.446</td>
+                <td>7.554</td>
+                <td>18.000</td>
+                <td>7.554</td>
+                <td>WORST</td>
+            </tr>
+        </table>
+        <p/>
+        <h4>Expanded Path 1</h4>
+        <table cellpadding="4">
+            <tr>
+                <th>Pin Name</th>
+                <th>Type</th>
+                <th>Net Name</th>
+                <th>Cell Name</th>
+                <th>Op</th>
+                <th>Delay (ns)</th>
+                <th>Total (ns)</th>
+                <th>Fanout</th>
+                <th>Edge</th>
+            </tr>
+            <tr>
+                <td>From: Q[7]:CLK</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>To: q[7]</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>data required time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>18.000</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>data arrival time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td>-</td>
+                <td/>
+                <td>7.961</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>slack</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>10.039</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr/>
+            <tr>
+                <td>Data arrival time calculation</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td>Clock source</td>
+                <td/>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf/U0/U_IOPAD:PAD</td>
+                <td>net</td>
+                <td>clk</td>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf/U0/U_IOPAD:Y</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:IOPAD_IN</td>
+                <td>+</td>
+                <td>1.273</td>
+                <td>1.273</td>
+                <td>2</td>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2:An</td>
+                <td>net</td>
+                <td>clk_ibuf_Z</td>
+                <td/>
+                <td>+</td>
+                <td>0.054</td>
+                <td>1.327</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2:YSn</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:GB</td>
+                <td>+</td>
+                <td>0.085</td>
+                <td>1.412</td>
+                <td>5</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1_RGB1:An</td>
+                <td>net</td>
+                <td>clk_ibuf_RNIVTI2/U0_YNn_GSouth</td>
+                <td/>
+                <td>+</td>
+                <td>0.288</td>
+                <td>1.700</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1_RGB1:YL</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:RGB</td>
+                <td>+</td>
+                <td>0.251</td>
+                <td>1.951</td>
+                <td>20</td>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>Q[7]:CLK</td>
+                <td>net</td>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1_RGB1_rgbl_net_1</td>
+                <td/>
+                <td>+</td>
+                <td>0.507</td>
+                <td>2.458</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>Q[7]:Q</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:SLE</td>
+                <td>+</td>
+                <td>0.108</td>
+                <td>2.566</td>
+                <td>3</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>q_obuf[7]/U0/U_IOOUTFF:A</td>
+                <td>net</td>
+                <td>q_c[7]</td>
+                <td/>
+                <td>+</td>
+                <td>1.830</td>
+                <td>4.396</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>q_obuf[7]/U0/U_IOOUTFF:Y</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:IOOUTFF_BYPASS</td>
+                <td>+</td>
+                <td>0.330</td>
+                <td>4.726</td>
+                <td>1</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>q_obuf[7]/U0/U_IOPAD:D</td>
+                <td>net</td>
+                <td>q_obuf[7]/U0/DOUT</td>
+                <td/>
+                <td>+</td>
+                <td>0.533</td>
+                <td>5.259</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>q_obuf[7]/U0/U_IOPAD:PAD</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:IOPAD_TRI</td>
+                <td>+</td>
+                <td>2.702</td>
+                <td>7.961</td>
+                <td>0</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>q[7]</td>
+                <td>net</td>
+                <td>q[7]</td>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>7.961</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>data arrival time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>7.961</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr/>
+            <tr>
+                <td>Data required time calculation</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td>Clock Constraint</td>
+                <td/>
+                <td/>
+                <td/>
+                <td>20.000</td>
+                <td>20.000</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td>Clock source</td>
+                <td/>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>20.000</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>q[7]</td>
+                <td>Output Delay Constraint</td>
+                <td/>
+                <td/>
+                <td>-</td>
+                <td>2.000</td>
+                <td>18.000</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>data required time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>18.000</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr/>
+            <tr>
+                <td>Operating Conditions</td>
+                <td>WORST</td>
+            </tr>
+        </table>
+        <h3>SET Register to Asynchronous</h3>
+        <p>No Path</p>
+        <h3>SET External Recovery</h3>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th>From</th>
+                <th>To</th>
+                <th>Delay (ns)</th>
+                <th>Slack (ns)</th>
+                <th>Arrival (ns)</th>
+                <th>Required (ns)</th>
+                <th>Recovery (ns)</th>
+                <th>External Recovery (ns)</th>
+                <th>Operating Conditions</th>
+            </tr>
+            <tr>
+                <td>Path 1</td>
+                <td>rst_n</td>
+                <td>Q[8]:ALn</td>
+                <td>2.657</td>
+                <td>19.351</td>
+                <td>2.667</td>
+                <td>22.018</td>
+                <td>0.353</td>
+                <td>0.639</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 2</td>
+                <td>rst_n</td>
+                <td>Q[6]:ALn</td>
+                <td>2.657</td>
+                <td>19.351</td>
+                <td>2.667</td>
+                <td>22.018</td>
+                <td>0.353</td>
+                <td>0.639</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 3</td>
+                <td>rst_n</td>
+                <td>Q[4]:ALn</td>
+                <td>2.657</td>
+                <td>19.351</td>
+                <td>2.667</td>
+                <td>22.018</td>
+                <td>0.353</td>
+                <td>0.639</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 4</td>
+                <td>rst_n</td>
+                <td>Q[10]:ALn</td>
+                <td>2.657</td>
+                <td>19.351</td>
+                <td>2.667</td>
+                <td>22.018</td>
+                <td>0.353</td>
+                <td>0.639</td>
+                <td>WORST</td>
+            </tr>
+            <tr>
+                <td>Path 5</td>
+                <td>rst_n</td>
+                <td>Q[12]:ALn</td>
+                <td>2.656</td>
+                <td>19.353</td>
+                <td>2.666</td>
+                <td>22.019</td>
+                <td>0.353</td>
+                <td>0.637</td>
+                <td>WORST</td>
+            </tr>
+        </table>
+        <p/>
+        <h4>Expanded Path 1</h4>
+        <table cellpadding="4">
+            <tr>
+                <th>Pin Name</th>
+                <th>Type</th>
+                <th>Net Name</th>
+                <th>Cell Name</th>
+                <th>Op</th>
+                <th>Delay (ns)</th>
+                <th>Total (ns)</th>
+                <th>Fanout</th>
+                <th>Edge</th>
+            </tr>
+            <tr>
+                <td>From: rst_n</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>To: Q[8]:ALn</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>data required time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>22.018</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>data arrival time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td>-</td>
+                <td/>
+                <td>2.667</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>slack</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>19.351</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr/>
+            <tr>
+                <td>Data arrival time calculation</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>0.000</td>
+                <td>0.000</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>rst_n</td>
+                <td>Input Delay Constraint</td>
+                <td/>
+                <td/>
+                <td>+</td>
+                <td>0.010</td>
+                <td>0.010</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>rst_n_ibuf/U0/U_IOPAD:PAD</td>
+                <td>net</td>
+                <td>rst_n</td>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>0.010</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>rst_n_ibuf/U0/U_IOPAD:Y</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:IOPAD_IN</td>
+                <td>+</td>
+                <td>1.273</td>
+                <td>1.283</td>
+                <td>2</td>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>rst_n_ibuf_RNIBNDC:An</td>
+                <td>net</td>
+                <td>rst_n_ibuf_Z</td>
+                <td/>
+                <td>+</td>
+                <td>0.221</td>
+                <td>1.504</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>rst_n_ibuf_RNIBNDC:YSn</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:GB</td>
+                <td>+</td>
+                <td>0.085</td>
+                <td>1.589</td>
+                <td>5</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>rst_n_ibuf_RNIBNDC/U0_RGB1_RGB1:An</td>
+                <td>net</td>
+                <td>rst_n_ibuf_RNIBNDC/U0_YNn_GSouth</td>
+                <td/>
+                <td>+</td>
+                <td>0.295</td>
+                <td>1.884</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>rst_n_ibuf_RNIBNDC/U0_RGB1_RGB1:YL</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:RGB</td>
+                <td>+</td>
+                <td>0.251</td>
+                <td>2.135</td>
+                <td>20</td>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>Q[8]:ALn</td>
+                <td>net</td>
+                <td>rst_n_ibuf_RNIBNDC/U0_RGB1_RGB1_rgbl_net_1</td>
+                <td/>
+                <td>+</td>
+                <td>0.532</td>
+                <td>2.667</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>data arrival time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2.667</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr/>
+            <tr>
+                <td>Data required time calculation</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td>Clock Constraint</td>
+                <td/>
+                <td/>
+                <td/>
+                <td>20.000</td>
+                <td>20.000</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>clk</td>
+                <td>Clock source</td>
+                <td/>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>20.000</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf/U0/U_IOPAD:PAD</td>
+                <td>net</td>
+                <td>clk</td>
+                <td/>
+                <td>+</td>
+                <td>0.000</td>
+                <td>20.000</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf/U0/U_IOPAD:Y</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:IOPAD_IN</td>
+                <td>+</td>
+                <td>1.235</td>
+                <td>21.235</td>
+                <td>2</td>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2:An</td>
+                <td>net</td>
+                <td>clk_ibuf_Z</td>
+                <td/>
+                <td>+</td>
+                <td>0.052</td>
+                <td>21.287</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2:YSn</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:GB</td>
+                <td>+</td>
+                <td>0.082</td>
+                <td>21.369</td>
+                <td>5</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1_RGB1:An</td>
+                <td>net</td>
+                <td>clk_ibuf_RNIVTI2/U0_YNn_GSouth</td>
+                <td/>
+                <td>+</td>
+                <td>0.279</td>
+                <td>21.648</td>
+                <td/>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1_RGB1:YL</td>
+                <td>cell</td>
+                <td/>
+                <td>ADLIB:RGB</td>
+                <td>+</td>
+                <td>0.243</td>
+                <td>21.891</td>
+                <td>20</td>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>Q[8]:CLK</td>
+                <td>net</td>
+                <td>clk_ibuf_RNIVTI2/U0_RGB1_RGB1_rgbl_net_1</td>
+                <td/>
+                <td>+</td>
+                <td>0.480</td>
+                <td>22.371</td>
+                <td/>
+                <td>r</td>
+            </tr>
+            <tr>
+                <td>Q[8]:ALn</td>
+                <td>Library recovery time</td>
+                <td/>
+                <td>ADLIB:SLE</td>
+                <td>-</td>
+                <td>0.353</td>
+                <td>22.018</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr>
+                <td>data required time</td>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>22.018</td>
+                <td/>
+                <td/>
+            </tr>
+            <tr/>
+            <tr>
+                <td>Operating Conditions</td>
+                <td>WORST</td>
+            </tr>
+        </table>
+        <h3>SET Asynchronous to Register</h3>
+        <p>No Path</p>
+        <h2>Path Set Pin to Pin</h2>
+        <h3>SET Input to Output</h3>
+        <p>No Path</p>
+        <h2>Path Set User Sets</h2>
+    </body>
+</html>
