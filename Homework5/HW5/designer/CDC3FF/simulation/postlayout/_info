@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.3 2020.07, Jul 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/simulation
+vCDC3FF
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1701135050
+!i10b 1
+!s100 kabn=SYD7We@]2CmRic0:0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3^lAhPGNVIidj4J69>Lzh1
+S1
+R0
+Z4 w1701134719
+Z5 8X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/designer/CDC3FF/CDC3FF_ba.v
+Z6 FX:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/designer/CDC3FF/CDC3FF_ba.v
+!i122 6
+L0 45 82
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OW;L;2020.3;71
+r1
+!s85 0
+31
+Z9 !s108 1701135050.000000
+!s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/designer/CDC3FF/CDC3FF_ba.v|
+Z10 !s90 -reportprogress|300|-sv|-work|postlayout|-O0|X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/designer/CDC3FF/CDC3FF_ba.v|
+!s101 -O0
+!i113 1
+Z11 o-sv -work postlayout -O0
+Z12 tCvgOpt 0
+n@c@d@c3@f@f
+Ecdc3ff_tb
+Z13 w1701134710
+Z14 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z15 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+R0
+Z16 8X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/stimulus/CDC3FF_tb.vhd
+Z17 FX:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/stimulus/CDC3FF_tb.vhd
+l0
+L32 1
+VOVAZfiS`?HPWRHInHXdW:1
+!s100 S:ecU[G@1QB9jnW8hz8@F1
+Z18 OW;C;2020.3;71
+33
+Z19 !s110 1701134949
+!i10b 1
+Z20 !s108 1701134949.000000
+Z21 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/stimulus/CDC3FF_tb.vhd|
+Z22 !s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/stimulus/CDC3FF_tb.vhd|
+!i113 1
+Z23 o-2008 -explicit -work postlayout -O0
+R12
+Abehavioral
+R14
+R15
+DEx4 work 9 cdc3ff_tb 0 22 OVAZfiS`?HPWRHInHXdW:1
+!i122 5
+l60
+L35 59
+V7nV;de?e^oJ`1L2ad7@`>1
+!s100 6`YNaiB[0S:KjSNAQI__g2
+R18
+33
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R23
+R12
+vsdf_IOPAD_IN
+R1
+R2
+!i10b 1
+!s100 [0NHb<iC3mWa^2GofhDLI0
+R3
+ITANF5a9E=lXEzQYl^Oh6B1
+S1
+R0
+R4
+R5
+R6
+!i122 6
+L0 25 18
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z24 !s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/designer/CDC3FF/CDC3FF_ba.v|
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d_@i@n
+vsdf_IOPAD_TRI
+R1
+R2
+!i10b 1
+!s100 XG8gYc7=WZMP6D0_EMIfM3
+R3
+I1ShLcWW_g`CClHM5=IGi^3
+S1
+R0
+R4
+R5
+R6
+!i122 6
+L0 6 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R24
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d_@t@r@i

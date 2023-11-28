@@ -1,0 +1,7 @@
+D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.CDC3FF  -multisrs  X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5\synthesis\synwork\CDC3FF_comp.srs  -osyn  X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5\synthesis\synwork\CDC3FF_mult.srs  -log  X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5\synthesis\synlog\CDC3FF_multi_srs_gen.srr 
+relcom:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top work.CDC3FF -multisrs ..\synwork\CDC3FF_comp.srs -osyn ..\synwork\CDC3FF_mult.srs -log ..\synlog\CDC3FF_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\CDC3FF_comp.srs|io:i|time:1701133902|size:1955|exec:0|csum:00D9B88B8DB167228CE86E02776C11AB
+file:..\synwork\CDC3FF_mult.srs|io:o|time:1701133903|size:1582|exec:0|csum:
+file:..\synlog\CDC3FF_multi_srs_gen.srr|io:o|time:1701133903|size:1172|exec:0|csum:
+file:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

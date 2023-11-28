@@ -1,0 +1,41 @@
+# Reading pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/CDC3FF/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 18:25:56 on Nov 27,2023
+# vlog -reportprogress 300 -sv -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/designer/CDC3FF/CDC3FF_ba.v 
+# -- Compiling module sdf_IOPAD_TRI
+# -- Compiling module sdf_IOPAD_IN
+# -- Compiling module CDC3FF
+# 
+# Top level modules:
+# 	CDC3FF
+# End time: 18:25:56 on Nov 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 18:25:56 on Nov 27,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/stimulus/CDC3FF_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CDC3FF_tb
+# -- Compiling architecture behavioral of CDC3FF_tb
+# End time: 18:25:56 on Nov 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/CDC3FF_0=X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/designer/CDC3FF/CDC3FF_ba.sdf" "+transport_path_delays" postlayout.testbench 
+# Start time: 18:25:56 on Nov 27,2023
+# ** Error: (vsim-3170) Could not find 'testbench'.
+#         Searched libraries:
+#             D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2
+#             X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5/designer/CDC3FF/simulation/postlayout
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 16
+# End time: 18:28:06 on Nov 27,2023, Elapsed time: 0:02:10
+# Errors: 1, Warnings: 0

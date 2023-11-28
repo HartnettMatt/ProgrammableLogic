@@ -1,0 +1,43 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+10       X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5\hdl\CDC3FF.vhd (2023-11-27 18:06:14, 2023-11-27 18:11:31)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+0        work.cdc3ff.architecture_cdc3ff may have changed because the following files changed:
+                        X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5\hdl\CDC3FF.vhd (2023-11-27 18:06:14, 2023-11-27 18:11:31) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 10
+FID:  path (timestamp)
+0        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\arith.vhd (2020-11-03 00:58:13)
+1        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\location.map (2020-11-03 00:58:13)
+2        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\numeric.vhd (2020-11-03 00:58:13)
+3        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\std.vhd (2020-11-03 00:58:13)
+4        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\std1164.vhd (2020-11-03 00:58:13)
+5        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\std_textio.vhd (2020-11-03 00:58:13)
+6        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\unsigned.vhd (2020-11-03 00:58:13)
+7        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd\hyperents.vhd (2020-11-03 00:58:13)
+8        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd\snps_haps_pkg.vhd (2020-11-03 00:58:13)
+9        D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd\umr_capim.vhd (2020-11-03 00:58:13)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view
