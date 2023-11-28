@@ -1,0 +1,3 @@
+@E: CD214 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2a\SlowFast\hdl\SlowFast.vhd":78:4:78:6|Not a concurrent statement
+@E: Parse errors encountered - exiting
+

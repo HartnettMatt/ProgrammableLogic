@@ -1,0 +1,52 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: SlowFast 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Mon Nov 27 19:37:38 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io Aclk -DIRECTION INPUT -pinname 143 -fixed no
+set_io Bclk -DIRECTION INPUT -pinname 20 -fixed no
+set_io Dout\[0\] -DIRECTION OUTPUT -pinname 21 -fixed no
+set_io Dout\[1\] -DIRECTION OUTPUT -pinname 8 -fixed no
+set_io Dout\[2\] -DIRECTION OUTPUT -pinname 14 -fixed no
+set_io Dout\[3\] -DIRECTION OUTPUT -pinname 15 -fixed no
+set_io reset -DIRECTION INPUT -pinname 49 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location syncSignal -fixed no 20 67
+set_location Aclk_ibuf_RNI08V3/U0_RGB1 -fixed no 218 66
+set_location syncOut\[1\] -fixed no 16 67
+set_location Aclk_ibuf_RNI08V3 -fixed no 218 54
+set_location Bclk_ibuf_RNI1GRC -fixed no 219 54
+set_location Dout_Z\[0\] -fixed no 3 67
+set_location syncOut\[2\] -fixed no 18 67
+set_location syncOut\[0\] -fixed no 14 67
+set_location shiftRegister\[2\] -fixed no 15 67
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location data -fixed no 17 67
+set_location syncOut\[3\] -fixed no 21 67
+set_location Dout_Z\[2\] -fixed no 2 67
+set_location Dout_Z\[1\] -fixed no 5 67
+set_location data_RNO -fixed no 17 66
+set_location shiftRegister\[3\] -fixed no 19 67
+set_location reset_ibuf_RNI8255 -fixed no 221 54
+set_location reset_ibuf_RNI8255/U0_RGB1 -fixed no 219 66
+set_location shiftRegister\[0\] -fixed no 13 67
+set_location ip_interface_inst -fixed no 191 0
+set_location Dout_Z\[3\] -fixed no 7 67
+set_location shiftRegister\[1\] -fixed no 12 67
+set_location Bclk_ibuf_RNI1GRC/U0_RGB1 -fixed no 220 66

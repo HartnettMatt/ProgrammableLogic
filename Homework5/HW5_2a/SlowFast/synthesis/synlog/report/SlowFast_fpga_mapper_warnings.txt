@@ -1,0 +1,2 @@
+@W: MT420 |Found inferred clock SlowFast|Aclk with period 10.00ns. Please declare a user-defined clock on port Aclk.
+@W: MT420 |Found inferred clock SlowFast|Bclk with period 10.00ns. Please declare a user-defined clock on port Bclk.

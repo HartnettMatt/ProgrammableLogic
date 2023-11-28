@@ -1,18 +1,12 @@
 --------------------------------------------------------------------------------
--- Company: <Name>
+-- Company: University of Colorado Boulder
 --
 -- File: CDC3FF.vhd
--- File history:
---      <Revision number>: <Date>: <Comments>
---      <Revision number>: <Date>: <Comments>
---      <Revision number>: <Date>: <Comments>
 --
--- Description: 
---
--- <Description here>
+-- Description: A 3 flip flop clock domain crossing circuit driven by a toggle FF.
 --
 -- Targeted device: <Family::SmartFusion2> <Die::M2S010> <Package::144 TQ>
--- Author: <Name>
+-- Author: Matt Hartnett
 --
 --------------------------------------------------------------------------------
 

@@ -1,0 +1,284 @@
+//
+// Written by Synplify Pro 
+// Product Version "Q-2020.03M-SP1"
+// Program "Synplify Pro", Mapper "map202003act, Build 160R"
+// Mon Nov 27 19:37:24 2023
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\std.vhd "
+// file 1 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd\snps_haps_pkg.vhd "
+// file 2 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\std1164.vhd "
+// file 3 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\std_textio.vhd "
+// file 4 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\numeric.vhd "
+// file 5 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd\umr_capim.vhd "
+// file 6 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\arith.vhd "
+// file 7 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\unsigned.vhd "
+// file 8 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd\hyperents.vhd "
+// file 9 "\x:\graduate\ecen5863\programmablelogic\homework5\hw5_2a\slowfast\hdl\slowfast.vhd "
+// file 10 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\nlconst.dat "
+// file 11 "\x:\graduate\ecen5863\programmablelogic\homework5\hw5_2a\slowfast\designer\slowfast\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module SlowFast (
+  Aclk,
+  Bclk,
+  reset,
+  Dout
+)
+;
+input Aclk ;
+input Bclk ;
+input reset ;
+output [3:0] Dout ;
+wire Aclk ;
+wire Bclk ;
+wire reset ;
+wire [3:0] shiftRegister_Z;
+wire [3:0] syncOut_Z;
+wire [3:0] Dout_c;
+wire data_Z ;
+wire syncSignal_Z ;
+wire GND ;
+wire VCC ;
+wire Aclk_c ;
+wire Bclk_c ;
+wire reset_c ;
+wire data_i ;
+wire reset_c_i ;
+wire reset_ibuf_Z ;
+wire Aclk_ibuf_Z ;
+wire Bclk_ibuf_Z ;
+  CLKINT Bclk_ibuf_RNI1GRC (
+	.Y(Bclk_c),
+	.A(Bclk_ibuf_Z)
+);
+  CLKINT Aclk_ibuf_RNI08V3 (
+	.Y(Aclk_c),
+	.A(Aclk_ibuf_Z)
+);
+  CLKINT reset_ibuf_RNI8255 (
+	.Y(reset_c),
+	.A(reset_ibuf_Z)
+);
+  CFG1 data_RNO (
+	.A(data_Z),
+	.Y(data_i)
+);
+defparam data_RNO.INIT=2'h1;
+  CFG1 reset_ibuf_RNI8255_0 (
+	.A(reset_c),
+	.Y(reset_c_i)
+);
+defparam reset_ibuf_RNI8255_0.INIT=2'h1;
+// @9:83
+  SLE \Dout_Z[1]  (
+	.Q(Dout_c[1]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Bclk_c),
+	.D(syncOut_Z[1]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:83
+  SLE \Dout_Z[2]  (
+	.Q(Dout_c[2]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Bclk_c),
+	.D(syncOut_Z[2]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:83
+  SLE \Dout_Z[3]  (
+	.Q(Dout_c[3]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Bclk_c),
+	.D(syncOut_Z[3]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:70
+  SLE \syncOut[0]  (
+	.Q(syncOut_Z[0]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(shiftRegister_Z[0]),
+	.EN(syncSignal_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:70
+  SLE \syncOut[1]  (
+	.Q(syncOut_Z[1]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(shiftRegister_Z[1]),
+	.EN(syncSignal_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:70
+  SLE \syncOut[2]  (
+	.Q(syncOut_Z[2]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(shiftRegister_Z[2]),
+	.EN(syncSignal_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:70
+  SLE \syncOut[3]  (
+	.Q(syncOut_Z[3]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(shiftRegister_Z[3]),
+	.EN(syncSignal_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:61
+  SLE syncSignal (
+	.Q(syncSignal_Z),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(Bclk_c),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:42
+  SLE data (
+	.Q(data_Z),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(data_i),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:51
+  SLE \shiftRegister[0]  (
+	.Q(shiftRegister_Z[0]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(data_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:51
+  SLE \shiftRegister[1]  (
+	.Q(shiftRegister_Z[1]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(shiftRegister_Z[0]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:51
+  SLE \shiftRegister[2]  (
+	.Q(shiftRegister_Z[2]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(shiftRegister_Z[1]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:51
+  SLE \shiftRegister[3]  (
+	.Q(shiftRegister_Z[3]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(shiftRegister_Z[2]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:83
+  SLE \Dout_Z[0]  (
+	.Q(Dout_c[0]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Bclk_c),
+	.D(syncOut_Z[0]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:25
+  INBUF Aclk_ibuf (
+	.Y(Aclk_ibuf_Z),
+	.PAD(Aclk)
+);
+// @9:26
+  INBUF Bclk_ibuf (
+	.Y(Bclk_ibuf_Z),
+	.PAD(Bclk)
+);
+// @9:27
+  INBUF reset_ibuf (
+	.Y(reset_ibuf_Z),
+	.PAD(reset)
+);
+// @9:28
+  OUTBUF \Dout_obuf[0]  (
+	.PAD(Dout[0]),
+	.D(Dout_c[0])
+);
+// @9:28
+  OUTBUF \Dout_obuf[1]  (
+	.PAD(Dout[1]),
+	.D(Dout_c[1])
+);
+// @9:28
+  OUTBUF \Dout_obuf[2]  (
+	.PAD(Dout[2]),
+	.D(Dout_c[2])
+);
+// @9:28
+  OUTBUF \Dout_obuf[3]  (
+	.PAD(Dout[3]),
+	.D(Dout_c[3])
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* SlowFast */
+

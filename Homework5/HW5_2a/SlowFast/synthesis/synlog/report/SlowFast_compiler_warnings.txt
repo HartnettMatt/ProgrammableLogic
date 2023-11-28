@@ -1,0 +1,6 @@
+@W: CL240 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2a\SlowFast\hdl\SlowFast.vhd":28:4:28:7|Signal Dout is floating; a simulation mismatch is possible.
+@W: CL169 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2a\SlowFast\hdl\SlowFast.vhd":67:8:67:9|Pruning unused register syncOut_3(3 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2a\SlowFast\hdl\SlowFast.vhd":59:8:59:9|Pruning unused register syncSignal_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2a\SlowFast\hdl\SlowFast.vhd":50:8:50:9|Pruning unused register shiftRegister_4(3 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2a\SlowFast\hdl\SlowFast.vhd":42:8:42:9|Pruning unused register data_3. Make sure that there are no unused intermediate registers.
+

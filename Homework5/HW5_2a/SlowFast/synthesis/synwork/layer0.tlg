@@ -1,0 +1,11 @@
+@N: CD231 :"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2a\SlowFast\hdl\SlowFast.vhd":23:7:23:14|Synthesizing work.slowfast.architecture_slowfast.
+@N: CD364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2a\SlowFast\hdl\SlowFast.vhd":76:16:76:22|Removing redundant assignment.
+Post processing for work.slowfast.architecture_slowfast
+Running optimization stage 1 on SlowFast .......
+Running optimization stage 2 on SlowFast .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2a\SlowFast\synthesis\synwork\layer0.rt.csv
+
