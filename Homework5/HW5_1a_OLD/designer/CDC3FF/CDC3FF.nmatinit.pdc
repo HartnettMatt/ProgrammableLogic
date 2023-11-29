@@ -1,0 +1,35 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: CDC3FF 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Tue Nov 28 16:11:45 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io Aclk -DIRECTION INPUT -pinname 144 -fixed no
+set_io Bclk -DIRECTION INPUT -pinname 20 -fixed no
+set_io Dout -DIRECTION OUTPUT -pinname 9 -fixed no
+set_io reset -DIRECTION INPUT -pinname 10 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location FF2_d -fixed no 15 85
+set_location FF1_d -fixed no 17 85
+set_location Bclk_ibuf_RNI1GRC -fixed no 219 54
+set_location ip_interface_inst -fixed no 191 0
+set_location data -fixed no 16 85
+set_location data_RNO -fixed no 16 84
+set_location Dout_Z -fixed no 12 85
+set_location Bclk_ibuf_RNI1GRC/U0_RGB1 -fixed no 218 84
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8

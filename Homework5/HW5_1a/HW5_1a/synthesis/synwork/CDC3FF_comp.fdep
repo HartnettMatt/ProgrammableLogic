@@ -1,0 +1,15 @@
+#OPTIONS:"|-layerid|0|-orig_srs|X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework5\\HW5_1a\\HW5_1a\\synthesis\\synwork\\CDC3FF_comp.srs|-top|CDC3FF|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework5\\HW5_1a\\HW5_1a\\synthesis\\|-I|D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib|-sysv|-devicelib|D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\bin64\\c_ver.exe":1604390270
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v":1604390290
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\hypermods.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\umr_capim.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1604390293
+#CUR:"X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework5\\HW5_1a\\HW5_1a\\hdl\\CDC3FF.v":1701214547
+0			"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_1a\HW5_1a\hdl\CDC3FF.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work CDC3FF 0

@@ -1,0 +1,16 @@
+@P:  Worst Slack : -0.714
+@P:  Aclk - Estimated Frequency : 7.5 MHz
+@P:  Aclk - Requested Frequency : 50.0 MHz
+@P:  Aclk - Estimated Period : 133.498
+@P:  Aclk - Requested Period : 20.000
+@P:  Aclk - Slack : -0.714
+@P:  Bclk - Estimated Frequency : 4.1 MHz
+@P:  Bclk - Requested Frequency : 27.7 MHz
+@P:  Bclk - Estimated Period : 240.970
+@P:  Bclk - Requested Period : 36.101
+@P:  Bclk - Slack : 29.574
+@P: CDC3FF Part : m2s010vf400std
+@P: CDC3FF Register bits  : 4 
+@P: CDC3FF DSP Blocks  : 0
+@P: CDC3FF I/O primitives : 4
+@P:  CPU Time : 0h:00m:01s

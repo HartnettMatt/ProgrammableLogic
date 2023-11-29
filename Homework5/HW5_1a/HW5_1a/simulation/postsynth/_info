@@ -1,0 +1,38 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/simulation
+vCDC3FF
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1701214644
+!i10b 1
+!s100 n[cE@VMLWf<IP0mNgTh=33
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IY[SnfL7d5Qddno5]4;_GH2
+S1
+R0
+w1701214602
+8X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/synthesis/CDC3FF.v
+FX:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/synthesis/CDC3FF.v
+!i122 0
+L0 5 34
+VDg1SIo80bB@j0V0VzS_@n1
+OW;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1701214644.000000
+!s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/synthesis/CDC3FF.v|
+!s90 -reportprogress|300|-sv|-work|postsynth|X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/synthesis/CDC3FF.v|
+!s101 -O0
+!i113 1
+o-sv -work postsynth -O0
+tCvgOpt 0
+n@c@d@c3@f@f

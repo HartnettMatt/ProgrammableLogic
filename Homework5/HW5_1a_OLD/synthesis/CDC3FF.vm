@@ -1,0 +1,139 @@
+//
+// Written by Synplify Pro 
+// Product Version "Q-2020.03M-SP1"
+// Program "Synplify Pro", Mapper "map202003act, Build 160R"
+// Tue Nov 28 16:11:30 2023
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\std.vhd "
+// file 1 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd\snps_haps_pkg.vhd "
+// file 2 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\std1164.vhd "
+// file 3 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\std_textio.vhd "
+// file 4 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\numeric.vhd "
+// file 5 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd\umr_capim.vhd "
+// file 6 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\arith.vhd "
+// file 7 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd2008\unsigned.vhd "
+// file 8 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vhd\hyperents.vhd "
+// file 9 "\x:\graduate\ecen5863\programmablelogic\homework5\hw5_1a\hdl\cdc3ff.vhd "
+// file 10 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\nlconst.dat "
+// file 11 "\x:\graduate\ecen5863\programmablelogic\homework5\hw5_1a\designer\cdc3ff\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module CDC3FF (
+  Aclk,
+  Bclk,
+  reset,
+  Dout
+)
+;
+input Aclk ;
+input Bclk ;
+input reset ;
+output Dout ;
+wire Aclk ;
+wire Bclk ;
+wire reset ;
+wire Dout ;
+wire data_Z ;
+wire VCC ;
+wire GND ;
+wire FF1_d_Z ;
+wire FF2_d_Z ;
+wire Aclk_c ;
+wire Bclk_c ;
+wire reset_c ;
+wire Dout_c ;
+wire data_i ;
+wire reset_c_i ;
+wire Bclk_ibuf_Z ;
+  CLKINT Bclk_ibuf_RNI1GRC (
+	.Y(Bclk_c),
+	.A(Bclk_ibuf_Z)
+);
+  CFG1 data_RNO (
+	.A(data_Z),
+	.Y(data_i)
+);
+defparam data_RNO.INIT=2'h1;
+  CFG1 reset_ibuf_RNI8255 (
+	.A(reset_c),
+	.Y(reset_c_i)
+);
+defparam reset_ibuf_RNI8255.INIT=2'h1;
+// @9:34
+  SLE data (
+	.Q(data_Z),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Aclk_c),
+	.D(data_i),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:58
+  SLE FF1_d (
+	.Q(FF1_d_Z),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Bclk_c),
+	.D(data_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:58
+  SLE FF2_d (
+	.Q(FF2_d_Z),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Bclk_c),
+	.D(FF1_d_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:58
+  SLE Dout_Z (
+	.Q(Dout_c),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(Bclk_c),
+	.D(FF2_d_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @9:19
+  INBUF Aclk_ibuf (
+	.Y(Aclk_c),
+	.PAD(Aclk)
+);
+// @9:20
+  INBUF Bclk_ibuf (
+	.Y(Bclk_ibuf_Z),
+	.PAD(Bclk)
+);
+// @9:21
+  INBUF reset_ibuf (
+	.Y(reset_c),
+	.PAD(reset)
+);
+// @9:22
+  OUTBUF Dout_obuf (
+	.PAD(Dout),
+	.D(Dout_c)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* CDC3FF */
+

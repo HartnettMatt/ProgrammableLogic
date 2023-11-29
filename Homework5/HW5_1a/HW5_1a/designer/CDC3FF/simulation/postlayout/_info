@@ -1,0 +1,92 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/simulation
+vCDC3FF
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1701214677
+!i10b 1
+!s100 kabn=SYD7We@]2CmRic0:0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`So>G2fU?J<>D2:hPj5O40
+S1
+R0
+Z4 w1701214666
+Z5 8X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/designer/CDC3FF/CDC3FF_ba.v
+Z6 FX:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/designer/CDC3FF/CDC3FF_ba.v
+!i122 0
+L0 45 82
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OW;L;2020.3;71
+r1
+!s85 0
+31
+Z9 !s108 1701214677.000000
+!s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/designer/CDC3FF/CDC3FF_ba.v|
+Z10 !s90 -reportprogress|300|-sv|-work|postlayout|X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/designer/CDC3FF/CDC3FF_ba.v|
+!s101 -O0
+!i113 1
+Z11 o-sv -work postlayout -O0
+Z12 tCvgOpt 0
+n@c@d@c3@f@f
+vsdf_IOPAD_IN
+R1
+R2
+!i10b 1
+!s100 [0NHb<iC3mWa^2GofhDLI0
+R3
+IUN>W5RZaAI0k6Wl>TFTo`0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 25 18
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework5/HW5_1a/HW5_1a/designer/CDC3FF/CDC3FF_ba.v|
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d_@i@n
+vsdf_IOPAD_TRI
+R1
+R2
+!i10b 1
+!s100 XG8gYc7=WZMP6D0_EMIfM3
+R3
+IYb2QY<W^WY;XZEI7=@IlZ0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 6 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d_@t@r@i

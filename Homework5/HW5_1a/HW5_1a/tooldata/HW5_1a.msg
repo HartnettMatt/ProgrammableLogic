@@ -1,0 +1,11 @@
+HelpInfo,D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\html,fpgahelp.qhc,synerrmsg.mp,D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\assistant
+Implementation;Synthesis||CL135||@N: Found sequential shift Dout with address depth of 3 words and data bit width of 1.||CDC3FF.srr(61);liberoaction://cross_probe/hdl/file/'<project>\synthesis\CDC3FF.srr'/linenumber/61||CDC3FF.v(52);liberoaction://cross_probe/hdl/file/'<project>\hdl\CDC3FF.v'/linenumber/52
+Implementation;Synthesis||FX1172||@W:User-specified initial value defined for instance data is being ignored due to limitations in architecture. ||CDC3FF.srr(168);liberoaction://cross_probe/hdl/file/'<project>\synthesis\CDC3FF.srr'/linenumber/168||cdc3ff.v(31);liberoaction://cross_probe/hdl/file/'<project>\hdl\CDC3FF.v'/linenumber/31
+Implementation;Synthesis||FX1184||@N: Applying syn_allowed_resources blockrams=21 on top level netlist CDC3FF ||CDC3FF.srr(169);liberoaction://cross_probe/hdl/file/'<project>\synthesis\CDC3FF.srr'/linenumber/169||null;null
+Implementation;Synthesis||FX1143||@N: Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.||CDC3FF.srr(199);liberoaction://cross_probe/hdl/file/'<project>\synthesis\CDC3FF.srr'/linenumber/199||null;null
+Implementation;Synthesis||FP130||@N: Promoting Net Bclk_c on CLKINT  I_2 ||CDC3FF.srr(297);liberoaction://cross_probe/hdl/file/'<project>\synthesis\CDC3FF.srr'/linenumber/297||null;null
+Implementation;Synthesis||MT615||@N: Found clock Aclk with period 20.00ns ||CDC3FF.srr(347);liberoaction://cross_probe/hdl/file/'<project>\synthesis\CDC3FF.srr'/linenumber/347||null;null
+Implementation;Synthesis||MT615||@N: Found clock Bclk with period 36.10ns ||CDC3FF.srr(348);liberoaction://cross_probe/hdl/file/'<project>\synthesis\CDC3FF.srr'/linenumber/348||null;null
+Implementation;Synthesis||MT116||@W:Paths from clock (Aclk:r) to clock (Bclk:r) are overconstrained because the required time of 0.13 ns is too small.  ||CDC3FF.srr(379);liberoaction://cross_probe/hdl/file/'<project>\synthesis\CDC3FF.srr'/linenumber/379||null;null
+Implementation;Place and Route;RootName:CDC3FF
+Implementation;Place and Route||(null)||Please refer to the log file for details about 1 Warning(s) , 6 Info(s)||CDC3FF_layout_log.log;liberoaction://open_report/file/CDC3FF_layout_log.log||(null);(null)

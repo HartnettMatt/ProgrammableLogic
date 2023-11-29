@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_1a\HW5_1a\hdl\CDC3FF.v":21:7:21:12|Synthesizing module CDC3FF in library work.
+@N: CL135 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_1a\HW5_1a\hdl\CDC3FF.v":52:4:52:9|Found sequential shift Dout with address depth of 3 words and data bit width of 1.
+@N|Running in 64-bit mode
+

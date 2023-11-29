@@ -1,0 +1,10 @@
+Selecting top level module CDC3FF
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_1a\HW5_1a\hdl\CDC3FF.v":21:7:21:12|Synthesizing module CDC3FF in library work.
+Running optimization stage 1 on CDC3FF .......
+Running optimization stage 2 on CDC3FF .......
+@N: CL135 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_1a\HW5_1a\hdl\CDC3FF.v":52:4:52:9|Found sequential shift Dout with address depth of 3 words and data bit width of 1.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_1a\HW5_1a\synthesis\synwork\layer0.rt.csv
+
