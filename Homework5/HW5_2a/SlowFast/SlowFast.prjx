@@ -1,6 +1,7 @@
 KEY LIBERO "12.900"
 KEY CAPTURE "12.900.20.24"
 KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
 KEY VERILOGMODE "SYSTEMVERILOG"
@@ -14,7 +15,9 @@ KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "COM"
 KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
 KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
@@ -45,34 +48,54 @@ ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
+VALUE "<project>\designer\SlowFast\SlowFast_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1701225265"
+SIZE="32977"
+ENDFILE
+VALUE "<project>\designer\SlowFast\SlowFast_ba.vhd,ba_hdl"
+STATE="utd"
+TIME="1701225265"
+SIZE="17125"
+ENDFILE
 VALUE "<project>\hdl\SlowFast.vhd,hdl"
 STATE="utd"
 TIME="1701139018"
 SIZE="2677"
 ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1701225269"
+SIZE="973"
+ENDFILE
+VALUE "<project>\simulation\testbench_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1701225272"
+SIZE="20"
+ENDFILE
 VALUE "<project>\synthesis\SlowFast.so,so"
 STATE="utd"
-TIME="1701136925"
+TIME="1701139045"
 SIZE="255"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast.vm,syn_vm"
 STATE="utd"
-TIME="1701136925"
-SIZE="1832"
+TIME="1701139044"
+SIZE="5195"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast_syn.prj,prj"
 STATE="utd"
-TIME="1701136926"
+TIME="1701139045"
 SIZE="2322"
 ENDFILE
 VALUE "<project>\synthesis\SlowFast_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1701136925"
-SIZE="805"
+TIME="1701139044"
+SIZE="1209"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1701137940"
+TIME="1701138130"
 SIZE="159"
 ENDFILE
 ENDLIST
@@ -167,8 +190,8 @@ NAME="Synplify Pro from Synopsys"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro from Synopsys"
 LOCATION="D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
-PARAM=" -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -176,7 +199,7 @@ NAME="ModelSim"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="D:\Microsemi\Libero_SoC_v12.6\ModelSim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l testbench_postlayout_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -217,10 +240,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Timing Report Explorer;Timing Report Explorer;0
 Reports;Reports;0
-ReportsCurrentItem;Place and Route:SlowFast_glb_net_report.xml
+ReportsCurrentItem;Verify Timing:SlowFast_max_timing_multi_corner.xml
+StartPage;StartPage;0
 HDL;hdl\SlowFast.vhd;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;Timing Report Explorer
 ENDLIST
 LIST ModuleSubBlockList
 LIST "SlowFast::work","hdl\SlowFast.vhd","FALSE","FALSE"

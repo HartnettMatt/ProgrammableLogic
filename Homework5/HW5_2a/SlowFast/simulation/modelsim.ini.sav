@@ -3,7 +3,6 @@ others = $MODEL_TECH/../modelsim.ini
 SmartFusion2 = D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2
 syncad_vhdl_lib = D:\Microsemi\Libero_SoC_v12.6\Designer/lib/actel/syncad_vhdl_lib
 
-postlayout = ../designer/SlowFast/simulation/postlayout
 [vcom]
 VHDL93 = 1
 

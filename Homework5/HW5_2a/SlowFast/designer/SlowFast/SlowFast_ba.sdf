@@ -1,0 +1,1062 @@
+(DELAYFILE
+ (SDFVERSION "2.1")
+ (DESIGN "SlowFast")
+ (DATE "Tue Nov 28 19:34:25 2023")
+ (VENDOR "MICROSEMI")
+ (PROGRAM "Microsemi Libero Software, Copyright (C) 1989-2013 Microsemi Corp.")
+ (VERSION "v12.6202012.900.20.24")
+ (DIVIDER /)
+ (VOLTAGE 1.26:1.20:1.14)
+ (PROCESS "best:nom:worst")
+ (TEMPERATURE 0:25:85)
+ (TIMESCALE 100ps)
+
+//SDF Writer Software Tag: 1.0
+//Data source: Production
+
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE syncSignal)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (5.81:6.41:7.32) (5.61:6.19:7.10))
+     (PORT CLK (4.79:5.28:6.03) (4.68:5.17:5.93))
+     (PORT ALn (5.22:5.76:6.61) (4.54:5.00:5.71))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOINFF_BYPASS")
+ (INSTANCE \\reset_ibuf\/U0\/U_IOINFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.06:2.27:2.60) (2.89:3.19:3.66))
+     (IOPATH A Y (1.03:1.14:1.30) (1.29:1.42:1.63))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOOUTFF_BYPASS")
+ (INSTANCE \\Dout_obuf\[2\]\/U0\/U_IOOUTFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH A Y (1.73:1.91:2.18) (3.06:3.38:3.88))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_2)
+ )
+ (CELL
+ (CELLTYPE "RGB_NG")
+ (INSTANCE \\Aclk_ibuf_RNI08V3\/U0_RGB1\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT An (2.63:2.90:3.31) (2.80:3.09:3.55))
+     (IOPATH An YL (2.34:2.58:2.95) (1.69:1.87:2.15))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (posedge An) (6.30:6.30:6.30))
+     (WIDTH (negedge An) (5.80:5.80:5.80))
+     (SETUP (posedge ENn) (negedge An) (2.05:2.27:2.60))
+     (SETUP (negedge ENn) (negedge An) (1.63:1.79:2.06))
+     (HOLD (posedge ENn) (negedge An) (0.21:0.23:0.27))
+     (HOLD (negedge ENn) (negedge An) (0:0:0))
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_7)
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_6)
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_15)
+ )
+ (CELL
+ (CELLTYPE "IOPAD_TRI_VDDI")
+ (INSTANCE \\Dout_obuf\[3\]\/U0\/U_IOPAD\\/U_VCCI)
+ (DELAY
+  (ABSOLUTE
+     (IOPATH EIN_VDD PAD_P (17.61:21.69:25.92) (18.33:39.56:47.97))
+     (IOPATH OIN_VDD PAD_P (15.59:17.26:20.62) (15.99:17.76:21.53))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_VDD")
+ (INSTANCE \\Dout_obuf\[3\]\/U0\/U_IOPAD\\/U_VCCA)
+ (DELAY
+  (ABSOLUTE
+     (PORT OIN_P (0.79:0.87:0.99) (0.63:0.69:0.80))
+     (PORT EIN_P (0.72:0.80:0.91) (0.58:0.64:0.73))
+     (IOPATH EIN_P EIN_VDD (8.89:10.01:12.23) (9.09:10.22:12.41))
+     (IOPATH OIN_P OIN_VDD (6.71:7.57:9.24) (7.21:8.10:9.84))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge EIN_P) (0.00:0.00:0.00))
+     (WIDTH (negedge OIN_P) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOINFF_BYPASS")
+ (INSTANCE \\Bclk_ibuf\/U0\/U_IOINFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (0.50:0.55:0.63) (0.92:1.02:1.16))
+     (IOPATH A Y (0.67:0.74:0.84) (0.75:0.83:0.95))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOTRI_OB_EB")
+ (INSTANCE \\Dout_obuf\[1\]\/U0\/U_IOTRI\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (10.60:11.68:13.34) (10.37:11.45:13.14))
+     (IOPATH D DOUT (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH E EOUT (0.00:0.00:0.00) (0.00:0.00:0.00))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\syncOut\[1\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (3.57:3.94:4.49) (3.47:3.83:4.40))
+     (PORT CLK (4.79:5.28:6.03) (4.68:5.17:5.93))
+     (PORT EN (4.04:4.46:5.09) (4.19:4.63:5.31))
+     (PORT ALn (5.22:5.76:6.61) (4.54:5.00:5.71))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOTRI_OB_EB")
+ (INSTANCE \\Dout_obuf\[2\]\/U0\/U_IOTRI\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (8.57:9.44:10.78) (8.39:9.26:10.63))
+     (IOPATH D DOUT (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH E EOUT (0.00:0.00:0.00) (0.00:0.00:0.00))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "GB_NG")
+ (INSTANCE Aclk_ibuf_RNI08V3)
+ (DELAY
+  (ABSOLUTE
+     (PORT An (2.08:2.30:2.63) (2.21:2.44:2.79))
+     (IOPATH An YNn (0.76:0.83:0.95) (0.79:0.87:1.00))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (posedge An) (2.21:2.21:2.21))
+     (WIDTH (negedge An) (1.57:1.57:1.57))
+     (SETUP (posedge ENn) (negedge An) (2.43:2.68:3.07))
+     (SETUP (negedge ENn) (negedge An) (0.65:0.72:0.82))
+     (HOLD (posedge ENn) (negedge An) (0:0:0))
+     (HOLD (negedge ENn) (negedge An) (0:0:0))
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_13)
+ )
+ (CELL
+ (CELLTYPE "GB_NG")
+ (INSTANCE Bclk_ibuf_RNI1GRC)
+ (DELAY
+  (ABSOLUTE
+     (PORT An (0.92:1.02:1.16) (0.50:0.55:0.63))
+     (IOPATH An YNn (0.76:0.83:0.95) (0.79:0.87:1.00))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (posedge An) (2.21:2.21:2.21))
+     (WIDTH (negedge An) (1.57:1.57:1.57))
+     (SETUP (posedge ENn) (negedge An) (2.43:2.68:3.07))
+     (SETUP (negedge ENn) (negedge An) (0.65:0.72:0.82))
+     (HOLD (posedge ENn) (negedge An) (0:0:0))
+     (HOLD (negedge ENn) (negedge An) (0:0:0))
+ )
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\Dout_Z\[0\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (4.87:5.36:6.13) (4.94:5.46:6.26))
+     (PORT CLK (4.60:5.06:5.78) (4.52:4.99:5.73))
+     (PORT ALn (4.97:5.49:6.30) (4.25:4.69:5.35))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\syncOut\[2\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (4.64:5.11:5.84) (4.44:4.91:5.63))
+     (PORT CLK (4.79:5.28:6.03) (4.68:5.17:5.93))
+     (PORT EN (4.04:4.46:5.09) (4.19:4.63:5.31))
+     (PORT ALn (5.22:5.76:6.61) (4.54:5.00:5.71))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN_VDDI")
+ (INSTANCE \\Bclk_ibuf\/U0\/U_IOPAD\\/U_VCCI)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD_P (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD_P IOUT_VDD (8.67:9.66:11.64) (9.94:11.03:13.14))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (posedge PAD_P) (9.90:9.90:9.90))
+     (WIDTH (negedge PAD_P) (9.90:9.90:9.90))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_DELAY")
+ (INSTANCE \\Bclk_ibuf\/U0\/U_IOPAD\\/U_DELAY)
+ (DELAY
+  (ABSOLUTE
+     (IOPATH IOUT_IN IOUT_P (0.00:0.00:0.00) (0.00:0.00:0.00))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_VDD")
+ (INSTANCE \\Bclk_ibuf\/U0\/U_IOPAD\\/U_VCCA)
+ (DELAY
+  (ABSOLUTE
+     (IOPATH IOUT_VDD IOUT_IN (2.44:2.77:3.33) (2.47:2.78:3.33))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge EIN_P) (0.00:0.00:0.00))
+     (WIDTH (negedge OIN_P) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\syncOut\[0\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (3.46:3.81:4.35) (3.35:3.70:4.24))
+     (PORT CLK (4.79:5.28:6.03) (4.68:5.17:5.93))
+     (PORT EN (4.04:4.46:5.09) (4.19:4.63:5.31))
+     (PORT ALn (5.22:5.76:6.61) (4.54:5.00:5.71))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_16)
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\shiftRegister\[2\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (3.57:3.94:4.49) (3.47:3.83:4.40))
+     (PORT CLK (4.88:5.38:6.14) (4.77:5.27:6.04))
+     (PORT ALn (5.22:5.76:6.61) (4.54:5.00:5.71))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOENFF_BYPASS")
+ (INSTANCE \\Dout_obuf\[1\]\/U0\/U_IOENFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH A Y (1.73:1.91:2.18) (3.06:3.38:3.88))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "FLASH_FREEZE")
+ (INSTANCE \\flash_freeze_inst\/INST_FLASH_FREEZE_IP\\)
+ )
+ (CELL
+ (CELLTYPE "IOPAD_TRI_VDDI")
+ (INSTANCE \\Dout_obuf\[0\]\/U0\/U_IOPAD\\/U_VCCI)
+ (DELAY
+  (ABSOLUTE
+     (IOPATH EIN_VDD PAD_P (17.61:21.69:25.92) (18.33:39.56:47.97))
+     (IOPATH OIN_VDD PAD_P (15.59:17.26:20.62) (15.99:17.76:21.53))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_VDD")
+ (INSTANCE \\Dout_obuf\[0\]\/U0\/U_IOPAD\\/U_VCCA)
+ (DELAY
+  (ABSOLUTE
+     (PORT OIN_P (0.47:0.52:0.59) (0.34:0.38:0.44))
+     (PORT EIN_P (0.43:0.48:0.55) (0.32:0.35:0.40))
+     (IOPATH EIN_P EIN_VDD (8.89:10.01:12.23) (9.09:10.22:12.41))
+     (IOPATH OIN_P OIN_VDD (6.71:7.57:9.24) (7.21:8.10:9.84))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge EIN_P) (0.00:0.00:0.00))
+     (WIDTH (negedge OIN_P) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOENFF_BYPASS")
+ (INSTANCE \\Dout_obuf\[0\]\/U0\/U_IOENFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH A Y (1.73:1.91:2.18) (3.06:3.38:3.88))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE data)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (0.60:0.67:0.76) (0.61:0.68:0.78))
+     (PORT CLK (4.88:5.38:6.15) (4.77:5.27:6.05))
+     (PORT ALn (5.22:5.76:6.61) (4.54:5.00:5.71))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_12)
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN_VDDI")
+ (INSTANCE \\Aclk_ibuf\/U0\/U_IOPAD\\/U_VCCI)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD_P (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD_P IOUT_VDD (2.81:3.02:3.53) (3.27:3.49:3.91))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (posedge PAD_P) (8.20:8.20:8.20))
+     (WIDTH (negedge PAD_P) (8.20:8.20:8.20))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_DELAY")
+ (INSTANCE \\Aclk_ibuf\/U0\/U_IOPAD\\/U_DELAY)
+ (DELAY
+  (ABSOLUTE
+     (IOPATH IOUT_IN IOUT_P (0.00:0.00:0.00) (0.00:0.00:0.00))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_VDD")
+ (INSTANCE \\Aclk_ibuf\/U0\/U_IOPAD\\/U_VCCA)
+ (DELAY
+  (ABSOLUTE
+     (IOPATH IOUT_VDD IOUT_IN (3.77:4.24:5.05) (3.75:4.22:4.94))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge EIN_P) (0.00:0.00:0.00))
+     (WIDTH (negedge OIN_P) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_5)
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\syncOut\[3\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (3.47:3.82:4.37) (3.36:3.71:4.25))
+     (PORT CLK (4.88:5.38:6.14) (4.77:5.27:6.04))
+     (PORT EN (4.04:4.46:5.09) (4.19:4.63:5.31))
+     (PORT ALn (5.22:5.76:6.61) (4.54:5.00:5.71))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOOUTFF_BYPASS")
+ (INSTANCE \\Dout_obuf\[1\]\/U0\/U_IOOUTFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH A Y (1.73:1.91:2.18) (3.06:3.38:3.88))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\Dout_Z\[2\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (4.58:5.04:5.76) (4.38:4.84:5.55))
+     (PORT CLK (4.51:4.97:5.68) (4.44:4.90:5.62))
+     (PORT ALn (4.97:5.49:6.30) (4.25:4.69:5.35))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_3)
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_11)
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_0)
+ )
+ (CELL
+ (CELLTYPE "IOPAD_IN_VDDI")
+ (INSTANCE \\reset_ibuf\/U0\/U_IOPAD\\/U_VCCI)
+ (DELAY
+  (ABSOLUTE
+     (PORT PAD_P (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH PAD_P IOUT_VDD (8.67:9.66:11.64) (9.94:11.03:13.14))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (posedge PAD_P) (9.90:9.90:9.90))
+     (WIDTH (negedge PAD_P) (9.90:9.90:9.90))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_DELAY")
+ (INSTANCE \\reset_ibuf\/U0\/U_IOPAD\\/U_DELAY)
+ (DELAY
+  (ABSOLUTE
+     (IOPATH IOUT_IN IOUT_P (0.00:0.00:0.00) (0.00:0.00:0.00))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_VDD")
+ (INSTANCE \\reset_ibuf\/U0\/U_IOPAD\\/U_VCCA)
+ (DELAY
+  (ABSOLUTE
+     (IOPATH IOUT_VDD IOUT_IN (2.44:2.77:3.33) (2.47:2.78:3.33))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge EIN_P) (0.00:0.00:0.00))
+     (WIDTH (negedge OIN_P) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_10)
+ )
+ (CELL
+ (CELLTYPE "IOPAD_TRI_VDDI")
+ (INSTANCE \\Dout_obuf\[1\]\/U0\/U_IOPAD\\/U_VCCI)
+ (DELAY
+  (ABSOLUTE
+     (IOPATH EIN_VDD PAD_P (16.96:21.63:25.84) (18.30:39.03:47.32))
+     (IOPATH OIN_VDD PAD_P (15.56:17.22:20.58) (15.92:17.68:21.43))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_VDD")
+ (INSTANCE \\Dout_obuf\[1\]\/U0\/U_IOPAD\\/U_VCCA)
+ (DELAY
+  (ABSOLUTE
+     (PORT OIN_P (1.46:1.60:1.83) (1.28:1.41:1.62))
+     (PORT EIN_P (1.36:1.50:1.71) (1.19:1.32:1.51))
+     (IOPATH EIN_P EIN_VDD (8.84:9.96:12.17) (9.07:10.20:12.38))
+     (IOPATH OIN_P OIN_VDD (7.05:7.95:9.71) (7.58:8.52:10.35))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge EIN_P) (0.00:0.00:0.00))
+     (WIDTH (negedge OIN_P) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\Dout_Z\[1\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (6.11:6.74:7.70) (5.89:6.50:7.46))
+     (PORT CLK (4.60:5.07:5.79) (4.52:5.00:5.73))
+     (PORT ALn (4.97:5.49:6.30) (4.25:4.69:5.35))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "CFG1")
+ (INSTANCE data_RNO)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (3.54:3.90:4.45) (3.50:3.87:4.44))
+     (IOPATH A Y (1.31:1.44:1.64) (1.24:1.37:1.57))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_1)
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE \\Aclk_ibuf\/U0\/U_IOIN\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOOUTFF_BYPASS")
+ (INSTANCE \\Dout_obuf\[3\]\/U0\/U_IOOUTFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH A Y (1.73:1.91:2.18) (3.06:3.38:3.88))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\shiftRegister\[3\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (4.64:5.11:5.84) (4.44:4.91:5.63))
+     (PORT CLK (4.88:5.38:6.14) (4.77:5.26:6.04))
+     (PORT ALn (5.22:5.76:6.61) (4.54:5.00:5.71))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "GB_NG")
+ (INSTANCE reset_ibuf_RNI8255)
+ (DELAY
+  (ABSOLUTE
+     (PORT An (2.89:3.19:3.66) (2.06:2.27:2.60))
+     (IOPATH An YNn (0.76:0.83:0.95) (0.79:0.87:1.00))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (posedge An) (2.21:2.21:2.21))
+     (WIDTH (negedge An) (1.57:1.57:1.57))
+     (SETUP (posedge ENn) (negedge An) (2.43:2.68:3.07))
+     (SETUP (negedge ENn) (negedge An) (0.65:0.72:0.82))
+     (HOLD (posedge ENn) (negedge An) (0:0:0))
+     (HOLD (negedge ENn) (negedge An) (0:0:0))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOENFF_BYPASS")
+ (INSTANCE \\Dout_obuf\[2\]\/U0\/U_IOENFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH A Y (1.73:1.91:2.18) (3.06:3.38:3.88))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOTRI_OB_EB")
+ (INSTANCE \\Dout_obuf\[0\]\/U0\/U_IOTRI\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (8.59:9.46:10.81) (8.41:9.28:10.65))
+     (IOPATH D DOUT (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH E EOUT (0.00:0.00:0.00) (0.00:0.00:0.00))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "RGB_NG")
+ (INSTANCE \\reset_ibuf_RNI8255\/U0_RGB1\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT An (2.55:2.81:3.21) (2.62:2.90:3.32))
+     (IOPATH An YL (2.34:2.58:2.95) (1.69:1.87:2.15))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (posedge An) (6.30:6.30:6.30))
+     (WIDTH (negedge An) (5.80:5.80:5.80))
+     (SETUP (posedge ENn) (negedge An) (2.05:2.27:2.60))
+     (SETUP (negedge ENn) (negedge An) (1.63:1.79:2.06))
+     (HOLD (posedge ENn) (negedge An) (0.21:0.23:0.27))
+     (HOLD (negedge ENn) (negedge An) (0:0:0))
+ )
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\shiftRegister\[0\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (4.08:4.49:5.13) (4.27:4.71:5.41))
+     (PORT CLK (4.88:5.38:6.15) (4.77:5.27:6.05))
+     (PORT ALn (5.22:5.76:6.61) (4.54:5.00:5.71))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOENFF_BYPASS")
+ (INSTANCE \\Dout_obuf\[3\]\/U0\/U_IOENFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH A Y (1.73:1.91:2.18) (3.06:3.38:3.88))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_9)
+ )
+ (CELL
+ (CELLTYPE "IP_INTERFACE")
+ (INSTANCE ip_interface_inst)
+ (DELAY
+  (ABSOLUTE
+     (PORT B (17.38:19.15:21.87) (16.70:18.44:21.15))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOOUTFF_BYPASS")
+ (INSTANCE \\Dout_obuf\[0\]\/U0\/U_IOOUTFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH A Y (1.73:1.91:2.18) (3.06:3.38:3.88))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOTRI_OB_EB")
+ (INSTANCE \\Dout_obuf\[3\]\/U0\/U_IOTRI\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (8.68:9.57:10.93) (8.46:9.34:10.72))
+     (IOPATH D DOUT (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH E EOUT (0.00:0.00:0.00) (0.00:0.00:0.00))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE \\reset_ibuf\/U0\/U_IOIN\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\Dout_Z\[3\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (4.67:5.15:5.88) (4.46:4.92:5.65))
+     (PORT CLK (4.59:5.06:5.78) (4.52:4.99:5.73))
+     (PORT ALn (4.97:5.49:6.30) (4.25:4.69:5.35))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_14)
+ )
+ (CELL
+ (CELLTYPE "SLE")
+ (INSTANCE \\shiftRegister\[1\]\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT D (3.46:3.81:4.35) (3.35:3.70:4.24))
+     (PORT CLK (4.79:5.28:6.03) (4.68:5.17:5.93))
+     (PORT ALn (5.22:5.76:6.61) (4.54:5.00:5.71))
+     (IOPATH ALn Q () (4.43:4.89:5.62))
+     (IOPATH CLK Q (0.86:0.94:1.08) (1.02:1.12:1.29))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge ALn) (3.13:3.13:3.13))
+     (RECOVERY (posedge ALn) (posedge CLK) (3.31:3.65:4.17))
+     (HOLD (posedge ALn) (posedge CLK) (0.00:0.00:0.00))
+     (WIDTH (posedge CLK) (0.77:0.77:0.77))
+     (WIDTH (negedge CLK) (1.64:1.64:1.64))
+     (SETUP (posedge D) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge D) (posedge CLK) (1.54:1.70:1.94))
+     (HOLD (posedge D) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge D) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge EN) (posedge CLK) (2.38:2.62:2.99))
+     (SETUP (negedge EN) (posedge CLK) (2.88:3.17:3.63))
+     (HOLD (posedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge EN) (posedge CLK) (0.00:0.00:0.00))
+     (SETUP (posedge SLn) (posedge CLK) (1.19:1.31:1.49))
+     (SETUP (negedge SLn) (posedge CLK) (5.12:5.64:6.44))
+     (HOLD (posedge SLn) (posedge CLK) (0.00:0.00:0.00))
+     (HOLD (negedge SLn) (posedge CLK) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "IOINFF_BYPASS")
+ (INSTANCE \\Aclk_ibuf\/U0\/U_IOINFF\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT A (2.21:2.44:2.79) (2.08:2.30:2.63))
+     (IOPATH A Y (0.96:1.06:1.21) (1.12:1.23:1.41))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_TRI_VDDI")
+ (INSTANCE \\Dout_obuf\[2\]\/U0\/U_IOPAD\\/U_VCCI)
+ (DELAY
+  (ABSOLUTE
+     (IOPATH EIN_VDD PAD_P (16.96:21.63:25.84) (18.30:39.03:47.32))
+     (IOPATH OIN_VDD PAD_P (15.56:17.22:20.58) (15.92:17.68:21.43))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "IOPAD_VDD")
+ (INSTANCE \\Dout_obuf\[2\]\/U0\/U_IOPAD\\/U_VCCA)
+ (DELAY
+  (ABSOLUTE
+     (PORT OIN_P (0.79:0.88:1.00) (0.64:0.70:0.81))
+     (PORT EIN_P (0.74:0.82:0.93) (0.59:0.65:0.75))
+     (IOPATH EIN_P EIN_VDD (8.84:9.96:12.17) (9.07:10.20:12.38))
+     (IOPATH OIN_P OIN_VDD (7.05:7.95:9.71) (7.58:8.52:10.35))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (negedge EIN_P) (0.00:0.00:0.00))
+     (WIDTH (negedge OIN_P) (0.00:0.00:0.00))
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_4)
+ )
+ (CELL
+ (CELLTYPE "IOIN_IB")
+ (INSTANCE \\Bclk_ibuf\/U0\/U_IOIN\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT YIN (0.00:0.00:0.00) (0.00:0.00:0.00))
+     (IOPATH YIN Y (0.00:0.00:0.00) (0.00:0.00:0.00))
+  )
+ )
+ )
+ (CELL
+ (CELLTYPE "INV_BA")
+ (INSTANCE AFLSDF_INV_8)
+ )
+ (CELL
+ (CELLTYPE "RGB_NG")
+ (INSTANCE \\Bclk_ibuf_RNI1GRC\/U0_RGB1\\)
+ (DELAY
+  (ABSOLUTE
+     (PORT An (2.50:2.75:3.14) (2.57:2.84:3.26))
+     (IOPATH An YL (2.34:2.58:2.95) (1.69:1.87:2.15))
+  )
+ )
+ (TIMINGCHECK
+     (WIDTH (posedge An) (6.30:6.30:6.30))
+     (WIDTH (negedge An) (5.80:5.80:5.80))
+     (SETUP (posedge ENn) (negedge An) (2.05:2.27:2.60))
+     (SETUP (negedge ENn) (negedge An) (1.63:1.79:2.06))
+     (HOLD (posedge ENn) (negedge An) (0.21:0.23:0.27))
+     (HOLD (negedge ENn) (negedge An) (0:0:0))
+ )
+ )
+)
