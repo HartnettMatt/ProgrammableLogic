@@ -1,0 +1,16 @@
+@P:  Worst Slack : 8.740
+@P:  SlowFast|Aclk - Estimated Frequency : 827.1 MHz
+@P:  SlowFast|Aclk - Requested Frequency : 100.0 MHz
+@P:  SlowFast|Aclk - Estimated Period : 1.209
+@P:  SlowFast|Aclk - Requested Period : 10.000
+@P:  SlowFast|Aclk - Slack : 8.791
+@P:  SlowFast|Bclk - Estimated Frequency : 793.5 MHz
+@P:  SlowFast|Bclk - Requested Frequency : 100.0 MHz
+@P:  SlowFast|Bclk - Estimated Period : 1.260
+@P:  SlowFast|Bclk - Requested Period : 10.000
+@P:  SlowFast|Bclk - Slack : 8.740
+@P: SlowFast Part : m2s010vf400std
+@P: SlowFast Register bits  : 14 
+@P: SlowFast DSP Blocks  : 0
+@P: SlowFast I/O primitives : 7
+@P:  CPU Time : 0h:00m:01s

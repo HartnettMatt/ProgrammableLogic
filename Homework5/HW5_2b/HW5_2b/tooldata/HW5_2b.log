@@ -1,0 +1,16 @@
+Project Name: HW5_2b
+Location: X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2b\HW5_2b
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-TQ144
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 144 TQ
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

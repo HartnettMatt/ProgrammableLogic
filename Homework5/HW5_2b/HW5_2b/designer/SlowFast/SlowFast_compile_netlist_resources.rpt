@@ -1,0 +1,158 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+Date: Tue Nov 28 20:02:31 2023
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010         |
+| Package                        | 144 TQ         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+--------------------------------------------------------------------------------------+
+| Topcell | SlowFast                                                                             |
+| Format  | Verilog                                                                              |
+| Source  | X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_2b\HW5_2b\synthesis\SlowFast.vm |
++---------+--------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1    | 12084 | 0.01       |
+| DFF                       | 14   | 12084 | 0.12       |
+| I/O Register              | 0    | 252   | 0.00       |
+| User I/O                  | 7    | 84    | 8.33       |
+| -- Single-ended I/O       | 7    | 84    | 8.33       |
+| -- Differential I/O Pairs | 0    | 37    | 0.00       |
+| RAM64x18                  | 0    | 22    | 0.00       |
+| RAM1K18                   | 0    | 21    | 0.00       |
+| MACC                      | 0    | 22    | 0.00       |
+| Chip Globals              | 3    | 8     | 37.50      |
+| CCC                       | 0    | 2     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 1    | 14  |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 1    | 14  |
++--------------------------+------+-----+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 3            | 0           | 0               |
+| Output I/O                    | 4            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  3    |  4     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+------------------------------------+
+| Fanout | Type    | Name                               |
++--------+---------+------------------------------------+
+| 14     | INT_NET | Net   : reset_c                    |
+|        |         | Driver: reset_ibuf_RNI8255/U0_RGB1 |
+|        |         | Source: NETLIST                    |
+| 9      | INT_NET | Net   : Bclk_c                     |
+|        |         | Driver: Bclk_ibuf_RNI1GRC/U0_RGB1  |
+|        |         | Source: NETLIST                    |
+| 5      | INT_NET | Net   : Aclk_c                     |
+|        |         | Driver: Aclk_ibuf_RNI08V3/U0_RGB1  |
+|        |         | Source: NETLIST                    |
++--------+---------+------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------------+
+| Fanout | Type    | Name                       |
++--------+---------+----------------------------+
+| 4      | INT_NET | Net   : syncSignal_Z       |
+|        |         | Driver: syncSignal         |
+| 2      | INT_NET | Net   : shiftRegister_Z[2] |
+|        |         | Driver: shiftRegister[2]   |
+| 2      | INT_NET | Net   : shiftRegister_Z[1] |
+|        |         | Driver: shiftRegister[1]   |
+| 2      | INT_NET | Net   : shiftRegister_Z[0] |
+|        |         | Driver: shiftRegister[0]   |
+| 2      | INT_NET | Net   : data_Z             |
+|        |         | Driver: data               |
+| 2      | INT_NET | Net   : Aclk_ibuf_Z        |
+|        |         | Driver: Aclk_ibuf          |
+| 1      | INT_NET | Net   : shiftRegister_Z[3] |
+|        |         | Driver: shiftRegister[3]   |
+| 1      | INT_NET | Net   : syncOut_Z[3]       |
+|        |         | Driver: syncOut[3]         |
+| 1      | INT_NET | Net   : syncOut_Z[2]       |
+|        |         | Driver: syncOut[2]         |
+| 1      | INT_NET | Net   : syncOut_Z[1]       |
+|        |         | Driver: syncOut[1]         |
++--------+---------+----------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------------+
+| Fanout | Type    | Name                       |
++--------+---------+----------------------------+
+| 4      | INT_NET | Net   : syncSignal_Z       |
+|        |         | Driver: syncSignal         |
+| 2      | INT_NET | Net   : shiftRegister_Z[2] |
+|        |         | Driver: shiftRegister[2]   |
+| 2      | INT_NET | Net   : shiftRegister_Z[1] |
+|        |         | Driver: shiftRegister[1]   |
+| 2      | INT_NET | Net   : shiftRegister_Z[0] |
+|        |         | Driver: shiftRegister[0]   |
+| 2      | INT_NET | Net   : data_Z             |
+|        |         | Driver: data               |
+| 2      | INT_NET | Net   : Aclk_ibuf_Z        |
+|        |         | Driver: Aclk_ibuf          |
+| 1      | INT_NET | Net   : shiftRegister_Z[3] |
+|        |         | Driver: shiftRegister[3]   |
+| 1      | INT_NET | Net   : syncOut_Z[3]       |
+|        |         | Driver: syncOut[3]         |
+| 1      | INT_NET | Net   : syncOut_Z[2]       |
+|        |         | Driver: syncOut[2]         |
+| 1      | INT_NET | Net   : syncOut_Z[1]       |
+|        |         | Driver: syncOut[1]         |
++--------+---------+----------------------------+
+
