@@ -1,18 +1,13 @@
 --------------------------------------------------------------------------------
--- Company: <Name>
+-- Company: University of Colorado Boulder
 --
 -- File: SlowFast.vhd
--- File history:
---      <Revision number>: <Date>: <Comments>
---      <Revision number>: <Date>: <Comments>
---      <Revision number>: <Date>: <Comments>
 --
--- Description: 
+-- Description: A syncSignal clock domain crossing design.
 --
--- <Description here>
 --
 -- Targeted device: <Family::SmartFusion2> <Die::M2S010> <Package::144 TQ>
--- Author: <Name>
+-- Author: Matt Hartnett
 --
 --------------------------------------------------------------------------------
 
