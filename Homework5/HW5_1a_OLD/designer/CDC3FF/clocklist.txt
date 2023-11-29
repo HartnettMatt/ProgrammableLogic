@@ -1,2 +1,0 @@
-"Aclk",,"Aclk","Aclk"
-"Bclk",,"Bclk","Bclk"

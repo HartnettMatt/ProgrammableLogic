@@ -1,0 +1,83 @@
+INFO: Reading User SDC file X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_1b\HW5_1b\constraint\user.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: No User PDC file(s) was specified.
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 0 fixed I/O macros, 4 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 12.900.20 
+Design: CDC3FF                          Started: Tue Nov 28 19:30:35 2023
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: CDC3FF                          
+Finished: Tue Nov 28 19:30:45 2023
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:10
+Total Memory Usage: 288.5 Mbytes
+                        o - o - o - o - o - o
+
+
+Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
+    Driver: Aclk
+       Net: Aclk_c
+Clock pins: 1
+
+Router 
+Design: X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_1b\HW5_1b\designer\CDC3FF\CDC3FFStarted: Tue Nov 28 19:30:47 2023
+
+
+Router completed successfully.
+
+Design: X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5_1b\HW5_1b\designer\CDC3FF\CDC3FF
+Finished: Tue Nov 28 19:30:50 2023
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:03
+Total Memory Usage: 446.6 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 1    | 12084 | 0.01       |
+| DFF           | 4    | 12084 | 0.03       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 4    | 12084 | 0.03       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  0    | 0.00%      |
+| Placed |  4    | 100.00%    |
++--------+-------+------------+
+

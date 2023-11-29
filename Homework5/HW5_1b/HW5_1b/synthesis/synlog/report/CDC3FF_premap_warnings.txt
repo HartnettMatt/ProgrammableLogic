@@ -1,0 +1,1 @@
+@W: FX1172 :"x:\graduate\ecen5863\programmablelogic\homework5\hw5_1b\hw5_1b\hdl\cdc3ff.v":31:4:31:9|User-specified initial value defined for instance data is being ignored due to limitations in architecture. 

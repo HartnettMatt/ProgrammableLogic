@@ -1,0 +1,2 @@
+"Aclk",36.101,"Aclk","Aclk"
+"Bclk",20,"Bclk","Bclk"

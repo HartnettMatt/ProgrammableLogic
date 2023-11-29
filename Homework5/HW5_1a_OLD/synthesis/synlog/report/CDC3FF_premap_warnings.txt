@@ -1,3 +1,0 @@
-@W: FX1172 :"x:\graduate\ecen5863\programmablelogic\homework5\hw5_1a\hdl\cdc3ff.vhd":34:8:34:9|User-specified initial value defined for instance data is being ignored due to limitations in architecture. 
-@W: MT530 :"x:\graduate\ecen5863\programmablelogic\homework5\hw5_1a\hdl\cdc3ff.vhd":34:8:34:9|Found inferred clock CDC3FF|Aclk which controls 1 sequential elements including data. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"x:\graduate\ecen5863\programmablelogic\homework5\hw5_1a\hdl\cdc3ff.vhd":58:8:58:9|Found inferred clock CDC3FF|Bclk which controls 3 sequential elements including Dout. This clock has no specified timing constraint which may adversely impact design performance. 

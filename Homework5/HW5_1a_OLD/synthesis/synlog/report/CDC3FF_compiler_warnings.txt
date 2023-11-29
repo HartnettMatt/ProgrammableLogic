@@ -1,3 +1,0 @@
-@W: CG234 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5\hdl\CDC3FF.vhd":47:4:47:6|Duplicate definition of ff1
-@W: CG234 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework5\HW5\hdl\CDC3FF.vhd":55:4:55:6|Duplicate definition of ff2
-

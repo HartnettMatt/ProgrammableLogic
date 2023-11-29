@@ -1,0 +1,1 @@
+@W: MT116 |Paths from clock (Aclk:r) to clock (Bclk:r) are overconstrained because the required time of 0.13 ns is too small.  
