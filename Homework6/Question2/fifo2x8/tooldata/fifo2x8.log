@@ -1,0 +1,16 @@
+Project Name: fifo2x8
+Location: X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8
+Description: 8 bit FIFO implementation in VHDL.
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-TQ144
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 144 TQ
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM
