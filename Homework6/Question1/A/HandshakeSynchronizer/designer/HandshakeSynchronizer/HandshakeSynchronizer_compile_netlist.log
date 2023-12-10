@@ -1,0 +1,22 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       3 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     3 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    22     0      0      'clkB_ibuf_RNI14F7' 
+    21     0      0      'clkA_ibuf_RNI0V4D' 
+    0      43     0      'reset_ibuf_RNI8255' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

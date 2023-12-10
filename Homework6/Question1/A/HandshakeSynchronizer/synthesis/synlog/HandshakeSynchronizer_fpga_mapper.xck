@@ -1,0 +1,2 @@
+CKID0001:@|S:clkB@|E:req_sink@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:clkA@|E:count[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

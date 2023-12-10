@@ -1,0 +1,100 @@
+# Sun Dec 10 13:05:13 2023
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+Reading constraint file: X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\designer\HandshakeSynchronizer\synthesis.fdc
+@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\synthesis\HandshakeSynchronizer_scck.rpt 
+See clock summary report "X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\synthesis\HandshakeSynchronizer_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist HandshakeSynchronizer 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock        Clock                Clock
+Level     Clock     Frequency     Period        Type         Group                Load 
+---------------------------------------------------------------------------------------
+0 -       clkB      37.5 MHz      26.667        declared     default_clkgroup     23   
+                                                                                       
+0 -       clkA      25.0 MHz      40.000        declared     default_clkgroup     22   
+=======================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source         Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin            Seq Example     Seq Example       Comb Example 
+----------------------------------------------------------------------------------
+clkB      23        clkB(port)     req_sync.C      -                 -            
+                                                                                  
+clkA      22        clkA(port)     ack_sync.C      -                 -            
+==================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\synthesis\HandshakeSynchronizer.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+Encoding state machine state[2:0] (in view: work.sourceFSM(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.sinkFSM(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\synthesis\HandshakeSynchronizer_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 82MB peak: 165MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec 10 13:05:14 2023
+
+###########################################################]

@@ -1,0 +1,92 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+
+# Written on Sun Dec 10 13:05:14 2023
+
+##### DESIGN INFO #######################################################
+
+Top View:                "HandshakeSynchronizer"
+Constraint File(s):      "X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\designer\HandshakeSynchronizer\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 1 issues in 1 out of 4 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+clkA         clkA       |     40.000           |     No paths         |     No paths         |     No paths                         
+clkA         clkB       |     13.333           |     No paths         |     No paths         |     No paths                         
+clkB         clkA       |     13.333           |     No paths         |     No paths         |     No paths                         
+clkB         clkB       |     26.667           |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:Dout[0]
+p:Dout[1]
+p:Dout[2]
+p:Dout[3]
+p:Dout[4]
+p:Dout[5]
+p:Dout[6]
+p:Dout[7]
+p:count[0]
+p:count[1]
+p:count[2]
+p:count[3]
+p:count[4]
+p:count[5]
+p:count[6]
+p:count[7]
+
+
+Inapplicable constraints
+************************
+
+set_output_delay 1 -clock clkB [get_ports { Dout }]
+	@E::"x:/graduate/ecen5863/programmablelogic/homework6/question1/a/handshakesynchronizer/designer/handshakesynchronizer/synthesis.fdc":10:0:10:0|collection "[get_ports { Dout }]" is empty
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

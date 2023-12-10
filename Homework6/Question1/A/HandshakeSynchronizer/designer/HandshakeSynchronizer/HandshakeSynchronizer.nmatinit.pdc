@@ -1,0 +1,135 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: HandshakeSynchronizer 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Sun Dec 10 13:05:46 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io Dout\[0\] -DIRECTION OUTPUT -pinname 36 -fixed no
+set_io Dout\[1\] -DIRECTION OUTPUT -pinname 38 -fixed no
+set_io Dout\[2\] -DIRECTION OUTPUT -pinname 29 -fixed no
+set_io Dout\[3\] -DIRECTION OUTPUT -pinname 32 -fixed no
+set_io Dout\[4\] -DIRECTION OUTPUT -pinname 28 -fixed no
+set_io Dout\[5\] -DIRECTION OUTPUT -pinname 27 -fixed no
+set_io Dout\[6\] -DIRECTION OUTPUT -pinname 30 -fixed no
+set_io Dout\[7\] -DIRECTION OUTPUT -pinname 33 -fixed no
+set_io clkA -DIRECTION INPUT -pinname 20 -fixed no
+set_io clkB -DIRECTION INPUT -pinname 143 -fixed no
+set_io count\[0\] -DIRECTION OUTPUT -pinname 15 -fixed no
+set_io count\[1\] -DIRECTION OUTPUT -pinname 13 -fixed no
+set_io count\[2\] -DIRECTION OUTPUT -pinname 22 -fixed no
+set_io count\[3\] -DIRECTION OUTPUT -pinname 24 -fixed no
+set_io count\[4\] -DIRECTION OUTPUT -pinname 37 -fixed no
+set_io count\[5\] -DIRECTION OUTPUT -pinname 19 -fixed no
+set_io count\[6\] -DIRECTION OUTPUT -pinname 23 -fixed no
+set_io count\[7\] -DIRECTION OUTPUT -pinname 21 -fixed no
+set_io enable -DIRECTION INPUT -pinname 144 -fixed no
+set_io reset -DIRECTION INPUT -pinname 48 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location count_Z\[1\] -fixed no 13 40
+set_location U0/state\[1\] -fixed no 21 34
+set_location U0/data_out\[0\] -fixed no 19 31
+set_location U1/data_out\[0\] -fixed no 15 31
+set_location U0/data_out_5\[0\] -fixed no 19 30
+set_location ack_source -fixed no 19 37
+set_location U1/transfer_enable -fixed no 22 37
+set_location U1/data_out_4\[0\] -fixed no 15 30
+set_location U1/data_out_4\[4\] -fixed no 16 30
+set_location U0/data_out_5\[4\] -fixed no 20 30
+set_location U0/data_out\[2\] -fixed no 23 31
+set_location U1/data_out\[2\] -fixed no 14 31
+set_location U1/un1_ack_0_sqmuxa_1_0 -fixed no 21 36
+set_location U0/data_out_5\[5\] -fixed no 12 36
+set_location U1/N_21_i -fixed no 22 36
+set_location U1/data_out_4\[3\] -fixed no 22 30
+set_location U1/state\[1\] -fixed no 15 37
+set_location U0/state_ns_1_0_.m3 -fixed no 23 33
+set_location U0/data_out7_0_a2 -fixed no 19 36
+set_location U0/req -fixed no 16 37
+set_location clkA_ibuf_RNI0V4D -fixed no 219 54
+set_location U0/state_ns_1_0_.m4 -fixed no 21 33
+set_location clkB_ibuf_RNI14F7/U0_RGB1 -fixed no 218 39
+set_location U1/data_out_4\[1\] -fixed no 17 36
+set_location clkB_ibuf_RNI14F7 -fixed no 218 54
+set_location U1/data_out_4\[6\] -fixed no 18 30
+set_location U1/data_out_4\[7\] -fixed no 21 30
+set_location U0/un1_state_3_0 -fixed no 15 33
+set_location count_Z\[2\] -fixed no 14 40
+set_location count_RNO\[0\] -fixed no 22 33
+set_location count_Z\[4\] -fixed no 16 40
+set_location U1/data_out_4\[2\] -fixed no 14 30
+set_location U0/data_out_5\[1\] -fixed no 13 36
+set_location reset_ibuf_RNI8255 -fixed no 225 54
+set_location U0/data_out\[3\] -fixed no 13 31
+set_location U1/data_out\[3\] -fixed no 22 31
+set_location U1/state_ns_1_0_.m3 -fixed no 18 36
+set_location U0/data_out_5\[6\] -fixed no 17 30
+set_location U0/data_out_5\[2\] -fixed no 23 30
+set_location U1/state_ns_1_0_.m4 -fixed no 15 36
+set_location ip_interface_inst -fixed no 191 0
+set_location U0/data_out\[5\] -fixed no 12 37
+set_location U1/data_out\[5\] -fixed no 23 37
+set_location count_Z\[6\] -fixed no 18 40
+set_location ack_sync -fixed no 20 37
+set_location U1/state\[0\] -fixed no 18 37
+set_location U1/ack -fixed no 12 40
+set_location clkA_ibuf_RNI0V4D/U0_RGB1 -fixed no 219 39
+set_location U0/data_out\[4\] -fixed no 20 31
+set_location count_Z\[5\] -fixed no 17 40
+set_location U1/data_out\[4\] -fixed no 16 31
+set_location U0/state_RNIOOF31\[1\] -fixed no 18 33
+set_location U1/data_out_4\[5\] -fixed no 23 36
+set_location count_Z\[3\] -fixed no 15 40
+set_location U0/data_out\[1\] -fixed no 13 37
+set_location U1/data_out\[1\] -fixed no 17 37
+set_location U0/state\[0\] -fixed no 23 34
+set_location req_sync -fixed no 14 37
+set_location U0/data_out_5\[7\] -fixed no 12 30
+set_location Dout4 -fixed no 14 36
+set_location U1/transfer_enable_RNO -fixed no 16 36
+set_location U0/data_out\[6\] -fixed no 17 31
+set_location U1/data_out\[6\] -fixed no 18 31
+set_location U0/data_out_5\[3\] -fixed no 13 30
+set_location count_Z\[7\] -fixed no 19 40
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location U1/state_s0_0_a4 -fixed no 20 36
+set_location count_Z\[0\] -fixed no 22 34
+set_location req_sink -fixed no 21 37
+set_location reset_ibuf_RNI8255/U0_RGB1 -fixed no 220 39
+set_location U0/data_out\[7\] -fixed no 12 31
+set_location U1/data_out\[7\] -fixed no 21 31
+set_location count_s_9 -fixed no 12 39
+set_location clkA_ibuf_RNI0V4D/U0_RGB1_RGB0 -fixed no 219 36
+set_location clkA_ibuf_RNI0V4D/U0_RGB1_RGB1 -fixed no 219 33
+set_location clkA_ibuf_RNI0V4D/U0_RGB1_RGB2 -fixed no 219 30
+set_location clkB_ibuf_RNI14F7/U0_RGB1_RGB0 -fixed no 218 36
+set_location clkB_ibuf_RNI14F7/U0_RGB1_RGB1 -fixed no 218 33
+set_location clkB_ibuf_RNI14F7/U0_RGB1_RGB2 -fixed no 218 30
+set_location clkB_ibuf_RNI14F7/U0_RGB1_RGB3 -fixed no 218 27
+set_location clkB_ibuf_RNI14F7/U0_RGB1_RGB4 -fixed no 218 24
+set_location clkB_ibuf_RNI14F7/U0_RGB1_RGB5 -fixed no 218 18
+set_location clkB_ibuf_RNI14F7/U0_RGB1_RGB6 -fixed no 218 15
+set_location clkB_ibuf_RNI14F7/U0_RGB1_RGB7 -fixed no 218 12
+set_location reset_ibuf_RNI8255/U0_RGB1_RGB0 -fixed no 220 36
+set_location reset_ibuf_RNI8255/U0_RGB1_RGB1 -fixed no 220 33
+set_location reset_ibuf_RNI8255/U0_RGB1_RGB2 -fixed no 220 30
+set_location reset_ibuf_RNI8255/U0_RGB1_RGB3 -fixed no 219 27
+set_location reset_ibuf_RNI8255/U0_RGB1_RGB4 -fixed no 219 24
+set_location reset_ibuf_RNI8255/U0_RGB1_RGB5 -fixed no 219 18
+set_location reset_ibuf_RNI8255/U0_RGB1_RGB6 -fixed no 219 15
+set_location reset_ibuf_RNI8255/U0_RGB1_RGB7 -fixed no 219 12
+set_location count_s_9_CC_0 -fixed no 12 41

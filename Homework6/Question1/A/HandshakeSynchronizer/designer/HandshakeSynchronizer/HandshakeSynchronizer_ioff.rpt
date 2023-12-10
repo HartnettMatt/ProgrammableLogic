@@ -1,0 +1,22 @@
+I/O Register Combining Report
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+Date: Sun Dec 10 13:05:52 2023
+
+I/O Register Combining Summary
++-----------+---------------+---------------+
+| Port Name | Register Type | Register Name |
++-----------+---------------+---------------+
+| Dout[0]   | Output        | Dout_Z[0]     |
+| Dout[1]   | Output        | Dout_Z[1]     |
+| Dout[2]   | Output        | Dout_Z[2]     |
+| Dout[3]   | Output        | Dout_Z[3]     |
+| Dout[4]   | Output        | Dout_Z[4]     |
+| Dout[5]   | Output        | Dout_Z[5]     |
+| Dout[6]   | Output        | Dout_Z[6]     |
+| Dout[7]   | Output        | Dout_Z[7]     |
++-----------+---------------+---------------+
+
+I/O DDR Register Combining Summary
++
++
+

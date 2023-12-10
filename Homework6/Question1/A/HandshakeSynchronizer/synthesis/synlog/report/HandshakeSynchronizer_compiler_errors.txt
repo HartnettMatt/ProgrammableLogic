@@ -1,0 +1,9 @@
+@E: CG425 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v":50:12:50:19|Assignment target req_sync must be of type reg, genvar, or logic
+@E: CG425 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v":52:12:52:19|Assignment target req_sync must be of type reg, genvar, or logic
+@E: CG425 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v":57:12:57:19|Assignment target req_sink must be of type reg, genvar, or logic
+@E: CG425 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v":59:12:59:19|Assignment target req_sink must be of type reg, genvar, or logic
+@E: CG425 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v":66:12:66:19|Assignment target ack_sync must be of type reg, genvar, or logic
+@E: CG425 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v":68:12:68:19|Assignment target ack_sync must be of type reg, genvar, or logic
+@E: CG425 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v":73:12:73:21|Assignment target ack_source must be of type reg, genvar, or logic
+@E: CG425 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v":75:12:75:21|Assignment target ack_source must be of type reg, genvar, or logic
+

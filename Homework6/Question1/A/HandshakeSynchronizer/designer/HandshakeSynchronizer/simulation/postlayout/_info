@@ -1,0 +1,120 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/simulation
+vHandshakeSynchronizer
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1702238855
+!i10b 1
+!s100 jGBD;mQnZcBNS3dcWlZb<1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:Qm>]VKaO6J1]@ze2m[nU2
+S1
+R0
+Z4 w1702238841
+Z5 8X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/designer/HandshakeSynchronizer/HandshakeSynchronizer_ba.v
+Z6 FX:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/designer/HandshakeSynchronizer/HandshakeSynchronizer_ba.v
+!i122 77
+L0 45 801
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OW;L;2020.3;71
+r1
+!s85 0
+31
+Z9 !s108 1702238855.000000
+Z10 !s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/designer/HandshakeSynchronizer/HandshakeSynchronizer_ba.v|
+Z11 !s90 -reportprogress|300|-sv|-work|postlayout|X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/designer/HandshakeSynchronizer/HandshakeSynchronizer_ba.v|
+!s101 -O0
+!i113 1
+Z12 o-sv -work postlayout -O0
+Z13 tCvgOpt 0
+n@handshake@synchronizer
+vHandshakeSynchronizer_tb
+R1
+!s110 1702238856
+!i10b 1
+!s100 XE0@U?bS5Z_1]W=Kz6GFU3
+R3
+IIUX6H[LZnDK^:lD7Q=:Q_2
+S1
+R0
+w1702238231
+8X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/stimulus/HandshakeSynchronizer_tb.v
+FX:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/stimulus/HandshakeSynchronizer_tb.v
+!i122 78
+L0 15 44
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/stimulus/HandshakeSynchronizer_tb.v|
+!s90 -reportprogress|300|+incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/stimulus|-sv|-work|postlayout|X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/stimulus/HandshakeSynchronizer_tb.v|
+!s101 -O0
+!i113 1
+R12
+!s92 +incdir+X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question1/A/HandshakeSynchronizer/stimulus -sv -work postlayout -O0
+R13
+n@handshake@synchronizer_tb
+vsdf_IOPAD_IN
+R1
+R2
+!i10b 1
+!s100 [0NHb<iC3mWa^2GofhDLI0
+R3
+I>61@DBAE>U:g<KdQY8joG3
+S1
+R0
+R4
+R5
+R6
+!i122 77
+L0 25 18
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+nsdf_@i@o@p@a@d_@i@n
+vsdf_IOPAD_TRI
+R1
+R2
+!i10b 1
+!s100 XG8gYc7=WZMP6D0_EMIfM3
+R3
+Ie23PMR>K;m0BYKNFX80zU3
+S1
+R0
+R4
+R5
+R6
+!i122 77
+L0 6 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+!i113 1
+R12
+R13
+nsdf_@i@o@p@a@d_@t@r@i

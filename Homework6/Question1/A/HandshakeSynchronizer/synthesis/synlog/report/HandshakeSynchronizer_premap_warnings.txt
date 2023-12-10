@@ -1,0 +1,1 @@
+@W: MF511 |Found issues with constraints. Please check constraint checker report "X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\synthesis\HandshakeSynchronizer_cck.rpt" .

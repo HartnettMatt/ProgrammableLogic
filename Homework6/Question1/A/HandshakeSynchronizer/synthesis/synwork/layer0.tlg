@@ -1,0 +1,27 @@
+Selecting top level module HandshakeSynchronizer
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\sourceFSM.v":13:7:13:15|Synthesizing module sourceFSM in library work.
+Running optimization stage 1 on sourceFSM .......
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\sinkFSM.v":13:7:13:13|Synthesizing module sinkFSM in library work.
+Running optimization stage 1 on sinkFSM .......
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v":15:7:15:27|Synthesizing module HandshakeSynchronizer in library work.
+Running optimization stage 1 on HandshakeSynchronizer .......
+Running optimization stage 2 on HandshakeSynchronizer .......
+Running optimization stage 2 on sinkFSM .......
+@N: CL201 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\sinkFSM.v":26:4:26:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on sourceFSM .......
+@N: CL201 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\hdl\sourceFSM.v":26:4:26:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\synthesis\synwork\layer0.rt.csv
+

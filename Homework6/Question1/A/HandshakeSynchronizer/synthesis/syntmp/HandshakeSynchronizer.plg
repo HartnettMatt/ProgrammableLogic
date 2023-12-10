@@ -1,0 +1,16 @@
+@P:  Worst Slack : 6.787
+@P:  clkA - Estimated Frequency : 50.9 MHz
+@P:  clkA - Requested Frequency : 25.0 MHz
+@P:  clkA - Estimated Period : 19.640
+@P:  clkA - Requested Period : 40.000
+@P:  clkA - Slack : 12.416
+@P:  clkB - Estimated Frequency : 76.4 MHz
+@P:  clkB - Requested Frequency : 37.5 MHz
+@P:  clkB - Estimated Period : 13.094
+@P:  clkB - Requested Period : 26.667
+@P:  clkB - Slack : 6.787
+@P: HandshakeSynchronizer Part : m2s010vf400std
+@P: HandshakeSynchronizer Register bits  : 43 
+@P: HandshakeSynchronizer DSP Blocks  : 0
+@P: HandshakeSynchronizer I/O primitives : 20
+@P:  CPU Time : 0h:00m:02s

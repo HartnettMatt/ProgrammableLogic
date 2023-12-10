@@ -1,0 +1,20 @@
+
+fsm_encoding {6264262} sequential
+
+fsm_state_encoding {6264262} IDLE {00}
+
+fsm_state_encoding {6264262} REQUEST_SENT {01}
+
+fsm_state_encoding {6264262} ACK_WAIT {10}
+
+fsm_registers {6264262} {state[1]}  {state[0]} 
+
+fsm_encoding {5264261} sequential
+
+fsm_state_encoding {5264261} IDLE {00}
+
+fsm_state_encoding {5264261} ACK_SENT {01}
+
+fsm_state_encoding {5264261} REQ_WAIT {10}
+
+fsm_registers {5264261} {state[1]}  {state[0]} 

@@ -1,0 +1,1127 @@
+//
+// Written by Synplify Pro 
+// Product Version "Q-2020.03M-SP1"
+// Program "Synplify Pro", Mapper "map202003act, Build 160R"
+// Sun Dec 10 13:05:17 2023
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\generic\smartfusion2.v "
+// file 1 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\x:\graduate\ecen5863\programmablelogic\homework6\question1\a\handshakesynchronizer\hdl\sinkfsm.v "
+// file 6 "\x:\graduate\ecen5863\programmablelogic\homework6\question1\a\handshakesynchronizer\hdl\sourcefsm.v "
+// file 7 "\x:\graduate\ecen5863\programmablelogic\homework6\question1\a\handshakesynchronizer\hdl\handshakesynchronizer.v "
+// file 8 "\d:\microsemi\libero_soc_v12.6\synplifypro\lib\nlconst.dat "
+// file 9 "\x:\graduate\ecen5863\programmablelogic\homework6\question1\a\handshakesynchronizer\designer\handshakesynchronizer\synthesis.fdc "
+// file 10 "\x:/graduate/ecen5863/programmablelogic/homework6/question1/a/handshakesynchronizer/designer/handshakesynchronizer/synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module sourceFSM (
+  count_c,
+  transfer,
+  ack,
+  counte_c,
+  req_source,
+  clkA_c,
+  reset_c_i
+)
+;
+input [7:0] count_c ;
+output [7:0] transfer ;
+input ack ;
+input counte_c ;
+output req_source ;
+input clkA_c ;
+input reset_c_i ;
+wire ack ;
+wire counte_c ;
+wire req_source ;
+wire clkA_c ;
+wire reset_c_i ;
+wire [7:0] data_out_5_Z;
+wire [1:0] state_Z;
+wire [1:0] state_ns;
+wire VCC ;
+wire N_22_i ;
+wire GND ;
+wire un1_state_3_0_Z ;
+wire data_out7_0_a2_Z ;
+wire N_3 ;
+wire N_2 ;
+wire N_1 ;
+// @6:26
+  SLE \data_out[0]  (
+	.Q(transfer[0]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(data_out_5_Z[0]),
+	.EN(N_22_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:26
+  SLE \data_out[1]  (
+	.Q(transfer[1]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(data_out_5_Z[1]),
+	.EN(N_22_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:26
+  SLE \data_out[2]  (
+	.Q(transfer[2]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(data_out_5_Z[2]),
+	.EN(N_22_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:26
+  SLE \data_out[3]  (
+	.Q(transfer[3]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(data_out_5_Z[3]),
+	.EN(N_22_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:26
+  SLE \data_out[4]  (
+	.Q(transfer[4]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(data_out_5_Z[4]),
+	.EN(N_22_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:26
+  SLE \data_out[5]  (
+	.Q(transfer[5]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(data_out_5_Z[5]),
+	.EN(N_22_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:26
+  SLE \data_out[6]  (
+	.Q(transfer[6]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(data_out_5_Z[6]),
+	.EN(N_22_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:26
+  SLE \data_out[7]  (
+	.Q(transfer[7]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(data_out_5_Z[7]),
+	.EN(N_22_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:26
+  SLE \state[0]  (
+	.Q(state_Z[0]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(state_ns[0]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:26
+  SLE \state[1]  (
+	.Q(state_Z[1]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(state_ns[1]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:26
+  SLE req (
+	.Q(req_source),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(state_Z[0]),
+	.EN(un1_state_3_0_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:34
+  CFG2 data_out7_0_a2 (
+	.A(counte_c),
+	.B(ack),
+	.Y(data_out7_0_a2_Z)
+);
+defparam data_out7_0_a2.INIT=4'h2;
+// @6:32
+  CFG2 \data_out_5[7]  (
+	.A(data_out7_0_a2_Z),
+	.B(count_c[7]),
+	.Y(data_out_5_Z[7])
+);
+defparam \data_out_5[7] .INIT=4'h8;
+// @6:32
+  CFG2 \data_out_5[6]  (
+	.A(data_out7_0_a2_Z),
+	.B(count_c[6]),
+	.Y(data_out_5_Z[6])
+);
+defparam \data_out_5[6] .INIT=4'h8;
+// @6:32
+  CFG2 \data_out_5[5]  (
+	.A(data_out7_0_a2_Z),
+	.B(count_c[5]),
+	.Y(data_out_5_Z[5])
+);
+defparam \data_out_5[5] .INIT=4'h8;
+// @6:32
+  CFG2 \data_out_5[4]  (
+	.A(data_out7_0_a2_Z),
+	.B(count_c[4]),
+	.Y(data_out_5_Z[4])
+);
+defparam \data_out_5[4] .INIT=4'h8;
+// @6:32
+  CFG2 \data_out_5[3]  (
+	.A(data_out7_0_a2_Z),
+	.B(count_c[3]),
+	.Y(data_out_5_Z[3])
+);
+defparam \data_out_5[3] .INIT=4'h8;
+// @6:32
+  CFG2 \data_out_5[2]  (
+	.A(data_out7_0_a2_Z),
+	.B(count_c[2]),
+	.Y(data_out_5_Z[2])
+);
+defparam \data_out_5[2] .INIT=4'h8;
+// @6:32
+  CFG2 \data_out_5[1]  (
+	.A(data_out7_0_a2_Z),
+	.B(count_c[1]),
+	.Y(data_out_5_Z[1])
+);
+defparam \data_out_5[1] .INIT=4'h8;
+// @6:32
+  CFG2 \data_out_5[0]  (
+	.A(data_out7_0_a2_Z),
+	.B(count_c[0]),
+	.Y(data_out_5_Z[0])
+);
+defparam \data_out_5[0] .INIT=4'h8;
+// @6:32
+  CFG3 un1_state_3_0 (
+	.A(state_Z[1]),
+	.B(state_Z[0]),
+	.C(ack),
+	.Y(un1_state_3_0_Z)
+);
+defparam un1_state_3_0.INIT=8'hEC;
+// @6:26
+  CFG3 \state_ns_1_0_.m4  (
+	.A(state_Z[1]),
+	.B(state_Z[0]),
+	.C(ack),
+	.Y(state_ns[1])
+);
+defparam \state_ns_1_0_.m4 .INIT=8'h46;
+// @6:26
+  CFG4 \state_ns_1_0_.m3  (
+	.A(state_Z[0]),
+	.B(state_Z[1]),
+	.C(counte_c),
+	.D(ack),
+	.Y(state_ns[0])
+);
+defparam \state_ns_1_0_.m3 .INIT=16'h0010;
+// @6:26
+  CFG3 \state_RNIOOF31[1]  (
+	.A(state_Z[1]),
+	.B(state_Z[0]),
+	.C(ack),
+	.Y(N_22_i)
+);
+defparam \state_RNIOOF31[1] .INIT=8'h31;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* sourceFSM */
+
+module sinkFSM (
+  transfer,
+  sink_out,
+  counte_c,
+  req,
+  transfer_enable_1z,
+  ack_sink,
+  clkB_c,
+  reset_c_i
+)
+;
+input [7:0] transfer ;
+output [7:0] sink_out ;
+input counte_c ;
+input req ;
+output transfer_enable_1z ;
+output ack_sink ;
+input clkB_c ;
+input reset_c_i ;
+wire counte_c ;
+wire req ;
+wire transfer_enable_1z ;
+wire ack_sink ;
+wire clkB_c ;
+wire reset_c_i ;
+wire [7:0] data_out_4_Z;
+wire [1:0] state_Z;
+wire [1:0] state_ns;
+wire VCC ;
+wire state_4_d ;
+wire GND ;
+wire un1_ack_0_sqmuxa_1_0_Z ;
+wire N_21_i_Z ;
+wire N_24_i ;
+wire N_3 ;
+wire N_2 ;
+wire N_1 ;
+// @5:26
+  SLE \data_out[3]  (
+	.Q(sink_out[3]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(data_out_4_Z[3]),
+	.EN(state_4_d),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE \data_out[4]  (
+	.Q(sink_out[4]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(data_out_4_Z[4]),
+	.EN(state_4_d),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE \data_out[5]  (
+	.Q(sink_out[5]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(data_out_4_Z[5]),
+	.EN(state_4_d),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE \data_out[6]  (
+	.Q(sink_out[6]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(data_out_4_Z[6]),
+	.EN(state_4_d),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE \data_out[7]  (
+	.Q(sink_out[7]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(data_out_4_Z[7]),
+	.EN(state_4_d),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE ack (
+	.Q(ack_sink),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(state_Z[0]),
+	.EN(un1_ack_0_sqmuxa_1_0_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE transfer_enable (
+	.Q(transfer_enable_1z),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(N_21_i_Z),
+	.EN(N_24_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE \data_out[0]  (
+	.Q(sink_out[0]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(data_out_4_Z[0]),
+	.EN(state_4_d),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE \data_out[1]  (
+	.Q(sink_out[1]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(data_out_4_Z[1]),
+	.EN(state_4_d),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE \data_out[2]  (
+	.Q(sink_out[2]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(data_out_4_Z[2]),
+	.EN(state_4_d),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE \state[0]  (
+	.Q(state_Z[0]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(state_ns[0]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  SLE \state[1]  (
+	.Q(state_Z[1]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(state_ns[1]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:26
+  CFG2 state_s0_0_a4 (
+	.A(state_Z[0]),
+	.B(state_Z[1]),
+	.Y(state_4_d)
+);
+defparam state_s0_0_a4.INIT=4'h1;
+// @5:33
+  CFG2 \data_out_4[7]  (
+	.A(transfer[7]),
+	.B(N_21_i_Z),
+	.Y(data_out_4_Z[7])
+);
+defparam \data_out_4[7] .INIT=4'h8;
+// @5:33
+  CFG2 \data_out_4[6]  (
+	.A(transfer[6]),
+	.B(N_21_i_Z),
+	.Y(data_out_4_Z[6])
+);
+defparam \data_out_4[6] .INIT=4'h8;
+// @5:33
+  CFG2 \data_out_4[5]  (
+	.A(transfer[5]),
+	.B(N_21_i_Z),
+	.Y(data_out_4_Z[5])
+);
+defparam \data_out_4[5] .INIT=4'h8;
+// @5:33
+  CFG2 \data_out_4[4]  (
+	.A(transfer[4]),
+	.B(N_21_i_Z),
+	.Y(data_out_4_Z[4])
+);
+defparam \data_out_4[4] .INIT=4'h8;
+// @5:33
+  CFG2 \data_out_4[3]  (
+	.A(transfer[3]),
+	.B(N_21_i_Z),
+	.Y(data_out_4_Z[3])
+);
+defparam \data_out_4[3] .INIT=4'h8;
+// @5:33
+  CFG2 \data_out_4[2]  (
+	.A(transfer[2]),
+	.B(N_21_i_Z),
+	.Y(data_out_4_Z[2])
+);
+defparam \data_out_4[2] .INIT=4'h8;
+// @5:33
+  CFG2 \data_out_4[1]  (
+	.A(transfer[1]),
+	.B(N_21_i_Z),
+	.Y(data_out_4_Z[1])
+);
+defparam \data_out_4[1] .INIT=4'h8;
+// @5:33
+  CFG2 \data_out_4[0]  (
+	.A(transfer[0]),
+	.B(N_21_i_Z),
+	.Y(data_out_4_Z[0])
+);
+defparam \data_out_4[0] .INIT=4'h8;
+// @5:33
+  CFG4 un1_ack_0_sqmuxa_1_0 (
+	.A(state_Z[1]),
+	.B(req),
+	.C(state_Z[0]),
+	.D(counte_c),
+	.Y(un1_ack_0_sqmuxa_1_0_Z)
+);
+defparam un1_ack_0_sqmuxa_1_0.INIT=16'hF3F7;
+// @5:26
+  CFG2 N_21_i (
+	.A(counte_c),
+	.B(req),
+	.Y(N_21_i_Z)
+);
+defparam N_21_i.INIT=4'h8;
+// @5:26
+  CFG3 \state_ns_1_0_.m4  (
+	.A(state_Z[0]),
+	.B(state_Z[1]),
+	.C(req),
+	.Y(state_ns[1])
+);
+defparam \state_ns_1_0_.m4 .INIT=8'h62;
+// @5:26
+  CFG4 \state_ns_1_0_.m3  (
+	.A(state_Z[1]),
+	.B(req),
+	.C(state_Z[0]),
+	.D(counte_c),
+	.Y(state_ns[0])
+);
+defparam \state_ns_1_0_.m3 .INIT=16'h0400;
+// @5:26
+  CFG3 transfer_enable_RNO (
+	.A(state_Z[0]),
+	.B(state_Z[1]),
+	.C(req),
+	.Y(N_24_i)
+);
+defparam transfer_enable_RNO.INIT=8'h15;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* sinkFSM */
+
+module HandshakeSynchronizer (
+  clkA,
+  clkB,
+  reset,
+  enable,
+  count,
+  Dout
+)
+;
+input clkA ;
+input clkB ;
+input reset ;
+input enable ;
+output [7:0] count ;
+output [7:0] Dout ;
+wire clkA ;
+wire clkB ;
+wire reset ;
+wire enable ;
+wire [7:0] transfer;
+wire [7:0] sink_out;
+wire [7:0] count_c;
+wire [7:0] Dout_c;
+wire [6:0] count_s;
+wire [6:1] count_cry_Z;
+wire [7:7] count_s_Z;
+wire [6:1] count_cry_Y;
+wire [7:7] count_s_FCO;
+wire [7:7] count_s_Y;
+wire req_source ;
+wire \U0.ack  ;
+wire \U1.req  ;
+wire ack_sink ;
+wire transfer_enable ;
+wire req_sync_Z ;
+wire ack_sync_Z ;
+wire Dout4_Z ;
+wire GND ;
+wire VCC ;
+wire clkA_c ;
+wire clkB_c ;
+wire reset_c ;
+wire counte_c ;
+wire count_s_9_FCO ;
+wire count_s_9_S ;
+wire count_s_9_Y ;
+wire reset_c_i ;
+wire reset_ibuf_Z ;
+wire clkB_ibuf_Z ;
+wire clkA_ibuf_Z ;
+  CLKINT clkA_ibuf_RNI0V4D (
+	.Y(clkA_c),
+	.A(clkA_ibuf_Z)
+);
+  CLKINT clkB_ibuf_RNI14F7 (
+	.Y(clkB_c),
+	.A(clkB_ibuf_Z)
+);
+  CLKINT reset_ibuf_RNI8255 (
+	.Y(reset_c),
+	.A(reset_ibuf_Z)
+);
+  CFG1 \count_RNO[0]  (
+	.A(count_c[0]),
+	.Y(count_s[0])
+);
+defparam \count_RNO[0] .INIT=2'h1;
+  CFG1 reset_ibuf_RNI8255_0 (
+	.A(reset_c),
+	.Y(reset_c_i)
+);
+defparam reset_ibuf_RNI8255_0.INIT=2'h1;
+// @7:41
+  SLE \Dout_Z[0]  (
+	.Q(Dout_c[0]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(sink_out[0]),
+	.EN(Dout4_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:41
+  SLE \Dout_Z[1]  (
+	.Q(Dout_c[1]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(sink_out[1]),
+	.EN(Dout4_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:41
+  SLE \Dout_Z[2]  (
+	.Q(Dout_c[2]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(sink_out[2]),
+	.EN(Dout4_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:41
+  SLE \Dout_Z[3]  (
+	.Q(Dout_c[3]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(sink_out[3]),
+	.EN(Dout4_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:41
+  SLE \Dout_Z[4]  (
+	.Q(Dout_c[4]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(sink_out[4]),
+	.EN(Dout4_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:41
+  SLE \Dout_Z[5]  (
+	.Q(Dout_c[5]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(sink_out[5]),
+	.EN(Dout4_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:41
+  SLE \Dout_Z[6]  (
+	.Q(Dout_c[6]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(sink_out[6]),
+	.EN(Dout4_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:41
+  SLE \Dout_Z[7]  (
+	.Q(Dout_c[7]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(sink_out[7]),
+	.EN(Dout4_Z),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:50
+  SLE req_sync (
+	.Q(req_sync_Z),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(req_source),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:66
+  SLE ack_sync (
+	.Q(ack_sync_Z),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(ack_sink),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:57
+  SLE req_sink (
+	.Q(\U1.req ),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkB_c),
+	.D(req_sync_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:73
+  SLE ack_source (
+	.Q(\U0.ack ),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(ack_sync_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:32
+  SLE \count_Z[0]  (
+	.Q(count_c[0]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(count_s[0]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:32
+  SLE \count_Z[1]  (
+	.Q(count_c[1]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(count_s[1]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:32
+  SLE \count_Z[2]  (
+	.Q(count_c[2]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(count_s[2]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:32
+  SLE \count_Z[3]  (
+	.Q(count_c[3]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(count_s[3]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:32
+  SLE \count_Z[4]  (
+	.Q(count_c[4]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(count_s[4]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:32
+  SLE \count_Z[5]  (
+	.Q(count_c[5]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(count_s[5]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:32
+  SLE \count_Z[6]  (
+	.Q(count_c[6]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(count_s[6]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:32
+  SLE \count_Z[7]  (
+	.Q(count_c[7]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clkA_c),
+	.D(count_s_Z[7]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:16
+  INBUF clkA_ibuf (
+	.Y(clkA_ibuf_Z),
+	.PAD(clkA)
+);
+// @7:17
+  INBUF clkB_ibuf (
+	.Y(clkB_ibuf_Z),
+	.PAD(clkB)
+);
+// @7:18
+  INBUF reset_ibuf (
+	.Y(reset_ibuf_Z),
+	.PAD(reset)
+);
+// @7:18
+  INBUF enable_ibuf (
+	.Y(counte_c),
+	.PAD(enable)
+);
+// @7:19
+  OUTBUF \count_obuf[0]  (
+	.PAD(count[0]),
+	.D(count_c[0])
+);
+// @7:19
+  OUTBUF \count_obuf[1]  (
+	.PAD(count[1]),
+	.D(count_c[1])
+);
+// @7:19
+  OUTBUF \count_obuf[2]  (
+	.PAD(count[2]),
+	.D(count_c[2])
+);
+// @7:19
+  OUTBUF \count_obuf[3]  (
+	.PAD(count[3]),
+	.D(count_c[3])
+);
+// @7:19
+  OUTBUF \count_obuf[4]  (
+	.PAD(count[4]),
+	.D(count_c[4])
+);
+// @7:19
+  OUTBUF \count_obuf[5]  (
+	.PAD(count[5]),
+	.D(count_c[5])
+);
+// @7:19
+  OUTBUF \count_obuf[6]  (
+	.PAD(count[6]),
+	.D(count_c[6])
+);
+// @7:19
+  OUTBUF \count_obuf[7]  (
+	.PAD(count[7]),
+	.D(count_c[7])
+);
+// @7:19
+  OUTBUF \Dout_obuf[0]  (
+	.PAD(Dout[0]),
+	.D(Dout_c[0])
+);
+// @7:19
+  OUTBUF \Dout_obuf[1]  (
+	.PAD(Dout[1]),
+	.D(Dout_c[1])
+);
+// @7:19
+  OUTBUF \Dout_obuf[2]  (
+	.PAD(Dout[2]),
+	.D(Dout_c[2])
+);
+// @7:19
+  OUTBUF \Dout_obuf[3]  (
+	.PAD(Dout[3]),
+	.D(Dout_c[3])
+);
+// @7:19
+  OUTBUF \Dout_obuf[4]  (
+	.PAD(Dout[4]),
+	.D(Dout_c[4])
+);
+// @7:19
+  OUTBUF \Dout_obuf[5]  (
+	.PAD(Dout[5]),
+	.D(Dout_c[5])
+);
+// @7:19
+  OUTBUF \Dout_obuf[6]  (
+	.PAD(Dout[6]),
+	.D(Dout_c[6])
+);
+// @7:19
+  OUTBUF \Dout_obuf[7]  (
+	.PAD(Dout[7]),
+	.D(Dout_c[7])
+);
+// @7:32
+  ARI1 count_s_9 (
+	.FCO(count_s_9_FCO),
+	.S(count_s_9_S),
+	.Y(count_s_9_Y),
+	.B(count_c[0]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(VCC)
+);
+defparam count_s_9.INIT=20'h4AA00;
+// @7:32
+  ARI1 \count_cry[1]  (
+	.FCO(count_cry_Z[1]),
+	.S(count_s[1]),
+	.Y(count_cry_Y[1]),
+	.B(count_c[1]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_s_9_FCO)
+);
+defparam \count_cry[1] .INIT=20'h4AA00;
+// @7:32
+  ARI1 \count_cry[2]  (
+	.FCO(count_cry_Z[2]),
+	.S(count_s[2]),
+	.Y(count_cry_Y[2]),
+	.B(count_c[2]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[1])
+);
+defparam \count_cry[2] .INIT=20'h4AA00;
+// @7:32
+  ARI1 \count_cry[3]  (
+	.FCO(count_cry_Z[3]),
+	.S(count_s[3]),
+	.Y(count_cry_Y[3]),
+	.B(count_c[3]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[2])
+);
+defparam \count_cry[3] .INIT=20'h4AA00;
+// @7:32
+  ARI1 \count_cry[4]  (
+	.FCO(count_cry_Z[4]),
+	.S(count_s[4]),
+	.Y(count_cry_Y[4]),
+	.B(count_c[4]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[3])
+);
+defparam \count_cry[4] .INIT=20'h4AA00;
+// @7:32
+  ARI1 \count_cry[5]  (
+	.FCO(count_cry_Z[5]),
+	.S(count_s[5]),
+	.Y(count_cry_Y[5]),
+	.B(count_c[5]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[4])
+);
+defparam \count_cry[5] .INIT=20'h4AA00;
+// @7:32
+  ARI1 \count_s[7]  (
+	.FCO(count_s_FCO[7]),
+	.S(count_s_Z[7]),
+	.Y(count_s_Y[7]),
+	.B(count_c[7]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[6])
+);
+defparam \count_s[7] .INIT=20'h4AA00;
+// @7:32
+  ARI1 \count_cry[6]  (
+	.FCO(count_cry_Z[6]),
+	.S(count_s[6]),
+	.Y(count_cry_Y[6]),
+	.B(count_c[6]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[5])
+);
+defparam \count_cry[6] .INIT=20'h4AA00;
+// @7:44
+  CFG2 Dout4 (
+	.A(counte_c),
+	.B(transfer_enable),
+	.Y(Dout4_Z)
+);
+defparam Dout4.INIT=4'h8;
+// @7:82
+  sourceFSM U0 (
+	.count_c(count_c[7:0]),
+	.transfer(transfer[7:0]),
+	.ack(\U0.ack ),
+	.counte_c(counte_c),
+	.req_source(req_source),
+	.clkA_c(clkA_c),
+	.reset_c_i(reset_c_i)
+);
+// @7:92
+  sinkFSM U1 (
+	.transfer(transfer[7:0]),
+	.sink_out(sink_out[7:0]),
+	.counte_c(counte_c),
+	.req(\U1.req ),
+	.transfer_enable_1z(transfer_enable),
+	.ack_sink(ack_sink),
+	.clkB_c(clkB_c),
+	.reset_c_i(reset_c_i)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* HandshakeSynchronizer */
+

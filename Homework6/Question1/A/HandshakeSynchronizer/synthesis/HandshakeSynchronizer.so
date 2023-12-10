@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>HandshakeSynchronizer</design>
+	<target_verilog>X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\A\HandshakeSynchronizer\synthesis\HandshakeSynchronizer.vm</target_verilog>
+</SynplifyOutput>
