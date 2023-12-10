@@ -1,0 +1,36 @@
+EARLY_POWER_ESTIMATOR_FILE_FORMAT_VERSION,6
+QUARTUS_II_VERSION,18.1.0 Build 625 09/12/2018 SJ Lite Edition
+PROJECT,"PowerEstimator"
+REVISION,"PowerEstimator"
+PROJECT_FILE,"X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question3/PowerEstimator.qpf"
+TIME,"Sun Dec 10 14:32:31 2023"
+TIME_SECONDS,"1702243951"
+FAMILY,"Cyclone V"
+DEVICE,"5CEBA2"
+PACKAGE,"FBGA"
+PART,"5CEBA2F17C6"
+POWER_USE_DEVICE_CHARACTERISTICS,"TYPICAL"
+POWER_AUTO_COMPUTE_TJ,"ON"
+POWER_TJ_VALUE,"25"
+POWER_USE_CUSTOM_COOLING_SOLUTION,"OFF"
+POWER_HPS_PROC_FREQ,"0.0"
+MIN_JUNCTION_TEMPERATURE,"0"
+MAX_JUNCTION_TEMPERATURE,"85"
+POWER_PRESET_COOLING_SOLUTION,"23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+POWER_BOARD_THERMAL_MODEL,"NONE (CONSERVATIVE)"
+POWER_USE_TA_VALUE,"25.00"
+POWER_BOARD_TEMPERATURE,"-1.00"
+POWER_OJC_VALUE,"4.90"
+POWER_OCS_VALUE,"0.10"
+POWER_OSA_VALUE,"4.30"
+POWER_OJB_VALUE,"-1.00"
+VCCIO,,1A,0.00,2A,2.50,3A,3.30,3B,3.30,4A,3.30,5A,2.50,5B,2.50,6A,0.00,7A,2.50,8A,2.50,9A,0.00,
+VCCPD,,1A,2.50,2A,2.50,3A,3.30,3B,3.30,4A,3.30,5A,2.50,5B,2.50,6A,0.00,7A,2.50,8A,2.50,9A,0.00,
+RAIL_VOLTAGES,,VCC,1.100,VCCA_FPLL,2.500,VCCPGM,1.800,VCCBAT,1.200,VCCE_GXB,1.100,VCCL_GXB,1.100,VCCH_GXB,2.500,VCCAUX,2.500,
+
+
+BLOCK,Combinational cell,count,17,avg_toggle_rate,"1.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"0.941176",fmax,"0"
+BLOCK,Clock enable block,count,1,avg_toggle_rate,"0.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"16.000000",fmax,"0",global_type,"GCLK",global_clk_ena_static_prob,"1",global_type_usage,"Clock",num_raw_fanout,"16",num_lc_comb_fanout,"0",num_lc_ff_fanout,"16",sum_lc_ff_clkena_static_prob,"16",avg_lc_ff_clk_ena_static_prob,"1",num_pin_fanout,"0",num_m512_fanout,"0",num_m9k_fanout,"0",num_m144k_fanout,"0",num_mlab_fanout,"0",num_dsp_fanout,"0",num_dsp9x9_fanout,"0",num_misc_fanout,"0"
+BLOCK,Register cell,count,16,avg_toggle_rate,"1.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"4.000000",fmax,"0"
+BLOCK,I/O pad,count,32,avg_toggle_rate,"1.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"0.000000",fmax,"0",io_mode,"OUTPUT_PIN",output_load,"0",io_standard,"LVCMOS",drive_strength,"2MA",is_ddr,"0",input_termination,"OFF",output_termination,"OFF",output_termination_sp,"0",output_ena_static_prob,"1",vod,"-1",slew_rate,"1"
+BLOCK,I/O pad,count,2,avg_toggle_rate,"0.500000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"1.000000",fmax,"0",io_mode,"INPUT_PIN",output_load,"0",io_standard,"2_5",drive_strength,"DEFAULT",is_ddr,"0",input_termination,"OFF",output_termination,"OFF",output_termination_sp,"0",output_ena_static_prob,"0",vod,"-1",slew_rate,"-1"

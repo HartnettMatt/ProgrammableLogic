@@ -1,0 +1,7 @@
+Early Power Estimator File Generator Status : Successful - Sun Dec 10 14:32:31 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : PowerEstimator
+Top-level Entity Name : PowerEstimator
+Family : Cyclone V
+Device : 5CEBA2F17C6
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "cout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[8]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[9]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[10]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[11]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[12]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[13]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[14]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[15]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[16]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[17]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[18]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[19]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[20]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[21]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[22]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[23]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[24]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[25]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[26]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[27]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[28]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[29]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[30]",
+					"strict" : false
+				},
+				{
+					"name" : "cout[31]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
