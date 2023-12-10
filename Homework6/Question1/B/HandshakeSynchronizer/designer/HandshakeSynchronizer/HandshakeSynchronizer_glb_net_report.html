@@ -1,0 +1,353 @@
+<html>
+    <head>
+        <style>
+      body { font-family:arial; font-size:10pt; text-align:left; }
+      h1, h2 {
+          padding-top: 30px;
+      }
+      h3 {
+          padding-top: 20px;
+      }
+      h4, h5, h6 {
+          padding-top: 10px;
+          font-size:12pt;
+      }
+      table {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          border-collapse:collapse;
+      }
+      table th, table td {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          padding: 4px;
+      }
+     </style>
+    </head>
+    <body>
+        <h1 align="center">Global Net Report</h1>
+        <p>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</p>
+        <p>Date: Sun Dec 10 13:15:58 2023
+</p>
+        <h2>Global Nets Information</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> GB Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GB[7] </td>
+                <td>(225, 54)</td>
+                <td>reset_ibuf_RNI8255/U0_YNn_GSouth</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GB[0] </td>
+                <td>(218, 54)</td>
+                <td>clkB_ibuf_RNI14F7/U0_YNn_GSouth</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GB[1] </td>
+                <td>(219, 54)</td>
+                <td>clkA_ibuf_RNI0V4D/U0_YNn_GSouth</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>I/O to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> Port Name </th>
+                <th> Pin Number </th>
+                <th> I/O Function </th>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>reset</td>
+                <td>48</td>
+                <td>MSIO104NB4/GB7</td>
+                <td>reset_ibuf/U0/U_IOPAD:Y</td>
+                <td>(261, 1)</td>
+                <td>GB[7] </td>
+                <td>reset_ibuf_Z</td>
+                <td>HARDWIRED</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>clkB</td>
+                <td>143</td>
+                <td>DDRIO59PB0/GB0</td>
+                <td>clkB_ibuf/U0/U_IOPAD:Y</td>
+                <td>(48, 103)</td>
+                <td>GB[0] </td>
+                <td>clkB_ibuf_Z</td>
+                <td>HARDWIRED</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>clkA</td>
+                <td>20</td>
+                <td>MSIO79PB7/GB1</td>
+                <td>clkA_ibuf/U0/U_IOPAD:Y</td>
+                <td>(0, 64)</td>
+                <td>GB[1] </td>
+                <td>clkA_ibuf_Z</td>
+                <td>HARDWIRED</td>
+                <td>2</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Fabric to GB Connections</h2>
+        <p>(none)</p>
+        <h2>CCC to GB Connections</h2>
+        <p>(none)</p>
+        <h2>CCC Input Connections</h2>
+        <p>(none)</p>
+        <h2>Local Nets to RGB Connections</h2>
+        <p>(none)</p>
+        <h2>Global Nets to RGB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+                <th/>
+                <th> RGB Location </th>
+                <th> Local Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GB[7] </td>
+                <td>(225, 54)</td>
+                <td>reset_ibuf_RNI8255/U0_YNn_GSouth</td>
+                <td>43</td>
+                <td>1</td>
+                <td>(219, 12)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(219, 15)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(219, 18)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(219, 24)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(219, 30)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(219, 39)</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>7</td>
+                <td>(220, 27)</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>8</td>
+                <td>(220, 33)</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>9</td>
+                <td>(220, 36)</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GB[0] </td>
+                <td>(218, 54)</td>
+                <td>clkB_ibuf_RNI14F7/U0_YNn_GSouth</td>
+                <td>22</td>
+                <td>1</td>
+                <td>(218, 12)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(218, 15)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(218, 18)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(218, 24)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(218, 27)</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(218, 30)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>7</td>
+                <td>(218, 33)</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>8</td>
+                <td>(218, 36)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GB[1] </td>
+                <td>(219, 54)</td>
+                <td>clkA_ibuf_RNI0V4D/U0_YNn_GSouth</td>
+                <td>21</td>
+                <td>1</td>
+                <td>(218, 39)</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(219, 27)</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(219, 33)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(219, 36)</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <p/>
+    </body>
+</html>

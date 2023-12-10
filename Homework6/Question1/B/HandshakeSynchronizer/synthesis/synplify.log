@@ -1,0 +1,73 @@
+One matching license found for this product: synplifypro_actel
+
+Starting:    D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+Hostname:    STARGATE-COMMAN
+Date:        Sun Dec 10 13:15:30 2023
+Version:     Q-2020.03M-SP1
+
+Arguments:   -product synplify_pro -batch -log synplify.log HandshakeSynchronizer_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+auto_infer_blackbox is not supported in current product.
+log file: "X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\HandshakeSynchronizer.srr"
+Running: synthesis in foreground
+
+Running HandshakeSynchronizer_syn|synthesis
+
+Running Flow: compile (Compile) on HandshakeSynchronizer_syn|synthesis
+# Sun Dec 10 13:15:30 2023
+
+Running Flow: compile_flow (Compile Process) on HandshakeSynchronizer_syn|synthesis
+# Sun Dec 10 13:15:30 2023
+
+Running: compiler (Compile Input) on HandshakeSynchronizer_syn|synthesis
+# Sun Dec 10 13:15:30 2023
+
+compiler completed
+# Sun Dec 10 13:15:31 2023
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on HandshakeSynchronizer_syn|synthesis
+# Sun Dec 10 13:15:31 2023
+Up-To-Date: multi_srs_gen. No run necessary
+Complete: Compile Process on HandshakeSynchronizer_syn|synthesis
+
+Running: premap (Premap) on HandshakeSynchronizer_syn|synthesis
+# Sun Dec 10 13:15:31 2023
+
+premap completed with warnings
+# Sun Dec 10 13:15:33 2023
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on HandshakeSynchronizer_syn|synthesis
+
+Running Flow: map (Map) on HandshakeSynchronizer_syn|synthesis
+# Sun Dec 10 13:15:33 2023
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on HandshakeSynchronizer_syn|synthesis
+# Sun Dec 10 13:15:33 2023
+Copied X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\synwork\HandshakeSynchronizer_m.srm to X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\HandshakeSynchronizer.srm
+
+fpga_mapper completed with warnings
+# Sun Dec 10 13:15:36 2023
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Map on HandshakeSynchronizer_syn|synthesis
+Complete: Logic Synthesis on HandshakeSynchronizer_syn|synthesis
+TCL script complete: "HandshakeSynchronizer_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

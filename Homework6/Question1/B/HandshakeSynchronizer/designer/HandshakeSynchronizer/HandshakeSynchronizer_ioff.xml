@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>I/O Register Combining Report</title>
+<text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
+<text>Date: Sun Dec 10 13:16:09 2023
+</text>
+<section><name>I/O Register Combining Summary</name></section>
+<table>
+<header>
+ <cell>Port Name</cell>
+ <cell>Register Type</cell>
+ <cell>Register Name</cell>
+</header>
+<row>
+ <cell>Dout[0]</cell>
+ <cell>Output</cell>
+ <cell>Dout_Z[0]</cell>
+</row>
+<row>
+ <cell>Dout[1]</cell>
+ <cell>Output</cell>
+ <cell>Dout_Z[1]</cell>
+</row>
+<row>
+ <cell>Dout[2]</cell>
+ <cell>Output</cell>
+ <cell>Dout_Z[2]</cell>
+</row>
+<row>
+ <cell>Dout[3]</cell>
+ <cell>Output</cell>
+ <cell>Dout_Z[3]</cell>
+</row>
+<row>
+ <cell>Dout[4]</cell>
+ <cell>Output</cell>
+ <cell>Dout_Z[4]</cell>
+</row>
+<row>
+ <cell>Dout[5]</cell>
+ <cell>Output</cell>
+ <cell>Dout_Z[5]</cell>
+</row>
+<row>
+ <cell>Dout[6]</cell>
+ <cell>Output</cell>
+ <cell>Dout_Z[6]</cell>
+</row>
+<row>
+ <cell>Dout[7]</cell>
+ <cell>Output</cell>
+ <cell>Dout_Z[7]</cell>
+</row>
+</table>
+<section><name>I/O DDR Register Combining Summary</name></section>
+<table>
+<header>
+</header>
+</table>
+</doc>

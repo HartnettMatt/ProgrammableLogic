@@ -1,0 +1,2 @@
+@W: MT116 |Paths from clock (clkB:r) to clock (clkA:r) are overconstrained because the required time of 3.33 ns is too small.  
+@W: MT116 |Paths from clock (clkA:r) to clock (clkB:r) are overconstrained because the required time of 3.33 ns is too small.  

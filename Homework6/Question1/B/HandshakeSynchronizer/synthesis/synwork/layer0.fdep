@@ -1,0 +1,27 @@
+#OPTIONS:"|-layerid|0|-orig_srs|X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework6\\Question1\\B\\HandshakeSynchronizer\\synthesis\\synwork\\HandshakeSynchronizer_comp.srs|-top|HandshakeSynchronizer|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework6\\Question1\\B\\HandshakeSynchronizer\\synthesis\\|-I|D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib|-sysv|-devicelib|D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\bin64\\c_ver.exe":1604390270
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v":1604390290
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\hypermods.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\umr_capim.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1604390293
+#CUR:"D:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1604390293
+#CUR:"X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework6\\Question1\\B\\HandshakeSynchronizer\\hdl\\sinkFSM.v":1702237853
+#CUR:"X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework6\\Question1\\B\\HandshakeSynchronizer\\hdl\\sourceFSM.v":1702237769
+#CUR:"X:\\Graduate\\ECEN5863\\ProgrammableLogic\\Homework6\\Question1\\B\\HandshakeSynchronizer\\hdl\\HandshakeSynchronizer.v":1702237836
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\sinkFSM.v" verilog
+1			"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\sourceFSM.v" verilog
+2			"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1 0
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 -1
+#Design Unit to File Association
+module work sinkFSM 0
+module work sourceFSM 1
+module work HandshakeSynchronizer 2

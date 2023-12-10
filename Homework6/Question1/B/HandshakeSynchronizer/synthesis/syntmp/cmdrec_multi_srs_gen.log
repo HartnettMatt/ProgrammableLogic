@@ -1,0 +1,7 @@
+D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  HandshakeSynchronizer  -multisrs  X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\synwork\HandshakeSynchronizer_comp.srs  -osyn  X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\synwork\HandshakeSynchronizer_mult.srs  -log  X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\synlog\HandshakeSynchronizer_multi_srs_gen.srr 
+relcom:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top HandshakeSynchronizer -multisrs ..\synwork\HandshakeSynchronizer_comp.srs -osyn ..\synwork\HandshakeSynchronizer_mult.srs -log ..\synlog\HandshakeSynchronizer_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\HandshakeSynchronizer_comp.srs|io:i|time:1702239087|size:5324|exec:0|csum:39C7C41C7E43FC97CC7956CEF8970321
+file:..\synwork\HandshakeSynchronizer_mult.srs|io:o|time:1702239088|size:2944|exec:0|csum:
+file:..\synlog\HandshakeSynchronizer_multi_srs_gen.srr|io:o|time:1702239088|size:1217|exec:0|csum:
+file:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

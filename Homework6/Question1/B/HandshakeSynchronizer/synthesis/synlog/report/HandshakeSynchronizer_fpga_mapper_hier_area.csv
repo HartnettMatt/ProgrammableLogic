@@ -1,0 +1,5 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. HandshakeSynchronizer, 43, 30, 8, 0, 0, 0, 0, 3, 20
+.	. sinkFSM, 12, 14, 0, 0, 0, 0, 0, 0, 0
+.	. sourceFSM, 11, 13, 0, 0, 0, 0, 0, 0, 0

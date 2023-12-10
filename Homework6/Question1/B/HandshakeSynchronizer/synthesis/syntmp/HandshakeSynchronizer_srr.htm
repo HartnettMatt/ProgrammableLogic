@@ -1,0 +1,865 @@
+<html><body><samp><pre>
+<!@TC:1702239330>
+#Build: Synplify Pro (R) Q-2020.03M-SP1, Build 166R, Oct 19 2020
+#install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: STARGATE-COMMAN
+
+# Sun Dec 10 13:15:30 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+<a name=compilerReport1></a>Synopsys HDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @</a>
+
+@N: : <!@TM:1702239331> | Running in 64-bit mode 
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+<a name=compilerReport2></a>Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @</a>
+
+@N: : <!@TM:1702239331> | Running in 64-bit mode 
+@N:<a href="@N:CG1349:@XP_HELP">CG1349</a> : <!@TM:1702239331> | Running Verilog Compiler in System Verilog mode 
+
+@I::"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\sinkFSM.v" (library work)
+@I::"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\sourceFSM.v" (library work)
+@I::"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module HandshakeSynchronizer
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\sourceFSM.v:13:7:13:16:@N:CG364:@XP_MSG">sourceFSM.v(13)</a><!@TM:1702239331> | Synthesizing module sourceFSM in library work.
+Running optimization stage 1 on sourceFSM .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\sinkFSM.v:13:7:13:14:@N:CG364:@XP_MSG">sinkFSM.v(13)</a><!@TM:1702239331> | Synthesizing module sinkFSM in library work.
+Running optimization stage 1 on sinkFSM .......
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\HandshakeSynchronizer.v:15:7:15:28:@N:CG364:@XP_MSG">HandshakeSynchronizer.v(15)</a><!@TM:1702239331> | Synthesizing module HandshakeSynchronizer in library work.
+Running optimization stage 1 on HandshakeSynchronizer .......
+Running optimization stage 2 on HandshakeSynchronizer .......
+Running optimization stage 2 on sinkFSM .......
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\sinkFSM.v:26:4:26:10:@N:CL201:@XP_MSG">sinkFSM.v(26)</a><!@TM:1702239331> | Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on sourceFSM .......
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\hdl\sourceFSM.v:26:4:26:10:@N:CL201:@XP_MSG">sourceFSM.v(26)</a><!@TM:1702239331> | Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+Linked File:  <a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\synwork\layer0.rt.csv:@XP_FILE">layer0.rt.csv</a>
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 88MB peak: 89MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Dec 10 13:15:30 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+<a name=compilerReport3></a>Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @</a>
+
+@N: : <!@TM:1702239331> | Running in 64-bit mode 
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 87MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Dec 10 13:15:30 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+Linked File:  <a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\synwork\HandshakeSynchronizer_comp.rt.csv:@XP_FILE">HandshakeSynchronizer_comp.rt.csv</a>
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Dec 10 13:15:30 2023
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1702239330>
+
+@A: : <!@TM:1702239331> | multi_srs_gen output is up to date. No run necessary. 
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Multi-srs Generator Report
+<a name=compilerReport4_head></a>Linked File:  <a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\synlog\HandshakeSynchronizer_multi_srs_gen.srr:@XP_FILE">HandshakeSynchronizer_multi_srs_gen.srr</a>
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1702239330>
+Premap Report
+
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1702239330>
+# Sun Dec 10 13:15:31 2023
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+<a name=mapperReport5></a>Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+Reading constraint file: X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\designer\HandshakeSynchronizer\synthesis.fdc
+Linked File:  <a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\HandshakeSynchronizer_scck.rpt:@XP_FILE">HandshakeSynchronizer_scck.rpt</a>
+See clock summary report "X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\HandshakeSynchronizer_scck.rpt"
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1702239333> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1702239333> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1702239333> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+@N:<a href="@N:FX1184:@XP_HELP">FX1184</a> : <!@TM:1702239333> | Applying syn_allowed_resources blockrams=21 on top level netlist HandshakeSynchronizer  
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+******************
+
+          Start     Requested     Requested     Clock        Clock                Clock
+Level     Clock     Frequency     Period        Type         Group                Load 
+---------------------------------------------------------------------------------------
+0 -       clkB      20.0 MHz      50.000        declared     default_clkgroup     23   
+                                                                                       
+0 -       clkA      37.5 MHz      26.667        declared     default_clkgroup     22   
+=======================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source         Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin            Seq Example     Seq Example       Comb Example 
+----------------------------------------------------------------------------------
+clkB      23        clkB(port)     req_sync.C      -                 -            
+                                                                                  
+clkA      22        clkA(port)     ack_sync.C      -                 -            
+==================================================================================
+
+@N:<a href="@N:FX1143:@XP_HELP">FX1143</a> : <!@TM:1702239333> | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1702239333> | Writing default property annotation file X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\HandshakeSynchronizer.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+Encoding state machine state[2:0] (in view: work.sourceFSM(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.sinkFSM(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+<font color=#A52A2A>@W:<a href="@W:MF511:@XP_HELP">MF511</a> : <!@TM:1702239333> | Found issues with constraints. Please check constraint checker report "X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\HandshakeSynchronizer_cck.rpt" .</font> 
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 165MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Dec 10 13:15:33 2023
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1702239330>
+Map & Optimize Report
+
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1702239330>
+# Sun Dec 10 13:15:33 2023
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+<a name=mapperReport7></a>Synopsys Generic Technology Mapper, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1702239336> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1702239336> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1702239336> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 129MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 159MB peak: 159MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="x:\graduate\ecen5863\programmablelogic\homework6\question1\b\handshakesynchronizer\hdl\handshakesynchronizer.v:32:4:32:10:@N:MO231:@XP_MSG">handshakesynchronizer.v(32)</a><!@TM:1702239336> | Found counter in view:work.HandshakeSynchronizer(verilog) instance count[7:0] 
+Encoding state machine state[2:0] (in view: work.sourceFSM(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.sinkFSM(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 165MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -2.67ns		  37 /        43
+   2		0h:00m:01s		    -2.67ns		  37 /        43
+
+   3		0h:00m:01s		    -2.67ns		  37 /        43
+
+
+   4		0h:00m:01s		    -2.67ns		  37 /        43
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1702239336> | Promoting Net reset_c on CLKINT  I_11  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1702239336> | Promoting Net clkB_c on CLKINT  I_12  
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1702239336> | Promoting Net clkA_c on CLKINT  I_13  
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 43 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ===============================
+Clock Tree ID     Driving Element     Drive Element Type           Fanout     Sample Instance
+---------------------------------------------------------------------------------------------
+<a href="@|S:clkB@|E:req_sink@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       clkB                clock definition on port     22         req_sink       
+<a href="@|S:clkA@|E:count[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002  @XP_NAMES_BY_PROP">ClockId0002 </a>       clkA                clock definition on port     21         count[0]       
+=============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 166MB)
+
+Writing Analyst data base X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\synwork\HandshakeSynchronizer_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+Writing Verilog Simulation files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1702239336> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1702239336> | Synopsys Constraint File capacitance units using default value of 1pF  
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
+
+@N:<a href="@N:MT615:@XP_HELP">MT615</a> : <!@TM:1702239336> | Found clock clkA with period 26.67ns  
+@N:<a href="@N:MT615:@XP_HELP">MT615</a> : <!@TM:1702239336> | Found clock clkB with period 50.00ns  
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing report written on Sun Dec 10 13:15:36 2023
+#
+
+
+Top view:               HandshakeSynchronizer
+Requested Frequency:    20.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\designer\HandshakeSynchronizer\synthesis.fdc
+                       
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1702239336> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: -3.213
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+clkA               37.5 MHz      19.1 MHz      26.667        52.375        2.416      declared     default_clkgroup
+clkB               20.0 MHz      10.2 MHz      50.000        98.203        -3.213     declared     default_clkgroup
+===================================================================================================================
+
+
+<font color=#A52A2A>@W:<a href="@W:MT116:@XP_HELP">MT116</a> : <!@TM:1702239336> | Paths from clock (clkB:r) to clock (clkA:r) are overconstrained because the required time of 3.33 ns is too small.  </font> 
+<font color=#A52A2A>@W:<a href="@W:MT116:@XP_HELP">MT116</a> : <!@TM:1702239336> | Paths from clock (clkA:r) to clock (clkB:r) are overconstrained because the required time of 3.33 ns is too small.  </font> 
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+clkA      clkA    |  26.667      23.997  |  No paths    -      |  No paths    -      |  No paths    -    
+clkA      clkB    |  3.333       2.416   |  No paths    -      |  No paths    -      |  No paths    -    
+clkB      clkA    |  3.333       -3.214  |  No paths    -      |  No paths    -      |  No paths    -    
+clkB      clkB    |  50.000      43.326  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+
+
+<a name=inputPorts13></a>Input Ports: </a>
+
+Port       Starting          User           Arrival     Required           
+Name       Reference         Constraint     Time        Time         Slack 
+           Clock                                                           
+---------------------------------------------------------------------------
+enable     clkB (rising)     1.000          1.000       -2.213       -3.213
+reset      clkB (rising)     1.000          NA          NA           NA    
+===========================================================================
+
+
+
+====================================
+<a name=clockReport14></a>Detailed Report for Clock: clkA</a>
+====================================
+
+
+
+<a name=startingSlack15></a>Starting Points with Worst Slack</a>
+********************************
+
+                   Starting                                       Arrival           
+Instance           Reference     Type     Pin     Net             Time        Slack 
+                   Clock                                                            
+------------------------------------------------------------------------------------
+U0.data_out[0]     clkA          SLE      Q       transfer[0]     0.087       2.416 
+U0.data_out[1]     clkA          SLE      Q       transfer[1]     0.087       2.416 
+U0.data_out[2]     clkA          SLE      Q       transfer[2]     0.087       2.416 
+U0.data_out[3]     clkA          SLE      Q       transfer[3]     0.087       2.416 
+U0.data_out[4]     clkA          SLE      Q       transfer[4]     0.087       2.416 
+U0.data_out[5]     clkA          SLE      Q       transfer[5]     0.087       2.416 
+U0.data_out[6]     clkA          SLE      Q       transfer[6]     0.087       2.416 
+U0.data_out[7]     clkA          SLE      Q       transfer[7]     0.087       2.416 
+U0.req             clkA          SLE      Q       req_source      0.087       2.742 
+ack_source         clkA          SLE      Q       U0.ack          0.108       23.997
+====================================================================================
+
+
+<a name=endingSlack16></a>Ending Points with Worst Slack</a>
+******************************
+
+                   Starting                                         Required           
+Instance           Reference     Type     Pin     Net               Time         Slack 
+                   Clock                                                               
+---------------------------------------------------------------------------------------
+U1.data_out[0]     clkA          SLE      D       data_out_4[0]     3.078        2.416 
+U1.data_out[1]     clkA          SLE      D       data_out_4[1]     3.078        2.416 
+U1.data_out[2]     clkA          SLE      D       data_out_4[2]     3.078        2.416 
+U1.data_out[3]     clkA          SLE      D       data_out_4[3]     3.078        2.416 
+U1.data_out[4]     clkA          SLE      D       data_out_4[4]     3.078        2.416 
+U1.data_out[5]     clkA          SLE      D       data_out_4[5]     3.078        2.416 
+U1.data_out[6]     clkA          SLE      D       data_out_4[6]     3.078        2.416 
+U1.data_out[7]     clkA          SLE      D       data_out_4[7]     3.078        2.416 
+req_sync           clkA          SLE      D       req_source        3.078        2.742 
+U0.data_out[0]     clkA          SLE      D       data_out_5[0]     26.411       23.997
+=======================================================================================
+
+
+
+<a name=worstPaths17></a>Worst Path Information</a>
+<a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\HandshakeSynchronizer.srr:srsfX:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\HandshakeSynchronizer.srs:fp:25734:26220:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.333
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.078
+
+    - Propagation time:                      0.662
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 2.416
+
+    Number of logic level(s):                1
+    Starting point:                          U0.data_out[0] / Q
+    Ending point:                            U1.data_out[0] / D
+    The start point is clocked by            clkA [rising] (rise=0.000 fall=13.333 period=26.667) on pin CLK
+    The end   point is clocked by            clkB [rising] (rise=0.000 fall=25.000 period=50.000) on pin CLK
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+U0.data_out[0]       SLE      Q        Out     0.087     0.087 r     -         
+transfer[0]          Net      -        -       0.248     -           1         
+U1.data_out_4[0]     CFG2     A        In      -         0.336 r     -         
+U1.data_out_4[0]     CFG2     Y        Out     0.077     0.413 r     -         
+data_out_4[0]        Net      -        -       0.248     -           1         
+U1.data_out[0]       SLE      D        In      -         0.662 r     -         
+===============================================================================
+Total path delay (propagation time + setup) of 0.917 is 0.420(45.8%) logic and 0.497(54.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+<a name=clockReport18></a>Detailed Report for Clock: clkB</a>
+====================================
+
+
+
+<a name=startingSlack19></a>Starting Points with Worst Slack</a>
+********************************
+
+                       Starting                                              Arrival           
+Instance               Reference     Type     Pin        Net                 Time        Slack 
+                       Clock                                                                   
+-----------------------------------------------------------------------------------------------
+enable                 clkB          Port     enable     enable              1.000       -3.213
+U1.ack                 clkB          SLE      Q          ack_sink            0.087       2.742 
+req_sink               clkB          SLE      Q          U1.req              0.087       47.207
+U1.state[1]            clkB          SLE      Q          state[1]            0.087       47.600
+U1.state[0]            clkB          SLE      Q          state[0]            0.087       47.602
+U1.transfer_enable     clkB          SLE      Q          transfer_enable     0.108       48.165
+U1.data_out[0]         clkB          SLE      Q          sink_out[0]         0.087       49.409
+U1.data_out[1]         clkB          SLE      Q          sink_out[1]         0.087       49.409
+U1.data_out[2]         clkB          SLE      Q          sink_out[2]         0.087       49.409
+U1.data_out[3]         clkB          SLE      Q          sink_out[3]         0.087       49.409
+===============================================================================================
+
+
+<a name=endingSlack20></a>Ending Points with Worst Slack</a>
+******************************
+
+                   Starting                                         Required           
+Instance           Reference     Type     Pin     Net               Time         Slack 
+                   Clock                                                               
+---------------------------------------------------------------------------------------
+U0.data_out[0]     clkB          SLE      D       data_out_5[0]     3.078        -3.213
+U0.data_out[1]     clkB          SLE      D       data_out_5[1]     3.078        -3.213
+U0.data_out[2]     clkB          SLE      D       data_out_5[2]     3.078        -3.213
+U0.data_out[3]     clkB          SLE      D       data_out_5[3]     3.078        -3.213
+U0.data_out[4]     clkB          SLE      D       data_out_5[4]     3.078        -3.213
+U0.data_out[5]     clkB          SLE      D       data_out_5[5]     3.078        -3.213
+U0.data_out[6]     clkB          SLE      D       data_out_5[6]     3.078        -3.213
+U0.data_out[7]     clkB          SLE      D       data_out_5[7]     3.078        -3.213
+U0.state[0]        clkB          SLE      D       state_ns[0]       3.078        -2.285
+count[0]           clkB          SLE      EN      counte_c          2.996        -1.916
+=======================================================================================
+
+
+
+<a name=worstPaths21></a>Worst Path Information</a>
+<a href="X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\HandshakeSynchronizer.srr:srsfX:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question1\B\HandshakeSynchronizer\synthesis\HandshakeSynchronizer.srs:fp:30752:31772:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.333
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.078
+
+    - Propagation time:                      5.292
+    - User constraint on starting point:     1.000
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.214
+
+    Number of logic level(s):                3
+    Starting point:                          enable / enable
+    Ending point:                            U0.data_out[0] / D
+    The start point is clocked by            clkB [rising] (rise=0.000 fall=25.000 period=50.000)
+    The end   point is clocked by            clkA [rising] (rise=0.000 fall=13.333 period=26.667) on pin CLK
+
+Instance / Net                  Pin        Pin               Arrival     No. of    
+Name                  Type      Name       Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+enable                Port      enable     In      0.000     1.000 r     -         
+enable                Net       -          -       0.000     -           1         
+enable_ibuf           INBUF     PAD        In      -         1.000 r     -         
+enable_ibuf           INBUF     Y          Out     2.935     3.935 r     -         
+counte_c              Net       -          -       0.977     -           14        
+U0.data_out7_0_a2     CFG2      A          In      -         4.912 r     -         
+U0.data_out7_0_a2     CFG2      Y          Out     0.077     4.989 r     -         
+data_out7_0_a2        Net       -          -       0.977     -           8         
+U0.data_out_5[0]      CFG2      A          In      -         5.966 r     -         
+U0.data_out_5[0]      CFG2      Y          Out     0.077     6.043 r     -         
+data_out_5[0]         Net       -          -       0.248     -           1         
+U0.data_out[0]        SLE       D          In      -         6.292 r     -         
+===================================================================================
+Total path delay (propagation time + setup) of 5.547 is 3.345(60.3%) logic and 2.202(39.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      3.333
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.078
+
+    - Propagation time:                      5.292
+    - User constraint on starting point:     1.000
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.214
+
+    Number of logic level(s):                3
+    Starting point:                          enable / enable
+    Ending point:                            U0.data_out[1] / D
+    The start point is clocked by            clkB [rising] (rise=0.000 fall=25.000 period=50.000)
+    The end   point is clocked by            clkA [rising] (rise=0.000 fall=13.333 period=26.667) on pin CLK
+
+Instance / Net                  Pin        Pin               Arrival     No. of    
+Name                  Type      Name       Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+enable                Port      enable     In      0.000     1.000 r     -         
+enable                Net       -          -       0.000     -           1         
+enable_ibuf           INBUF     PAD        In      -         1.000 r     -         
+enable_ibuf           INBUF     Y          Out     2.935     3.935 r     -         
+counte_c              Net       -          -       0.977     -           14        
+U0.data_out7_0_a2     CFG2      A          In      -         4.912 r     -         
+U0.data_out7_0_a2     CFG2      Y          Out     0.077     4.989 r     -         
+data_out7_0_a2        Net       -          -       0.977     -           8         
+U0.data_out_5[1]      CFG2      A          In      -         5.966 r     -         
+U0.data_out_5[1]      CFG2      Y          Out     0.077     6.043 r     -         
+data_out_5[1]         Net       -          -       0.248     -           1         
+U0.data_out[1]        SLE       D          In      -         6.292 r     -         
+===================================================================================
+Total path delay (propagation time + setup) of 5.547 is 3.345(60.3%) logic and 2.202(39.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      3.333
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.078
+
+    - Propagation time:                      5.292
+    - User constraint on starting point:     1.000
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.214
+
+    Number of logic level(s):                3
+    Starting point:                          enable / enable
+    Ending point:                            U0.data_out[2] / D
+    The start point is clocked by            clkB [rising] (rise=0.000 fall=25.000 period=50.000)
+    The end   point is clocked by            clkA [rising] (rise=0.000 fall=13.333 period=26.667) on pin CLK
+
+Instance / Net                  Pin        Pin               Arrival     No. of    
+Name                  Type      Name       Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+enable                Port      enable     In      0.000     1.000 r     -         
+enable                Net       -          -       0.000     -           1         
+enable_ibuf           INBUF     PAD        In      -         1.000 r     -         
+enable_ibuf           INBUF     Y          Out     2.935     3.935 r     -         
+counte_c              Net       -          -       0.977     -           14        
+U0.data_out7_0_a2     CFG2      A          In      -         4.912 r     -         
+U0.data_out7_0_a2     CFG2      Y          Out     0.077     4.989 r     -         
+data_out7_0_a2        Net       -          -       0.977     -           8         
+U0.data_out_5[2]      CFG2      A          In      -         5.966 r     -         
+U0.data_out_5[2]      CFG2      Y          Out     0.077     6.043 r     -         
+data_out_5[2]         Net       -          -       0.248     -           1         
+U0.data_out[2]        SLE       D          In      -         6.292 r     -         
+===================================================================================
+Total path delay (propagation time + setup) of 5.547 is 3.345(60.3%) logic and 2.202(39.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      3.333
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.078
+
+    - Propagation time:                      5.292
+    - User constraint on starting point:     1.000
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.214
+
+    Number of logic level(s):                3
+    Starting point:                          enable / enable
+    Ending point:                            U0.data_out[3] / D
+    The start point is clocked by            clkB [rising] (rise=0.000 fall=25.000 period=50.000)
+    The end   point is clocked by            clkA [rising] (rise=0.000 fall=13.333 period=26.667) on pin CLK
+
+Instance / Net                  Pin        Pin               Arrival     No. of    
+Name                  Type      Name       Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+enable                Port      enable     In      0.000     1.000 r     -         
+enable                Net       -          -       0.000     -           1         
+enable_ibuf           INBUF     PAD        In      -         1.000 r     -         
+enable_ibuf           INBUF     Y          Out     2.935     3.935 r     -         
+counte_c              Net       -          -       0.977     -           14        
+U0.data_out7_0_a2     CFG2      A          In      -         4.912 r     -         
+U0.data_out7_0_a2     CFG2      Y          Out     0.077     4.989 r     -         
+data_out7_0_a2        Net       -          -       0.977     -           8         
+U0.data_out_5[3]      CFG2      A          In      -         5.966 r     -         
+U0.data_out_5[3]      CFG2      Y          Out     0.077     6.043 r     -         
+data_out_5[3]         Net       -          -       0.248     -           1         
+U0.data_out[3]        SLE       D          In      -         6.292 r     -         
+===================================================================================
+Total path delay (propagation time + setup) of 5.547 is 3.345(60.3%) logic and 2.202(39.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      3.333
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.078
+
+    - Propagation time:                      5.292
+    - User constraint on starting point:     1.000
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.214
+
+    Number of logic level(s):                3
+    Starting point:                          enable / enable
+    Ending point:                            U0.data_out[4] / D
+    The start point is clocked by            clkB [rising] (rise=0.000 fall=25.000 period=50.000)
+    The end   point is clocked by            clkA [rising] (rise=0.000 fall=13.333 period=26.667) on pin CLK
+
+Instance / Net                  Pin        Pin               Arrival     No. of    
+Name                  Type      Name       Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+enable                Port      enable     In      0.000     1.000 r     -         
+enable                Net       -          -       0.000     -           1         
+enable_ibuf           INBUF     PAD        In      -         1.000 r     -         
+enable_ibuf           INBUF     Y          Out     2.935     3.935 r     -         
+counte_c              Net       -          -       0.977     -           14        
+U0.data_out7_0_a2     CFG2      A          In      -         4.912 r     -         
+U0.data_out7_0_a2     CFG2      Y          Out     0.077     4.989 r     -         
+data_out7_0_a2        Net       -          -       0.977     -           8         
+U0.data_out_5[4]      CFG2      A          In      -         5.966 r     -         
+U0.data_out_5[4]      CFG2      Y          Out     0.077     6.043 r     -         
+data_out_5[4]         Net       -          -       0.248     -           1         
+U0.data_out[4]        SLE       D          In      -         6.292 r     -         
+===================================================================================
+Total path delay (propagation time + setup) of 5.547 is 3.345(60.3%) logic and 2.202(39.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
+
+---------------------------------------
+<a name=resourceUsage22></a>Resource Usage Report for HandshakeSynchronizer </a>
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          3 uses
+CFG1           2 uses
+CFG2           20 uses
+CFG3           5 uses
+CFG4           3 uses
+
+Carry cells:
+ARI1            8 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            43 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 20
+I/O primitives: 20
+INBUF          4 uses
+OUTBUF         16 uses
+
+
+Global Clock Buffers: 3
+
+Total LUTs:    38
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  43 + 0 + 0 + 0 = 43;
+Total number of LUTs after P&R:  38 + 0 + 0 + 0 = 38;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 60MB peak: 168MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Sun Dec 10 13:15:36 2023
+
+###########################################################]
+
+</pre></samp></body></html>
