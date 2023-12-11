@@ -1,0 +1,2 @@
+@W: MT420 |Found inferred clock fifo2x8|clk2 with period 10.00ns. Please declare a user-defined clock on port clk2.
+@W: MT420 |Found inferred clock fifo2x8|clk1 with period 10.00ns. Please declare a user-defined clock on port clk1.

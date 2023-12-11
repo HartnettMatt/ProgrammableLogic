@@ -1,0 +1,105 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: fifo2x8 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Sun Dec 10 17:24:07 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io clk1 -DIRECTION INPUT -pinname 49 -fixed no
+set_io clk2 -DIRECTION INPUT -pinname 20 -fixed no
+set_io data_in\[0\] -DIRECTION INPUT -pinname 144 -fixed no
+set_io data_in\[1\] -DIRECTION INPUT -pinname 123 -fixed no
+set_io data_in\[2\] -DIRECTION INPUT -pinname 7 -fixed no
+set_io data_in\[3\] -DIRECTION INPUT -pinname 137 -fixed no
+set_io data_in\[4\] -DIRECTION INPUT -pinname 142 -fixed no
+set_io data_in\[5\] -DIRECTION INPUT -pinname 122 -fixed no
+set_io data_in\[6\] -DIRECTION INPUT -pinname 4 -fixed no
+set_io data_in\[7\] -DIRECTION INPUT -pinname 141 -fixed no
+set_io data_out\[0\] -DIRECTION OUTPUT -pinname 124 -fixed no
+set_io data_out\[1\] -DIRECTION OUTPUT -pinname 129 -fixed no
+set_io data_out\[2\] -DIRECTION OUTPUT -pinname 135 -fixed no
+set_io data_out\[3\] -DIRECTION OUTPUT -pinname 118 -fixed no
+set_io data_out\[4\] -DIRECTION OUTPUT -pinname 134 -fixed no
+set_io data_out\[5\] -DIRECTION OUTPUT -pinname 125 -fixed no
+set_io data_out\[6\] -DIRECTION OUTPUT -pinname 131 -fixed no
+set_io data_out\[7\] -DIRECTION OUTPUT -pinname 117 -fixed no
+set_io empty -DIRECTION OUTPUT -pinname 136 -fixed no
+set_io full -DIRECTION OUTPUT -pinname 1 -fixed no
+set_io rd -DIRECTION INPUT -pinname 130 -fixed no
+set_io rdinc -DIRECTION INPUT -pinname 10 -fixed no
+set_io rdptrclr -DIRECTION INPUT -pinname 2 -fixed no
+set_io rst -DIRECTION INPUT -pinname 143 -fixed no
+set_io wr -DIRECTION INPUT -pinname 3 -fixed no
+set_io wrinc -DIRECTION INPUT -pinname 128 -fixed no
+set_io wrptrclr -DIRECTION INPUT -pinname 9 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location reg_array.fifo_1\[3\] -fixed no 86 100
+set_location data_out_Z\[6\] -fixed no 79 100
+set_location fifo_0_0_sqmuxa -fixed no 61 99
+set_location data_out_Z\[3\] -fixed no 84 100
+set_location reg_array.fifo_0\[4\] -fixed no 93 100
+set_location wrptrd2 -fixed no 64 100
+set_location reg_array.fifo_0\[1\] -fixed no 92 100
+set_location empty_Z -fixed no 68 100
+set_location Write_count.wrptr_2 -fixed no 66 99
+set_location Read_cout.rdptr_3 -fixed no 60 99
+set_location reg_array.fifo_0\[0\] -fixed no 89 100
+set_location rdptr -fixed no 60 100
+set_location rptrd2 -fixed no 63 100
+set_location reg_array.fifo_0\[5\] -fixed no 80 100
+set_location dmuxout\[4\] -fixed no 85 99
+set_location fifo_1_0_sqmuxa -fixed no 65 99
+set_location data_out_Z\[2\] -fixed no 72 100
+set_location Write_count.un1_wrinc -fixed no 62 99
+set_location dmuxout\[3\] -fixed no 84 99
+set_location reg_array.fifo_0\[3\] -fixed no 95 100
+set_location wrptr -fixed no 66 100
+set_location reg_array.fifo_1\[7\] -fixed no 76 100
+set_location rst_ibuf_RNIUUM5/U0_RGB1 -fixed no 218 99
+set_location clk2_ibuf_RNIHJC2 -fixed no 219 54
+set_location clk1_ibuf_RNIGE28/U0_RGB1 -fixed no 219 99
+set_location detFull.un7_wrptr -fixed no 67 99
+set_location dmuxout\[0\] -fixed no 90 99
+set_location dmuxout\[1\] -fixed no 91 99
+set_location ip_interface_inst -fixed no 191 0
+set_location data_out_Z\[1\] -fixed no 91 100
+set_location reg_array.fifo_1\[6\] -fixed no 83 100
+set_location full_Z -fixed no 67 100
+set_location data_out_Z\[4\] -fixed no 85 100
+set_location detEmpty.un9_rdptr -fixed no 68 99
+set_location reg_array.fifo_1\[5\] -fixed no 82 100
+set_location data_out_Z\[5\] -fixed no 78 100
+set_location reg_array.fifo_0\[7\] -fixed no 81 100
+set_location rptrd1 -fixed no 69 100
+set_location reg_array.fifo_1\[2\] -fixed no 75 100
+set_location dmuxout\[6\] -fixed no 79 99
+set_location Read_cout.un1_rdinc -fixed no 63 99
+set_location clk1_ibuf_RNIGE28 -fixed no 221 54
+set_location reg_array.fifo_1\[4\] -fixed no 87 100
+set_location dmuxout\[5\] -fixed no 78 99
+set_location clk2_ibuf_RNIHJC2/U0_RGB1 -fixed no 220 99
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location wrptrd1 -fixed no 62 100
+set_location reg_array.fifo_0\[2\] -fixed no 74 100
+set_location dmuxout\[2\] -fixed no 72 99
+set_location reg_array.fifo_0\[6\] -fixed no 77 100
+set_location reg_array.fifo_1\[0\] -fixed no 88 100
+set_location data_out_Z\[7\] -fixed no 73 100
+set_location rst_ibuf_RNIUUM5 -fixed no 218 54
+set_location dmuxout\[7\] -fixed no 73 99
+set_location reg_array.fifo_1\[1\] -fixed no 94 100
+set_location data_out_Z\[0\] -fixed no 90 100

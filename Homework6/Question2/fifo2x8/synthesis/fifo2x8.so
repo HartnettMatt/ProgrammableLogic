@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>fifo2x8</design>
+	<target_verilog>X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\synthesis\fifo2x8.vm</target_verilog>
+</SynplifyOutput>

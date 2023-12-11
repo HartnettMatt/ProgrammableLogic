@@ -1,0 +1,14 @@
+@N: CD231 :"D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\hdl\fifo2x8.vhd":18:7:18:13|Synthesizing work.fifo2x8.archfifo2x8.
+@N: CD364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\hdl\fifo2x8.vhd":51:18:51:21|Removing redundant assignment.
+@N: CD364 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\hdl\fifo2x8.vhd":141:12:141:19|Removing redundant assignment.
+Post processing for work.fifo2x8.archfifo2x8
+Running optimization stage 1 on fifo2x8 .......
+@A: CL282 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\hdl\fifo2x8.vhd":89:6:89:7|Feedback mux created for signal rptrd2. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\hdl\fifo2x8.vhd":89:6:89:7|Feedback mux created for signal rptrd1. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Running optimization stage 2 on fifo2x8 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\synthesis\synwork\layer0.rt.csv
+

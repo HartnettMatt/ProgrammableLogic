@@ -1,0 +1,2097 @@
+# Reading pref.tcl
+# do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:24:33 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:24:33 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:24:33 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:24:34 on Dec 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:24:34 on Dec 10,2023
+# //  ModelSim Microsemi 2020.3 Jul 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# SDF 2020.3 Compiler 2020.07 Jul 13 2020
+# 
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:27:00 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:27:00 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:27:01 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# ** Error: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl(90): near "wr": (vcom-1576) expecting ';'.
+# ** Note: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl(102): VHDL Compiler exiting
+# End time: 17:27:01 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: D:/Microsemi/Libero_SoC_v12.6/ModelSim/win32acoem/vcom failed.
+# Error in macro ./run.do line 14
+# D:/Microsemi/Libero_SoC_v12.6/ModelSim/win32acoem/vcom failed.
+#     while executing
+# "vcom -2008 -explicit  -work postlayout "${PROJECT_DIR}/stimulus/fifo2x8_tb.vhdl""
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:27:10 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:27:10 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:27:11 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:27:11 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:27:12 on Dec 10,2023, Elapsed time: 0:02:38
+# Errors: 1, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:27:12 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:28:17 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:28:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:28:17 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:28:17 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:28:19 on Dec 10,2023, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:28:19 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+# Error opening X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v
+# Path name 'X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v' doesn't exist.
+# Error opening X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v
+# Path name 'X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v' doesn't exist.
+add wave -position end  sim:/fifo2x8_tb/DUT/wrptrd2/Q
+add wave -position end  sim:/fifo2x8_tb/DUT/wrptrd2/Q
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:29:48 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:29:48 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:29:48 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:29:48 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:29:49 on Dec 10,2023, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:29:49 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:31:04 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:31:04 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:31:04 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:31:04 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:31:06 on Dec 10,2023, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:31:06 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:31:56 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:31:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:31:56 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:31:56 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:31:58 on Dec 10,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:31:58 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:32:22 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:32:22 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:32:22 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:32:22 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:32:24 on Dec 10,2023, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:32:24 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:34:06 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:34:06 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:34:07 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:34:07 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:34:09 on Dec 10,2023, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:34:09 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:34:47 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:34:48 on Dec 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:34:48 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:34:48 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:34:49 on Dec 10,2023, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:34:49 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:35:53 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:35:53 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:35:53 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:35:53 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:35:55 on Dec 10,2023, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:35:55 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:37:33 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:37:33 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:37:33 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:37:33 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:37:34 on Dec 10,2023, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:37:34 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+add wave -position 11  sim:/fifo2x8_tb/DUT/full
+add wave -position 11  sim:/fifo2x8_tb/DUT/full
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:38:20 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:38:20 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:38:20 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:38:20 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:38:22 on Dec 10,2023, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:38:22 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:40:53 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:40:53 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:40:53 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:40:53 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:40:55 on Dec 10,2023, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:40:55 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:42:15 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:42:15 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:42:16 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:42:16 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:42:17 on Dec 10,2023, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:42:17 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:43:03 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:43:03 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:43:04 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:43:04 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:43:05 on Dec 10,2023, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:43:05 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:44:50 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:44:50 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:44:51 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:44:51 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:44:52 on Dec 10,2023, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:44:52 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+# ** Error: $setup( posedge D:102940 ps, posedge CLK &&& Enable0:103040 ps, 300 ps );
+#    Time: 103040 ps  Iteration: 1  Process: /fifo2x8_tb/DUT/wrptr/#Setup# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 1740
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:46:37 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:46:37 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:46:37 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:46:37 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:46:39 on Dec 10,2023, Elapsed time: 0:01:47
+# Errors: 1, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:46:39 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+# ** Error: $setup( posedge D:102940 ps, posedge CLK &&& Enable0:103040 ps, 300 ps );
+#    Time: 103040 ps  Iteration: 1  Process: /fifo2x8_tb/DUT/wrptr/#Setup# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 1740
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:46:57 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:46:57 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:46:57 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:46:57 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:46:59 on Dec 10,2023, Elapsed time: 0:00:20
+# Errors: 1, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:46:59 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:47:49 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:47:49 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:47:50 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:47:50 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:47:51 on Dec 10,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:47:51 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+# ** Error: $setup( posedge D:92940 ps, posedge CLK &&& Enable0:93040 ps, 300 ps );
+#    Time: 93040 ps  Iteration: 1  Process: /fifo2x8_tb/DUT/wrptr/#Setup# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 1740
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:48:19 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:48:19 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:48:20 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:48:20 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:48:21 on Dec 10,2023, Elapsed time: 0:00:30
+# Errors: 1, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:48:21 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:52:14 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:52:14 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:52:14 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:52:14 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:52:16 on Dec 10,2023, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:52:16 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:52:57 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:52:57 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:52:58 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:52:58 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:52:59 on Dec 10,2023, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:52:59 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:53:33 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:53:33 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:53:33 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:53:33 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:53:34 on Dec 10,2023, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:53:34 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:54:01 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:54:01 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:54:01 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:54:01 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:54:03 on Dec 10,2023, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:54:03 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:54:50 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:54:50 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:54:50 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:54:50 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:54:52 on Dec 10,2023, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:54:52 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:55:23 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:55:23 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:55:23 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:55:24 on Dec 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:55:25 on Dec 10,2023, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:55:25 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+do run.do
+# INFO: Simulation library ../designer/fifo2x8/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/fifo2x8/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 D:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:56:43 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sdf_IOPAD_TRI
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_TRI
+# -- Compiling entity sdf_IOPAD_IN
+# -- Compiling architecture DEF_ARCH of sdf_IOPAD_IN
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# -- Loading entity sdf_IOPAD_TRI
+# -- Loading entity sdf_IOPAD_IN
+# End time: 17:56:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 17:56:43 on Dec 10,2023
+# vcom -reportprogress 300 -2008 -explicit -work postlayout X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture Behavioral of fifo2x8_tb
+# End time: 17:56:43 on Dec 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:56:45 on Dec 10,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/DUT=X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf" "+transport_path_delays" postlayout.fifo2x8_tb 
+# Start time: 17:56:45 on Dec 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading postlayout.fifo2x8_tb(behavioral)
+# Loading postlayout.fifo2x8(def_arch)
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading postlayout.sdf_iopad_tri(def_arch)
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading postlayout.sdf_iopad_in(def_arch)
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.CFG2
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading SmartFusion2.VCC
+# Loading instances from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading timing data from X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/designer/fifo2x8/fifo2x8_ba.sdf
+# Loading SmartFusion2.UDP_BUFF
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /fifo2x8_tb File: X:/Graduate/ECEN5863/ProgrammableLogic/Homework6/Question2/fifo2x8/stimulus/fifo2x8_tb.vhdl
+# End time: 17:58:54 on Dec 10,2023, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 0

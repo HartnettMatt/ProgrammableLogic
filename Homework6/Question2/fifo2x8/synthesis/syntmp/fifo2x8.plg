@@ -1,0 +1,16 @@
+@P:  Worst Slack : 7.635
+@P:  fifo2x8|clk1 - Estimated Frequency : 422.9 MHz
+@P:  fifo2x8|clk1 - Requested Frequency : 100.0 MHz
+@P:  fifo2x8|clk1 - Estimated Period : 2.365
+@P:  fifo2x8|clk1 - Requested Period : 10.000
+@P:  fifo2x8|clk1 - Slack : 7.635
+@P:  fifo2x8|clk2 - Estimated Frequency : 515.5 MHz
+@P:  fifo2x8|clk2 - Requested Frequency : 100.0 MHz
+@P:  fifo2x8|clk2 - Estimated Period : 1.940
+@P:  fifo2x8|clk2 - Requested Period : 10.000
+@P:  fifo2x8|clk2 - Slack : 8.060
+@P: fifo2x8 Part : m2s010vf400std
+@P: fifo2x8 Register bits  : 32 
+@P: fifo2x8 DSP Blocks  : 0
+@P: fifo2x8 I/O primitives : 27
+@P:  CPU Time : 0h:00m:01s

@@ -5,7 +5,6 @@
 --
 -- Description: An 8 bit FIFO with dual read and write ports
 --
--- <Description here>
 --
 -- Targeted device: <Family::SmartFusion2> <Die::M2S010> <Package::144 TQ>
 -- Author: Matt Hartnett, Tim Scherr
@@ -89,17 +88,67 @@ begin
    begin
       if rst = '1' then
          full <= '0';
+      elsif (rising_edge(clk1)) then
+         if(wrptr = '1' and rptrd2 = '1') then -- If both are 1, then it's full
+            full <= '1';
+         else
+            full <= '0';
+         end if;
+      end if;
+   end process;
+
+   -- Synchronize the read pointer across domains
+   rptr_d1: process(rst, clk1)
+   begin
+      if (rst = '1') then
+         rptrd1 <= '0';
+      else if (rising_edge(clk1)) then
+         rptrd1 <= rdptr;
+      end if;
+   end process;
+   rptr_d2: process(rst, clk1)
+   begin
+      if (rst = '1') then
+         rptrd2 <= '0';
+      else if (rising_edge(clk1)) then
+         rptrd2 <= rptrd1;
       end if;
    end process;
    
    -- generate EMPTY signal
    detEmpty: process (rst, clk2)
    begin
-      if rst = '1' then
+      if (rst = '1') then
          empty <= '1';
+         wrptrd1 <= '0';
+         wrptrd2 <= '0';
+      elsif (rising_edge(clk2)) then
+         if(rdptr = '0' and wrptrd2 = '0') then -- If both are zero, then it's empty
+            empty <= '1';
+         else
+            empty <= '0';
+         end if;
       end if;
    end process;
-   
+
+   -- Synchronize the write pointer across domains
+   wrptr_d1: process(rst, clk2)
+   begin
+      if (rst = '1') then
+         wrptrd1 <= '0';
+      else if (rising_edge(clk2)) then
+         wrptrd1 <= wrptr;
+      end if;
+   end process;
+   wrptr_d2: process(rst, clk2)
+   begin
+      if (rst = '1') then
+         wrptrd2 <= '0';
+      else if (rising_edge(clk2)) then
+         wrptrd2 <= wrptrd1;
+      end if;
+   end process;
+
    -- 2:1 output data mux
    With rdptr select
       Dmuxout <= fifo(0) when '0',

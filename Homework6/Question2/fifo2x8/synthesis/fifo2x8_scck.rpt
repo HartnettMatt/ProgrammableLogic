@@ -1,0 +1,51 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: STARGATE-COMMAN
+
+Implementation : synthesis
+
+# Written on Sun Dec 10 17:23:48 2023
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\designer\fifo2x8\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start            Requested     Requested     Clock        Clock                   Clock
+Level     Clock            Frequency     Period        Type         Group                   Load 
+-------------------------------------------------------------------------------------------------
+0 -       fifo2x8|clk1     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     20   
+                                                                                                 
+0 -       fifo2x8|clk2     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     12   
+=================================================================================================
+
+
+Clock Load Summary
+******************
+
+                 Clock     Source         Clock Pin       Non-clock Pin     Non-clock Pin
+Clock            Load      Pin            Seq Example     Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------
+fifo2x8|clk1     20        clk1(port)     rptrd2.C        -                 -            
+                                                                                         
+fifo2x8|clk2     12        clk2(port)     wrptrd1.C       -                 -            
+=========================================================================================

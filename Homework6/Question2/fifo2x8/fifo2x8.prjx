@@ -1,6 +1,7 @@
 KEY LIBERO "12.900"
 KEY CAPTURE "12.900.20.24"
 KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
 KEY VERILOGMODE "SYSTEMVERILOG"
@@ -14,7 +15,9 @@ KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "COM"
 KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
 KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
@@ -45,17 +48,88 @@ ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
 LIST FileManager
+VALUE "<project>\designer\fifo2x8\fifo2x8_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1702254255"
+SIZE="90005"
+ENDFILE
+VALUE "<project>\designer\fifo2x8\fifo2x8_ba.vhd,ba_hdl"
+STATE="utd"
+TIME="1702254255"
+SIZE="38261"
+ENDFILE
 VALUE "<project>\hdl\fifo2x8.vhd,hdl"
 STATE="utd"
-TIME="1702240661"
-SIZE="3535"
+TIME="1702255051"
+SIZE="4866"
+ENDFILE
+VALUE "<project>\simulation\fifo2x8_tb_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1702255055"
+SIZE="45223"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1702251892"
+SIZE="703"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1702253376"
+SIZE="233"
+ENDFILE
+VALUE "<project>\stimulus\fifo2x8_tb.vhdl,tb_hdl"
+STATE="utd"
+TIME="1702256201"
+SIZE="2872"
+ENDFILE
+VALUE "<project>\synthesis\fifo2x8.so,so"
+STATE="utd"
+TIME="1702251133"
+SIZE="255"
+ENDFILE
+VALUE "<project>\synthesis\fifo2x8.vm,syn_vm"
+STATE="ood"
+TIME="1702251132"
+SIZE="13711"
+ENDFILE
+VALUE "<project>\synthesis\fifo2x8_syn.prj,prj"
+STATE="utd"
+TIME="1702251133"
+SIZE="2323"
+ENDFILE
+VALUE "<project>\synthesis\fifo2x8_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1702251132"
+SIZE="1205"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "fifo2x8::work"
+FILE "<project>\hdl\fifo2x8.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\fifo2x8_tb.vhdl,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
+LIST fifo2x8
+VALUE "<project>\stimulus\fifo2x8_tb.vhdl,tb_hdl"
+ENDLIST
 ENDLIST
 LIST Other_Association
 ENDLIST
@@ -66,8 +140,8 @@ Type=max
 RunTime=1000ns
 Resolution=1fs
 VsimOpt=
-EntityName=testbench
-TopInstanceName=<top>_0
+EntityName=fifo2x8_tb
+TopInstanceName=DUT
 DoFileName=
 DoFileName2=wave.do
 DoFileParams=
@@ -127,8 +201,8 @@ NAME="Synplify Pro from Synopsys"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro from Synopsys"
 LOCATION="D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM=" -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -136,7 +210,7 @@ NAME="ModelSim"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="D:\Microsemi\Libero_SoC_v12.6\ModelSim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l fifo2x8_tb_postlayout_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -152,6 +226,18 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "fifo2x8::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -166,11 +252,16 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Project Summary:fifo2x8.log
+ReportsCurrentItem;Place and Route:fifo2x8_glb_net_report.xml
+StartPage;StartPage;0
+HDL;stimulus\fifo2x8_tb.vhdl;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "fifo2x8::work","hdl\fifo2x8.vhd","FALSE","FALSE"
+ENDLIST
+LIST "fifo2x8_tb::work","stimulus\fifo2x8_tb.vhdl","FALSE","TRUE"
+SUBBLOCK "fifo2x8::work","hdl\fifo2x8.vhd","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

@@ -1,0 +1,2 @@
+@W: MT530 :"x:\graduate\ecen5863\programmablelogic\homework6\question2\fifo2x8\hdl\fifo2x8.vhd":61:6:61:7|Found inferred clock fifo2x8|clk2 which controls 12 sequential elements including rdptr. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"x:\graduate\ecen5863\programmablelogic\homework6\question2\fifo2x8\hdl\fifo2x8.vhd":89:6:89:7|Found inferred clock fifo2x8|clk1 which controls 20 sequential elements including rptrd1. This clock has no specified timing constraint which may adversely impact design performance. 

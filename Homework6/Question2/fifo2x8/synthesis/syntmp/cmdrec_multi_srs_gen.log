@@ -1,0 +1,7 @@
+D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.fifo2x8  -multisrs  X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\synthesis\synwork\fifo2x8_comp.srs  -osyn  X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\synthesis\synwork\fifo2x8_mult.srs  -log  X:\Graduate\ECEN5863\ProgrammableLogic\Homework6\Question2\fifo2x8\synthesis\synlog\fifo2x8_multi_srs_gen.srr 
+relcom:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top work.fifo2x8 -multisrs ..\synwork\fifo2x8_comp.srs -osyn ..\synwork\fifo2x8_mult.srs -log ..\synlog\fifo2x8_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\fifo2x8_comp.srs|io:i|time:1702254226|size:3131|exec:0|csum:935A29D2AA0D0817642D41071FD5D326
+file:..\synwork\fifo2x8_mult.srs|io:o|time:1702254227|size:2771|exec:0|csum:
+file:..\synlog\fifo2x8_multi_srs_gen.srr|io:o|time:1702254227|size:1187|exec:0|csum:
+file:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967
